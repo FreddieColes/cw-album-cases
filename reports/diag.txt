@@ -1,0 +1,251 @@
+== date
+Mon Oct  5 15:07:24 UTC 2026
+== disk / memory
+/dev/loop4       32G   13G   18G  42% /workspaces
+Mem:            15Gi       2.3Gi       351Mi       116Mi        13Gi        13Gi
+== unity version / changeset
+6000.0.67f1
+78a1c2bbeb6a
+== editors
+6000.0.67f1
+LinuxStandaloneSupport
+== game root
+Content Warning.exe
+Content Warning_Data
+D3D12
+MonoBleedingEdge
+UnityCrashHandler64.exe
+UnityPlayer.dll
+steamapps
+== Managed DLLs
+0Harmony.dll
+Accessibility.dll
+Ashley.MeshSplitter.dll
+Assembly-CSharp-firstpass.dll
+Assembly-CSharp.dll
+Discord.dll
+HBAO.Demo.Universal.Runtime.dll
+HBAO.Runtime.dll
+HBAO.Universal.Runtime.dll
+LocalizationAssembly.dll
+Managers.dll
+MeshSplit.dll
+ModalAssembly.dll
+Mono.Cecil.Mdb.dll
+Mono.Cecil.Pdb.dll
+Mono.Cecil.Rocks.dll
+Mono.Cecil.dll
+Mono.Posix.dll
+Mono.Security.dll
+Mono.WebBrowser.dll
+MonoMod.RuntimeDetour.dll
+MonoMod.Utils.dll
+Newtonsoft.Json.dll
+Photon.dll
+Photon3Unity3D.dll
+PhotonChat.dll
+PhotonRealtime.dll
+PhotonUnityNetworking.Utilities.dll
+PhotonUnityNetworking.dll
+PhotonVoice.API.dll
+PhotonVoice.PUN.dll
+PhotonVoice.dll
+Platforms.dll
+PlayEveryWare.VideoEncoding.dll
+Sirenix.OdinInspector.Attributes.dll
+Sirenix.OdinInspector.Modules.Unity.Addressables.dll
+Sirenix.OdinInspector.Modules.UnityLocalization.dll
+Sirenix.Serialization.Config.dll
+Sirenix.Serialization.dll
+Sirenix.Utilities.dll
+SteamCommon.dll
+SteamManagerAssembly.dll
+System.ComponentModel.Composition.dll
+System.Configuration.Install.dll
+System.Configuration.dll
+System.Core.dll
+System.Data.DataSetExtensions.dll
+System.Data.dll
+System.Drawing.dll
+System.EnterpriseServices.dll
+System.IO.Compression.FileSystem.dll
+System.IO.Compression.dll
+System.IO.Hashing.dll
+System.Memory.dll
+System.Net.Http.dll
+System.Numerics.dll
+System.Runtime.CompilerServices.Unsafe.dll
+System.Runtime.Serialization.Formatters.Soap.dll
+System.Runtime.Serialization.dll
+System.Runtime.dll
+System.Security.dll
+System.ServiceModel.Internals.dll
+System.ServiceProcess.dll
+System.Transactions.dll
+System.Windows.Forms.dll
+System.Xml.Linq.dll
+System.Xml.dll
+System.dll
+Tayx.Graphy.dll
+Unity.AI.Navigation.dll
+Unity.Addressables.dll
+Unity.Animation.Rigging.DocCodeExamples.dll
+Unity.Animation.Rigging.dll
+Unity.Burst.Unsafe.dll
+Unity.Burst.dll
+Unity.Collections.LowLevel.ILSupport.dll
+Unity.Collections.dll
+Unity.InputSystem.ForUI.dll
+Unity.InputSystem.dll
+Unity.InternalAPIEngineBridge.003.dll
+Unity.InternalAPIEngineBridge.013.dll
+Unity.Localization.dll
+Unity.Mathematics.dll
+Unity.Microsoft.GDK.Tools.dll
+Unity.Microsoft.GDK.dll
+Unity.Multiplayer.Center.Common.dll
+Unity.PlayableGraphVisualizer.dll
+Unity.Postprocessing.Runtime.dll
+Unity.Profiling.Core.dll
+Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Unity.RenderPipelines.Core.Runtime.Shared.dll
+Unity.RenderPipelines.Core.Runtime.dll
+Unity.RenderPipelines.Core.ShaderLibrary.dll
+Unity.RenderPipelines.GPUDriven.Runtime.dll
+Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Unity.RenderPipelines.Universal.2D.Runtime.dll
+Unity.RenderPipelines.Universal.Config.Runtime.dll
+Unity.RenderPipelines.Universal.Runtime.dll
+Unity.RenderPipelines.Universal.Shaders.dll
+Unity.Rendering.LightTransport.Runtime.dll
+Unity.ResourceManager.dll
+Unity.ScriptableBuildPipeline.dll
+Unity.Splines.dll
+Unity.TextMeshPro.dll
+Unity.Timeline.dll
+Unity.VectorGraphics.dll
+UnityEngine.AIModule.dll
+UnityEngine.AMDModule.dll
+UnityEngine.ARModule.dll
+UnityEngine.AccessibilityModule.dll
+UnityEngine.AndroidJNIModule.dll
+UnityEngine.AnimationModule.dll
+UnityEngine.AssetBundleModule.dll
+UnityEngine.AudioModule.dll
+UnityEngine.ClothModule.dll
+UnityEngine.ClusterInputModule.dll
+UnityEngine.ClusterRendererModule.dll
+UnityEngine.ContentLoadModule.dll
+UnityEngine.CoreModule.dll
+UnityEngine.CrashReportingModule.dll
+UnityEngine.DSPGraphModule.dll
+UnityEngine.DirectorModule.dll
+UnityEngine.GIModule.dll
+UnityEngine.GameCenterModule.dll
+UnityEngine.GraphicsStateCollectionSerializerModule.dll
+UnityEngine.GridModule.dll
+UnityEngine.HierarchyCoreModule.dll
+UnityEngine.HotReloadModule.dll
+UnityEngine.IMGUIModule.dll
+UnityEngine.ImageConversionModule.dll
+UnityEngine.InputForUIModule.dll
+UnityEngine.InputLegacyModule.dll
+UnityEngine.InputModule.dll
+UnityEngine.JSONSerializeModule.dll
+UnityEngine.LocalizationModule.dll
+UnityEngine.MarshallingModule.dll
+UnityEngine.MultiplayerModule.dll
+UnityEngine.NVIDIAModule.dll
+UnityEngine.ParticleSystemModule.dll
+UnityEngine.PerformanceReportingModule.dll
+UnityEngine.Physics2DModule.dll
+UnityEngine.PhysicsModule.dll
+UnityEngine.PropertiesModule.dll
+UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+UnityEngine.ScreenCaptureModule.dll
+UnityEngine.ShaderVariantAnalyticsModule.dll
+UnityEngine.SharedInternalsModule.dll
+UnityEngine.SpriteMaskModule.dll
+UnityEngine.SpriteShapeModule.dll
+UnityEngine.StreamingModule.dll
+UnityEngine.SubstanceModule.dll
+UnityEngine.SubsystemsModule.dll
+UnityEngine.TLSModule.dll
+UnityEngine.TerrainModule.dll
+UnityEngine.TerrainPhysicsModule.dll
+UnityEngine.TextCoreFontEngineModule.dll
+UnityEngine.TextCoreTextEngineModule.dll
+UnityEngine.TextRenderingModule.dll
+UnityEngine.TilemapModule.dll
+UnityEngine.UI.dll
+UnityEngine.UIElementsModule.dll
+UnityEngine.UIModule.dll
+UnityEngine.UmbraModule.dll
+UnityEngine.UnityAnalyticsCommonModule.dll
+UnityEngine.UnityAnalyticsModule.dll
+UnityEngine.UnityConnectModule.dll
+UnityEngine.UnityCurlModule.dll
+UnityEngine.UnityTestProtocolModule.dll
+UnityEngine.UnityWebRequestAssetBundleModule.dll
+UnityEngine.UnityWebRequestAudioModule.dll
+UnityEngine.UnityWebRequestModule.dll
+UnityEngine.UnityWebRequestTextureModule.dll
+UnityEngine.UnityWebRequestWWWModule.dll
+UnityEngine.VFXModule.dll
+UnityEngine.VRModule.dll
+UnityEngine.VehiclesModule.dll
+UnityEngine.VideoModule.dll
+UnityEngine.VirtualTexturingModule.dll
+UnityEngine.WindModule.dll
+UnityEngine.XRModule.dll
+UnityEngine.dll
+Utilities.dll
+VerboseAssembly.dll
+Whinarn.UnityMeshSimplifier.Runtime.dll
+XblPCSandbox.dll
+Zorro.AutoLOD.dll
+Zorro.ControllerSupport.dll
+Zorro.Core.Runtime.dll
+Zorro.Localization.dll
+Zorro.PhotonUtility.dll
+Zorro.Recorder.dll
+Zorro.Settings.Runtime.dll
+Zorro.UI.Runtime.dll
+com.rlabrecque.steamworks.net.dll
+mscorlib.dll
+netstandard.dll
+pworld.dll
+sc.posteffects.runtime.dll
+websocket-sharp.dll
+== setup.log tail
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+Get:4 https://hub-dist.unity3d.com/artifactory/hub-debian-prod-local stable InRelease [3588 B]
+Get:5 https://hub-dist.unity3d.com/artifactory/hub-debian-prod-local stable/main amd64 Packages [5955 B]
+Fetched 9543 B in 0s (29.8 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  unityhub
+0 upgraded, 1 newly installed, 0 to remove and 15 not upgraded.
+Need to get 167 MB of archives.
+After this operation, 530 MB of additional disk space will be used.
+Get:1 https://hub-dist.unity3d.com/artifactory/hub-debian-prod-local stable/main amd64 unityhub amd64 3.22.2 [167 MB]
+Preconfiguring packages ...
+Fetched 167 MB in 1s (132 MB/s)
+Selecting previously unselected package unityhub.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 
+Preparing to unpack .../unityhub_3.22.2_amd64.deb ...
+Unpacking unityhub (3.22.2) ...
+Setting up unityhub (3.22.2) ...
+Adding Unity Hub APT repository...
+Repository configured successfully.
+Skipping the installation of the AppArmor profile as this version of AppArmor does not seem to support the profile bundled with Unity Hub.
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for desktop-file-utils (0.26-1) ...
+
+=== SETUP DONE. Next: ./get-game.sh ===
+
+== build log key lines

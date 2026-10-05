@@ -1,0 +1,4059 @@
+# Managed assemblies
+  0Harmony.dll
+  Accessibility.dll
+  Ashley.MeshSplitter.dll
+  Assembly-CSharp-firstpass.dll
+  Assembly-CSharp.dll
+  com.rlabrecque.steamworks.net.dll
+  Discord.dll
+  HBAO.Demo.Universal.Runtime.dll
+  HBAO.Runtime.dll
+  HBAO.Universal.Runtime.dll
+  LocalizationAssembly.dll
+  Managers.dll
+  MeshSplit.dll
+  ModalAssembly.dll
+  Mono.Cecil.dll
+  Mono.Cecil.Mdb.dll
+  Mono.Cecil.Pdb.dll
+  Mono.Cecil.Rocks.dll
+  Mono.Posix.dll
+  Mono.Security.dll
+  Mono.WebBrowser.dll
+  MonoMod.RuntimeDetour.dll
+  MonoMod.Utils.dll
+  mscorlib.dll
+  netstandard.dll
+  Newtonsoft.Json.dll
+  Photon.dll
+  Photon3Unity3D.dll
+  PhotonChat.dll
+  PhotonRealtime.dll
+  PhotonUnityNetworking.dll
+  PhotonUnityNetworking.Utilities.dll
+  PhotonVoice.API.dll
+  PhotonVoice.dll
+  PhotonVoice.PUN.dll
+  Platforms.dll
+  PlayEveryWare.VideoEncoding.dll
+  pworld.dll
+  sc.posteffects.runtime.dll
+  Sirenix.OdinInspector.Attributes.dll
+  Sirenix.OdinInspector.Modules.Unity.Addressables.dll
+  Sirenix.OdinInspector.Modules.UnityLocalization.dll
+  Sirenix.Serialization.Config.dll
+  Sirenix.Serialization.dll
+  Sirenix.Utilities.dll
+  SteamCommon.dll
+  SteamManagerAssembly.dll
+  System.ComponentModel.Composition.dll
+  System.Configuration.dll
+  System.Configuration.Install.dll
+  System.Core.dll
+  System.Data.DataSetExtensions.dll
+  System.Data.dll
+  System.dll
+  System.Drawing.dll
+  System.EnterpriseServices.dll
+  System.IO.Compression.dll
+  System.IO.Compression.FileSystem.dll
+  System.IO.Hashing.dll
+  System.Memory.dll
+  System.Net.Http.dll
+  System.Numerics.dll
+  System.Runtime.CompilerServices.Unsafe.dll
+  System.Runtime.dll
+  System.Runtime.Serialization.dll
+  System.Runtime.Serialization.Formatters.Soap.dll
+  System.Security.dll
+  System.ServiceModel.Internals.dll
+  System.ServiceProcess.dll
+  System.Transactions.dll
+  System.Windows.Forms.dll
+  System.Xml.dll
+  System.Xml.Linq.dll
+  Tayx.Graphy.dll
+  Unity.Addressables.dll
+  Unity.AI.Navigation.dll
+  Unity.Animation.Rigging.dll
+  Unity.Animation.Rigging.DocCodeExamples.dll
+  Unity.Burst.dll
+  Unity.Burst.Unsafe.dll
+  Unity.Collections.dll
+  Unity.Collections.LowLevel.ILSupport.dll
+  Unity.InputSystem.dll
+  Unity.InputSystem.ForUI.dll
+  Unity.InternalAPIEngineBridge.003.dll
+  Unity.InternalAPIEngineBridge.013.dll
+  Unity.Localization.dll
+  Unity.Mathematics.dll
+  Unity.Microsoft.GDK.dll
+  Unity.Microsoft.GDK.Tools.dll
+  Unity.Multiplayer.Center.Common.dll
+  Unity.PlayableGraphVisualizer.dll
+  Unity.Postprocessing.Runtime.dll
+  Unity.Profiling.Core.dll
+  Unity.Rendering.LightTransport.Runtime.dll
+  Unity.RenderPipeline.Universal.ShaderLibrary.dll
+  Unity.RenderPipelines.Core.Runtime.dll
+  Unity.RenderPipelines.Core.Runtime.Shared.dll
+  Unity.RenderPipelines.Core.ShaderLibrary.dll
+  Unity.RenderPipelines.GPUDriven.Runtime.dll
+  Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+  Unity.RenderPipelines.Universal.2D.Runtime.dll
+  Unity.RenderPipelines.Universal.Config.Runtime.dll
+  Unity.RenderPipelines.Universal.Runtime.dll
+  Unity.RenderPipelines.Universal.Shaders.dll
+  Unity.ResourceManager.dll
+  Unity.ScriptableBuildPipeline.dll
+  Unity.Splines.dll
+  Unity.TextMeshPro.dll
+  Unity.Timeline.dll
+  Unity.VectorGraphics.dll
+  UnityEngine.AccessibilityModule.dll
+  UnityEngine.AIModule.dll
+  UnityEngine.AMDModule.dll
+  UnityEngine.AndroidJNIModule.dll
+  UnityEngine.AnimationModule.dll
+  UnityEngine.ARModule.dll
+  UnityEngine.AssetBundleModule.dll
+  UnityEngine.AudioModule.dll
+  UnityEngine.ClothModule.dll
+  UnityEngine.ClusterInputModule.dll
+  UnityEngine.ClusterRendererModule.dll
+  UnityEngine.ContentLoadModule.dll
+  UnityEngine.CoreModule.dll
+  UnityEngine.CrashReportingModule.dll
+  UnityEngine.DirectorModule.dll
+  UnityEngine.dll
+  UnityEngine.DSPGraphModule.dll
+  UnityEngine.GameCenterModule.dll
+  UnityEngine.GIModule.dll
+  UnityEngine.GraphicsStateCollectionSerializerModule.dll
+  UnityEngine.GridModule.dll
+  UnityEngine.HierarchyCoreModule.dll
+  UnityEngine.HotReloadModule.dll
+  UnityEngine.ImageConversionModule.dll
+  UnityEngine.IMGUIModule.dll
+  UnityEngine.InputForUIModule.dll
+  UnityEngine.InputLegacyModule.dll
+  UnityEngine.InputModule.dll
+  UnityEngine.JSONSerializeModule.dll
+  UnityEngine.LocalizationModule.dll
+  UnityEngine.MarshallingModule.dll
+  UnityEngine.MultiplayerModule.dll
+  UnityEngine.NVIDIAModule.dll
+  UnityEngine.ParticleSystemModule.dll
+  UnityEngine.PerformanceReportingModule.dll
+  UnityEngine.Physics2DModule.dll
+  UnityEngine.PhysicsModule.dll
+  UnityEngine.PropertiesModule.dll
+  UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+  UnityEngine.ScreenCaptureModule.dll
+  UnityEngine.ShaderVariantAnalyticsModule.dll
+  UnityEngine.SharedInternalsModule.dll
+  UnityEngine.SpriteMaskModule.dll
+  UnityEngine.SpriteShapeModule.dll
+  UnityEngine.StreamingModule.dll
+  UnityEngine.SubstanceModule.dll
+  UnityEngine.SubsystemsModule.dll
+  UnityEngine.TerrainModule.dll
+  UnityEngine.TerrainPhysicsModule.dll
+  UnityEngine.TextCoreFontEngineModule.dll
+  UnityEngine.TextCoreTextEngineModule.dll
+  UnityEngine.TextRenderingModule.dll
+  UnityEngine.TilemapModule.dll
+  UnityEngine.TLSModule.dll
+  UnityEngine.UI.dll
+  UnityEngine.UIElementsModule.dll
+  UnityEngine.UIModule.dll
+  UnityEngine.UmbraModule.dll
+  UnityEngine.UnityAnalyticsCommonModule.dll
+  UnityEngine.UnityAnalyticsModule.dll
+  UnityEngine.UnityConnectModule.dll
+  UnityEngine.UnityCurlModule.dll
+  UnityEngine.UnityTestProtocolModule.dll
+  UnityEngine.UnityWebRequestAssetBundleModule.dll
+  UnityEngine.UnityWebRequestAudioModule.dll
+  UnityEngine.UnityWebRequestModule.dll
+  UnityEngine.UnityWebRequestTextureModule.dll
+  UnityEngine.UnityWebRequestWWWModule.dll
+  UnityEngine.VehiclesModule.dll
+  UnityEngine.VFXModule.dll
+  UnityEngine.VideoModule.dll
+  UnityEngine.VirtualTexturingModule.dll
+  UnityEngine.VRModule.dll
+  UnityEngine.WindModule.dll
+  UnityEngine.XRModule.dll
+  Utilities.dll
+  VerboseAssembly.dll
+  websocket-sharp.dll
+  Whinarn.UnityMeshSimplifier.Runtime.dll
+  XblPCSandbox.dll
+  Zorro.AutoLOD.dll
+  Zorro.ControllerSupport.dll
+  Zorro.Core.Runtime.dll
+  Zorro.Localization.dll
+  Zorro.PhotonUtility.dll
+  Zorro.Recorder.dll
+  Zorro.Settings.Runtime.dll
+  Zorro.UI.Runtime.dll
+
+# All types in Assembly-CSharp
+  _02Scripts.Charts.Computes.CrCopyRT : Object
+  _02Scripts.Charts.Computes.CrFillRenderTexture : Object
+  _02Scripts.Charts.Computes.CrSetupChartRT : Object
+  _02Scripts.Charts.Computes.Structs.Brush : ValueType
+  _02Scripts.Charts.Computes.Structs.Chunk : ValueType
+  <PrivateImplementationDetails> : Object
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=26079 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=48023 : ValueType
+  ActivateNextSharingJobPackage : CustomCommandPackage<CustomCommandType>
+  AddClipToShareQueuePackage : CustomCommandPackage<CustomCommandType>
+  AddGamefeel : MonoBehaviour
+  AggroObectToggler : MonoBehaviour
+  AggroParticle : MonoBehaviour
+  AmbienceHandler : MonoBehaviour
+  AmbienceTrigger : MonoBehaviour
+  AmbientOcclusionSetting : EnumSetting
+  AnalogTVNoise : VolumeComponent
+  AnalogTVNoise_RLPRO : ScriptableRendererFeature
+  AnalogTVNoise_RLPRO+AnalogTVNoise_RLPROPass : ScriptableRenderPass
+  AngularVelocitySound : MonoBehaviour
+  Antenna : MonoBehaviour
+  AOE : MonoBehaviour
+  ArtifactBigSlapPainting : ItemInstanceBehaviour
+  ArtifactBudget : MonoBehaviour
+  ArtifactGeneric : ItemInstanceBehaviour
+  ArtifactGravityFlipperOff : ItemInstanceBehaviour
+  ArtifactGravityFlipperOn : ItemInstanceBehaviour
+  ArtifactRadio : ItemInstanceBehaviour
+  ArtifactSpawner : MonoBehaviour
+  ArtifactWithCurse : ItemInstanceBehaviour
+  ArtifactZombieBook : ItemInstanceBehaviour
+  AspectRatioUISetter : MonoBehaviour
+  AspectRatioUISetter+AspectPosition : Object
+  AspectRatioUISetter+SavedAspectPosition : Object
+  Attack_Animation : MonoBehaviour
+  Attack_Animation+<<RPCA_AnimationAttack>g__IAttackValue|12_0>d : Object
+  Attack_Animation+<<RPCA_AnimationAttack>g__IDelayEvent|12_1>d : Object
+  Attack_Dog : MonoBehaviour
+  Attack_Grab : MonoBehaviour
+  Attack_Grab+<<RPCA_GrabAttack>g__DoGrab|11_0>d : Object
+  Attack_Harpoon : MonoBehaviour
+  Attack_Harpoon+<>c__DisplayClass19_0 : Object
+  Attack_Harpoon+<>c__DisplayClass19_0+<<RPCA_Aim>g__IAim|0>d : Object
+  Attack_Harpoon+<ReelPlayerIn>d__17 : Object
+  Attack_Melee : MonoBehaviour
+  Attack_Melee+<<RPCA_Attack>g__IBite|25_0>d : Object
+  Attack_Melee+<IIgnorePlayer>d__24 : Object
+  Attack_Punch : MonoBehaviour
+  Attack_Punch+<>c__DisplayClass15_0 : Object
+  Attack_Punch+<>c__DisplayClass15_0+<<RPCA_Punch>g__DoPunch|0>d : Object
+  Attack_Punch+<IIgnorePlayer>d__11 : Object
+  Attack_Shove : MonoBehaviour
+  Attack_Shove+<>c__DisplayClass11_0 : Object
+  Attack_Shove+<>c__DisplayClass11_0+<<RPCA_Punch>g__DoPunch|0>d : Object
+  Attack_Spider : MonoBehaviour
+  Attack_Spider+<<RPCA_ThrowNet>g__IThrowNet|8_0>d : Object
+  Attack_Stab : MonoBehaviour
+  Attack_Stab+<>c__DisplayClass16_0 : Object
+  Attack_Stab+<>c__DisplayClass16_0+<<RPCA_Punch>g__DoPunch|0>d : Object
+  Attack_Stab+<IIgnorePlayer>d__11 : Object
+  Attack_Throw : MonoBehaviour
+  Attack_Throw+<<RPCA_LarvaGrab>g__IThrow|17_0>d : Object
+  Attack_Throw+<<RPCA_LarvaReachForTarget>g__TryReach|21_0>d : Object
+  Attacks_Arms : MonoBehaviour
+  Attacks_BlackHole : MonoBehaviour
+  Attacks_Bombs : MonoBehaviour
+  Attacks_Bombs+<<RPCA_BombThrowAttack>g__IDoThrow|14_0>d : Object
+  Attacks_SnailSpawner : MonoBehaviour
+  Attacks_Streamer : MonoBehaviour
+  Attacks_Streamer+<<RPCA_TazeAttack>g__IDoThrow|14_0>d : Object
+  Attacks_Worm : MonoBehaviour
+  Attacks_Worm+<>c__DisplayClass26_0 : Object
+  Attacks_Worm+<>c__DisplayClass26_0+<<RPCA_WormJump>g__IWormAttack|0>d : Object
+  AudioLoop : MonoBehaviour
+  AudioLoopHandler : Singleton<AudioLoopHandler>
+  AudioObstructability : Object
+  AudioToggler : MonoBehaviour
+  AudioTrigger : MonoBehaviour
+  AudioVolumeOverDistance : MonoBehaviour
+  BarnacleBallContentEvent : MonsterContentEvent
+  BarnacleBallContentProvider : MonsterContentProvider
+  BatteryDisplay : MonoBehaviour
+  BatteryDisplay+<>c__DisplayClass5_0 : ValueType
+  BatteryEntry : ItemDataEntry
+  Bed : Interactable
+  Bed+<>c : Object
+  BedBoss : MonoBehaviour
+  BedBoss+Bed : Object
+  Behaviour : Object
+  BigNumbers : SingletonAsset<BigNumbers>
+  BigSlapAgroContentEvent : MonsterContentEvent
+  BigSlapContentProvider : MonsterContentProvider
+  BigSlapPeacefulContentEvent : MonsterContentEvent
+  BlackHole : MonoBehaviour
+  BlackHole+<>c__DisplayClass5_0 : ValueType
+  BlackHoleBotContentEvent : MonsterContentEvent
+  BlackHoleBotMonsterContentProvider : MonsterContentProvider
+  BlackScreen : MonoBehaviour
+  Bleed : VolumeComponent
+  Bleed_RLPRO : ScriptableRendererFeature
+  Bleed_RLPRO+Bleed_RLPROPass : ScriptableRenderPass
+  BleedMode : Enum
+  bleedModeParameter : VolumeParameter<BleedMode>
+  BlendModeParameter : VolumeParameter<BlendingMode>
+  BlinkRenderer : MonoBehaviour
+  Bodypart : MonoBehaviour
+  BodypartAnimationTarget : MonoBehaviour
+  BodyPartCollision : Object
+  BodypartType : Enum
+  BombContentEvent : ContentEvent
+  BombItem : ItemInstanceBehaviour
+  BombsContentEvent : MonsterContentEvent
+  BombsContentProvider : MonsterContentProvider
+  BoolEntry : ItemDataEntry
+  Bootstrap : MonoBehaviour
+  Bootstrap+<Start>d__1 : Object
+  Bot : MonoBehaviour
+  Bot_Angler : MonoBehaviour
+  Bot_BarnacleBall : MonoBehaviour
+  Bot_BarnacleBall+<>c__DisplayClass19_0 : Object
+  Bot_BarnacleBall+<>c__DisplayClass19_0+<<RPCA_DoTentacleAttack>g__DoPunch|0>d : Object
+  Bot_BarnacleBall+<IIgnorePlayer>d__22 : Object
+  Bot_BigSlap : MonoBehaviour
+  Bot_BigSlap+<<RPCA_JumpAttackBigSlap>g__IJump|15_0>d : Object
+  Bot_CameraCreep : MonoBehaviour
+  Bot_CameraCreep+<>c__DisplayClass19_0 : Object
+  Bot_CameraCreep+<>c__DisplayClass19_0+<<RPCA_TeleportAway>g__ITeleportAway|0>d : Object
+  Bot_CameraCreep+<IDoAttack>d__17 : Object
+  Bot_Chaser : MonoBehaviour
+  Bot_Drag : MonoBehaviour
+  Bot_Ear : MonoBehaviour
+  Bot_EyeGuy : MonoBehaviour
+  Bot_Fear : MonoBehaviour
+  Bot_Ghost : MonoBehaviour
+  Bot_Infiltrator : MonoBehaviour
+  Bot_Infiltrator+<>c__DisplayClass68_0 : Object
+  Bot_Infiltrator+<>c__DisplayClass68_0+<<Update>g__DoAngry|0>d : Object
+  Bot_Infiltrator+<FlickerRed>d__86 : Object
+  Bot_Infiltrator+AKWARD_SOVLER : Enum
+  Bot_Infiltrator+VisorSettings : Object
+  Bot_Jelly : MonoBehaviour
+  Bot_Knifo : MonoBehaviour
+  Bot_Knifo+<<RPCA_JumpAttack>g__IJump|17_0>d : Object
+  Bot_LookY : MonoBehaviour
+  Bot_MimicInfiltrator : MonoBehaviour
+  Bot_MimicInfiltrator+<>c__DisplayClass67_0 : Object
+  Bot_MimicInfiltrator+<>c__DisplayClass67_0+<<FixedUpdate>g__IgnorePlayerForTime|0>d : Object
+  Bot_MimicInfiltrator+<FlickerRed>d__76 : Object
+  Bot_Mouth : MonoBehaviour
+  Bot_Nav_Flying : MonoBehaviour
+  Bot_Nav_Navmesh : MonoBehaviour
+  Bot_Nav_Navmesh+<<Teleport>g__IResetNav|10_0>d : Object
+  Bot_RagdollCharacter : MonoBehaviour
+  Bot_SimpleFlying : MonoBehaviour
+  Bot_SimpleMovement : MonoBehaviour
+  Bot_Skinny : MonoBehaviour
+  Bot_Skinny+<<DoSwitch>g__DoSwitch|22_0>d : Object
+  Bot_Skinny+<<RPCA_ExitDimentionFully>g__DoSwitch|26_0>d : Object
+  Bot_Snactcho : MonoBehaviour
+  Bot_Snactcho+<>c__DisplayClass19_0 : Object
+  Bot_Snactcho+<>c__DisplayClass19_0+<<RPCA_TeleportAway>g__ITeleportAway|0>d : Object
+  Bot_Streamer : MonoBehaviour
+  Bot_ToolkitBoy : MonoBehaviour
+  Bot_Wallo : MonoBehaviour
+  Bot_Wallo+WalloState : Enum
+  Bot_Weeping : MonoBehaviour
+  Bot_Weeping+<<RPCA_CapturePlayer>g__IBlock|39_0>d : Object
+  Bot_Weeping+<>c__DisplayClass43_0 : Object
+  Bot_Weeping+<>c__DisplayClass43_0+<<RPCA_CaptchaGameFailed>g__KillAfterAWhile|0>d : Object
+  Bot_Zombie : MonoBehaviour
+  Bot+<<IgnoreTargetFor>g__IIgnoreTargetFor|90_0>d : Object
+  Bot+SyncData : Object
+  BotHandler : MonoBehaviour
+  BotHandler+<>c : Object
+  BoxSampler : Object
+  BrightnessSetting : FloatSetting
+  BudgetCost : MonoBehaviour
+  BuyEquipmentObjective : Objective
+  CageAnimationHandler : MonoBehaviour
+  CalibrationScreen : RetrievableResourceSingleton<CalibrationScreen>
+  CalibrationScreen+<Start>d__32 : Object
+  CalibrationTextureHolder : SingletonAsset<CalibrationTextureHolder>
+  CamCreepContentEvent : MonsterContentEvent
+  CamCreepContentProvider : MonsterContentProvider
+  CameraHandler : Singleton<CameraHandler>
+  CameraLean : MonoBehaviour
+  CameraRecording : MonoBehaviour
+  CameraRespawnPoint : MonoBehaviour
+  CameraShadowController : MonoBehaviour
+  CameraUpgradeItem : Item
+  CameraUpgradeItem+CameraUpgradeType : Enum
+  CameraUpgradesDatabase : ObjectDatabaseAsset<CameraUpgradesDatabase,CameraUpgradeItem>
+  CameraUpgradeTable : Object
+  CanInput : Object
+  CaptchaTerminal : Interactable
+  CaptchaTerminalCanvas : MonoBehaviour
+  CaptchaTerminalCanvas+<FailScreen>d__25 : Object
+  CaptchaTerminalCanvas+CaptchaButton : ValueType
+  CaptchaTerminalCanvas+CaptchaButton+ButtonIcon : ValueType
+  CaptchaTester : MonoBehaviour
+  CapturedCaptchaCanvas : MonoBehaviour
+  CapturedCaptchaCanvas+<FailScreen>d__14 : Object
+  CD_Item : ItemInstanceBehaviour
+  CDRom : Interactable
+  CelebrateObjective : Objective
+  ChanceEvent : Object
+  ChangeShaderOnObjectSpawn : MonoBehaviour
+  CheckVersionHandler : RetrievableSingleton<CheckVersionHandler>
+  CheckVersionHandler+<CheckVersionCoroutine>d__1 : Object
+  ChromaticAberrationSetting : EnumSetting
+  CinematicBars : VolumeComponent
+  CinematicBars_RLPRO : ScriptableRendererFeature
+  CinematicBars_RLPRO+CinematicBars_RLPROPass : ScriptableRenderPass
+  Clapper : ItemInstanceBehaviour
+  Clip : Object
+  ClipCell : VisualElement
+  ClipCell+Background : Enum
+  ClipID : ValueType
+  CloseVideoInteractable : Interactable
+  CollideCheck : MonoBehaviour
+  ColliderType : Enum
+  ColormapPalette : VolumeComponent
+  ColormapPalette_RLPRO : ScriptableRendererFeature
+  ColormapPalette_RLPRO+ColormapPalette_RLPROPass : ScriptableRenderPass
+  ColorSelector : MonoBehaviour
+  CommandLineArgumentReader : Object
+  CommandListener : CustomCommandListener<CustomCommandType>
+  Comment : Object
+  CommentSounds : MonoBehaviour
+  CommentUI : MonoBehaviour
+  ComputerRoomDoor : MonoBehaviour
+  ComputerRoomDoorInteractable : Interactable
+  ComputerRoomDoorInteractable+<>c : Object
+  ConfigurableJointExtensions : Object
+  Connection : MonoBehaviourPunCallbacks
+  Connection+<>c : Object
+  ConnectionState : StateMachineState
+  ConnectionStateHandler : RetrievableSingleton<ConnectionStateHandler>
+  ConnectionStateMachine : StateMachine<ConnectionState>
+  CONTENT_ID : Enum
+  ContentBuffer : Object
+  ContentBuffer+<>c : Object
+  ContentBuffer+<>c__DisplayClass5_0 : Object
+  ContentBuffer+BufferedContent : Object
+  ContentBuffer+Streak : Object
+  ContentBuffer+UniqueContent : ValueType
+  ContentCell : VisualElement
+  ContentCombiner : Object
+  ContentCombiner+<>c__DisplayClass1_0 : ValueType
+  ContentCombiningSystem : Object
+  ContentComment : Object
+  ContentEvaluator : Object
+  ContentEvent : Object
+  ContentEventFrame : ValueType
+  ContentEventIDMapper : Object
+  ContentPolling : Object
+  ContentPolling+<>c : Object
+  ContentProvider : MonoBehaviour
+  ContentWarningPlugin : Attribute
+  ContentWarningSetting : Attribute
+  ControllerGlyphs : SingletonAsset<ControllerGlyphs>
+  ControllerGlyphs+Glyph : Object
+  ControllerGlyphs+Glyph+<GetAllTextures>d__6 : Object
+  ControllerGlyphs+GlyphType : Enum
+  ControllerLayoutView : MonoBehaviour
+  ControllerSensitivitySetting : FloatSetting
+  CountEvent : MonoBehaviour
+  CountEvent+<IDoEvent>d__5 : Object
+  CrossPlatformSetting : EnumSetting
+  CrouchKeybindSetting : KeyCodeSetting
+  CrRenderFigure : Object
+  CRTAperture : VolumeComponent
+  CRTAperture_RLPRO : ScriptableRendererFeature
+  CRTAperture_RLPRO+CRTAperture_RLPROPass : ScriptableRenderPass
+  CurseDataBase : MonoBehaviour
+  CursedPlayerBoss : MonoBehaviour
+  CurseOfShroom : MonoBehaviour
+  CursorClicker : MonoBehaviour
+  CursorHandler : MonoBehaviour
+  CursorVisual : MonoBehaviour
+  CurvedUI.CurvedUIEventSystem : EventSystem
+  CurvedUI.CurvedUIExtensionMethods : Object
+  CurvedUI.CurvedUIHandSwitcher : MonoBehaviour
+  CurvedUI.CurvedUIInputFieldCaret : MonoBehaviour
+  CurvedUI.CurvedUIInputFieldCaret+<CaretBlinker>d__11 : Object
+  CurvedUI.CurvedUILaserBeam : MonoBehaviour
+  CurvedUI.CurvedUIPhysicsRaycaster : MonoBehaviour
+  CurvedUI.CurvedUIPointerEventData : PointerEventData
+  CurvedUI.CurvedUIPointerEventData+ControllerType : Enum
+  CurvedUI.CurvedUIRaycaster : MonoBehaviour
+  CurvedUI.CurvedUISettings : MonoBehaviour
+  CurvedUI.CurvedUISettings+CurvedUIShape : Enum
+  CurvedUI.CurvedUITMP : MonoBehaviour
+  CurvedUI.CurvedUITMP+<OnUpdate>d__26 : Object
+  CurvedUI.CurvedUITMPInputFieldCaret : MonoBehaviour
+  CurvedUI.CurvedUITMPInputFieldCaret+<CaretBlinker>d__10 : Object
+  CurvedUI.CurvedUITMPSubmesh : MonoBehaviour
+  CurvedUI.CurvedUIVertexEffect : BaseMeshEffect
+  CurvedUI.CurvedUIVertexEffect+<OnUpdate>d__37 : Object
+  CurvedUI.CurvedUIViveController : MonoBehaviour
+  CurvedUI.OptionalDependencyAttribute : Attribute
+  CurvedUI.ViveEvent : MulticastDelegate
+  CurvedUI.ViveInputArgs : ValueType
+  CurvedUI.ViveInputEvent : MulticastDelegate
+  CurvedUIInputModule : InputSystemUIInputModule
+  CustomCommandType : Enum
+  CustomTexture : VolumeComponent
+  CustomTexture_RLPRO : ScriptableRendererFeature
+  CustomTexture_RLPRO+CustomTexture_RLPROPass : ScriptableRenderPass
+  CW_TAB : TAB_Button
+  CW_TABS : TABS<CW_TAB>
+  DamageOverTimeTrigger : MonoBehaviour
+  DamageOverTimeTrigger+<<OnTriggerStay>g__IgnoreForAbit|4_0>d : Object
+  DatabaseLoader : Object
+  DealCompleteUi : MonoBehaviour
+  DealFailUi : MonoBehaviour
+  DealInfoData : ScriptableObject
+  DealInteractableSign : Interactable
+  DealProgressUi : MonoBehaviour
+  DealProposalUI : MonoBehaviour
+  DealRewardBase : Object
+  DealRewardDatabase : SingletonAsset<DealRewardDatabase>
+  DealRewardItem_1 : DealRewardBase
+  DealRewardItem_1+<>c : Object
+  DealRewardItem_1+<>c__DisplayClass9_0 : Object
+  DealRewardMeta_2 : DealRewardBase
+  DealRewardMoney_0 : DealRewardBase
+  DealSelectionUi : MonoBehaviour
+  DebugConsoleKiller : MonoBehaviour
+  DebugMover : MonoBehaviour
+  DebugRecordingCell : VisualElement
+  DebugVideo : MonoBehaviour
+  DebugVideo+<>c : Object
+  DefaultNamespace._10._SCRIPTS.NetworkStats : RetrievableSingleton<NetworkStats>
+  DefaultNamespace.Artifacts.CurseOfDeath : MonoBehaviour
+  DefaultNamespace.Artifacts.CurseOfGravityFlip : MonoBehaviour
+  DefaultNamespace.Artifacts.CurseOfMonsterSpawn : MonoBehaviour
+  DefaultNamespace.Artifacts.IArtifactCurse : 
+  DefaultNamespace.Artifacts.ISpawnedByArtifactSpawner : 
+  DefaultNamespace.BatteryRechargeStation : MonoBehaviour
+  DefaultNamespace.Bot_AnglerMimic : MonoBehaviour
+  DefaultNamespace.Bot_Slurper : MonoBehaviour
+  DefaultNamespace.Bot_Slurper+<<RPCA_ReleasePlayer>g__EnableAfterTime|49_0>d : Object
+  DefaultNamespace.CaptchaGame : MonoBehaviour
+  DefaultNamespace.CaptchaGame+Captcha : Object
+  DefaultNamespace.CaptchaGame+RESULT : Enum
+  DefaultNamespace.ContentEvents.ArtifactContentEvent : PropContentEvent
+  DefaultNamespace.ContentProviders.ArtifactContentProvider : PropContentProvider
+  DefaultNamespace.ContentProviders.BombContentEventProvider : ContentProvider
+  DefaultNamespace.DebugToolsManager : RetrievableResourceSingleton<DebugToolsManager>
+  DefaultNamespace.IBudgetCost : 
+  DefaultNamespace.IHasPatrolGroup : 
+  DefaultNamespace.InviteFriendsTerminal : Interactable
+  DefaultNamespace.IThrowTarget : 
+  DefaultNamespace.LostFootageDatabase : SingletonAsset<LostFootageDatabase>
+  DefaultNamespace.LostFootageDatabase+<>c : Object
+  DefaultNamespace.LostFootageDatabase+FootageRarityPair : Object
+  DefaultNamespace.Petter.TitleCard.BoolTransformTest : MonoBehaviour
+  DefaultNamespace.Petter.TitleCard.Figure : Object
+  DefaultNamespace.Petter.TitleCard.Figure+GhostPoint : Object
+  DefaultNamespace.Petter.TitleCard.MouseBrush : MonoBehaviour
+  DefaultNamespace.Petter.TitleCard.TitleCardCanvas : MonoBehaviour
+  DefaultNamespace.PlayerCustomizerTerminal : Interactable
+  Defib : ItemInstanceBehaviour
+  Defib+<<Update>g__DoForce|17_0>d : Object
+  DefibTrigger : MonoBehaviour
+  DeleteMonster : MonoBehaviour
+  DIFFICULTY : Enum
+  DimensionSound : MonoBehaviour
+  DisableAfterFrames : MonoBehaviour
+  DisableAfterFrames+<Start>d__0 : Object
+  DisableIfRigCreator : MonoBehaviour
+  DisableObject : MonoBehaviour
+  DisableOnPlatform : MonoBehaviour
+  DisconnectingState : ConnectionState
+  DiscordButton : MonoBehaviour
+  DistanceSFX : MonoBehaviour
+  DistanceTest : MonoBehaviour
+  DiveBellParent : MonoBehaviour
+  DiveBellParent+<>c__DisplayClass6_0 : Object
+  DiveBellParent+<>c__DisplayClass7_0 : Object
+  DiveBellPickupDetector : MonoBehaviour
+  DiveBellPlayerDetector : MonoBehaviour
+  DiveBellSFX : MonoBehaviour
+  DiveBellTransitionSound : MonoBehaviour
+  DiveBellTransitionSound+<FadeOut>d__2 : Object
+  DivingBell : MonoBehaviourPunCallbacks
+  DivingBell+<>c : Object
+  DivingBell+<MoveDoor>d__25 : Object
+  DivingBellComputer : MonoBehaviour
+  DivingBellDoor : MonoBehaviour
+  DivingBellDoor+<Close>d__10 : Object
+  DivingBellDoor+<Open>d__9 : Object
+  DivingBellDoorButton : Interactable
+  DivingBellDoorButton+<Cooldown>d__10 : Object
+  DivingBellNotReadyDoorOpenState : DivingBellState
+  DivingBellNotReadyMissingPlayersState : DivingBellState
+  DivingBellOutsideButton : Interactable
+  DivingBellOutsideButton+<Cooldown>d__7 : Object
+  DivingBellReadyState : DivingBellState
+  DivingBellRechargingState : DivingBellState
+  DivingBellState : StateMachineState
+  DivingBellStateMachine : StateMachine<DivingBellState>
+  DivingBellSuitCellUI : MonoBehaviour
+  DogContentEvent : MonsterContentEvent
+  DogContentProvider : MonsterContentProvider
+  Door : MonoBehaviour
+  DoorBlocker : MonoBehaviour
+  DoorSoundHax : MonoBehaviour
+  Drone : MonoBehaviour
+  DroneBox : MonoBehaviour
+  DropKeybindSetting : KeyCodeSetting
+  DummyContentProvider : ContentProvider
+  DummyContentProvider+PlayerState : Enum
+  DummyMonsterContentProvider : ContentProvider
+  DummyMonsterContentProvider+Monster : Enum
+  DynamicBone : MonoBehaviour
+  DynamicBone+FreezeAxis : Enum
+  DynamicBone+Particle : Object
+  DynamicBone+UpdateMode : Enum
+  DynamicBoneCollider : DynamicBoneColliderBase
+  DynamicBoneColliderBase : MonoBehaviour
+  DynamicBoneColliderBase+Bound : Enum
+  DynamicBoneColliderBase+Direction : Enum
+  DynamicBonePlaneCollider : DynamicBoneColliderBase
+  DynamicResolution : MonoBehaviour
+  EarContentEvent : MonsterContentEvent
+  EatContentProvider : MonsterContentProvider
+  EdgeDetectionSetting : EnumSetting
+  EdgeNoise : VolumeComponent
+  EdgeNoise_RLPRO : ScriptableRendererFeature
+  EdgeNoise_RLPRO+EdgeNoise_RLPROPass : ScriptableRenderPass
+  EdgeStretch : VolumeComponent
+  EdgeStretch_RLPRO : ScriptableRendererFeature
+  EdgeStretch_RLPRO+EdgeStretch_RLPROPass : ScriptableRenderPass
+  EditorLight : MonoBehaviour
+  EditorPause : MonoBehaviour
+  EffectsManipulationExample : MonoBehaviour
+  EffectTrigger : MonoBehaviour
+  EffectTrigger+<<OnTriggerStay>g__IgnoreForAbit|6_0>d : Object
+  EmailGenerator : Object
+  Emote : Object
+  EmoteItem : ItemInstanceBehaviour
+  EmoteKeybindSetting : KeyCodeSetting
+  Emotes : MonoBehaviour
+  EmoteUI : MonoBehaviour
+  EmptySprite : Object
+  EnableAnimators : MonoBehaviour
+  EnableRandomChild : MonoBehaviour
+  EndGameScreen : MonoBehaviour
+  EnterDiveBellDay2Objective : Objective
+  EnterDiveBellObjective : Objective
+  EquippedUI : MonoBehaviour
+  EscapeMenu : Singleton<EscapeMenu>
+  EscapeMenu+<CloseDelayed>d__12 : Object
+  EscapeMenuButton : MonoBehaviour
+  EscapeMenuMainPage : EscapeMenuPage
+  EscapeMenuPage : UIPage
+  EscapeMenuSettingsPage : EscapeMenuPage
+  EscapeMenuUIHandler : UIPageHandler
+  EscapePlayerCellGlyphs : MonoBehaviour
+  EscapePlayerCellGlyphs+<>c__DisplayClass5_0 : Object
+  EscapePlayerCellGlyphs+GamepadIcon : Object
+  EscapePlayerCellUI : Selectable
+  EscapePlayerCellUI+<SetupPlatformFeatures>d__17 : Object
+  EscapePlayerHandler : MonoBehaviour
+  EscapePlayerHandler+<>c : Object
+  EscapePlayerHandler+<OnAssignPlayer>d__10 : Object
+  EscapePlayerHandler+<OnUpdate>d__11 : Object
+  EscapePlayerInitialiser : MonoBehaviour
+  EveningToggler : MonoBehaviour
+  ExitGames.Client.Photon.Encryption.EncryptorNative : Object
+  ExitGames.Client.Photon.Encryption.EncryptorNative+ChainingMode : Enum
+  ExitGames.Client.Photon.Encryption.EncryptorNative+egDebugLevel : Enum
+  ExitGames.Client.Photon.Encryption.EncryptorNative+LogCallbackDelegate : MulticastDelegate
+  ExitGames.Client.Photon.SocketNativeSource : IPhotonSocket
+  ExitGames.Client.Photon.SocketNativeSource+CallbackHandler : Object
+  ExitGames.Client.Photon.SocketNativeSource+DeallocatedCallback : MulticastDelegate
+  ExitGames.Client.Photon.SocketNativeSource+LogCallback : MulticastDelegate
+  ExitGames.Client.Photon.SocketNativeSource+NativeDebugLevel : Enum
+  ExitGames.Client.Photon.SocketNativeSource+NativeSocketState : Enum
+  ExplodedGoop : MonoBehaviour
+  ExtractAudio : MonoBehaviour
+  ExtractMachineCheckItemState : VideoExtractMachineState
+  ExtractMachineClosedState : VideoExtractMachineState
+  ExtractMachineEjectState : VideoExtractMachineState
+  ExtractMachineExtractingState : VideoExtractMachineState
+  ExtractMachineIdleState : VideoExtractMachineState
+  ExtractVideoItemDetector : MonoBehaviour
+  ExtractVideoMachine : MonoBehaviour
+  ExtractVideoMachine+<>c : Object
+  ExtractVideoMachine+<ExtractVideo>d__40 : Object
+  ExtractVideoObjective : Objective
+  ExtractVideoStationHatch : MonoBehaviour
+  ExtractVideoStationHatch+<<HitByThrowable>g__CloseDelayed|12_0>d : Object
+  ExtractVideoStationHatch+<<HitByThrowable>g__Cooldown|12_1>d : Object
+  EyeGuyContentEvent : MonsterContentEvent
+  EyeGuyContentProvider : MonsterContentProvider
+  FaceDatabase : SingletonAsset<FaceDatabase>
+  FadeToBlackTransition : MonoBehaviour
+  FakeFlashLight : MonoBehaviour
+  FearHandler : MonoBehaviour
+  FilmSomethingScaryObjective : Objective
+  FireMonsterContentEvent : MonsterContentEvent
+  FireMonsterContentProvider : MonsterContentProvider
+  FirstDayCheck : MonoBehaviour
+  FirstDayDontLand : MonoBehaviour
+  Fisheye : VolumeComponent
+  Fisheye_RLPRO : ScriptableRendererFeature
+  Fisheye_RLPRO+Fisheye_RLPROPass : ScriptableRenderPass
+  FisheyeTypeEnum : Enum
+  FisheyeTypeParameter : VolumeParameter<FisheyeTypeEnum>
+  Flare : ItemInstanceBehaviour
+  FlashcardEntry : ItemDataEntry
+  Flashlight : ItemInstanceBehaviour
+  FlashLightTrigger : MonoBehaviour
+  FlickerContentEvent : MonsterContentEvent
+  FlickerContentProvider : MonsterContentProvider
+  FollowBodypart : MonoBehaviour
+  FollowHeadFromRig : MonoBehaviour
+  FollowHipFromRig : MonoBehaviour
+  FootstepHandler : MonoBehaviour
+  FootstepOnOverlap : MonoBehaviour
+  FrameStreakData : SingletonAsset<FrameStreakData>
+  FreeModifier : ProceduralImageModifier
+  FRILerp : Object
+  FullscreenSetting : EnumSetting
+  GameAPI : MonoBehaviour
+  GameBooter : Object
+  Gamefeel : Object
+  GamefeelHandler : MonoBehaviour
+  GameHandler : DisableIntercept
+  GameHandler+<>c : Object
+  GameHandler+<DoPluginThings>d__9 : ValueType
+  GameLoopHax : RetrievableSingleton<GameLoopHax>
+  GameLoopHax+<<DiveAndReturnRoutine>g__Dive|7_0>d : Object
+  GameLoopHax+<DiveAndReturnRoutine>d__7 : Object
+  GameLoopHax+<GoToSleepRoutine>d__6 : Object
+  GameLoopHax+<NextDayRoutine>d__5 : Object
+  GameLoopHax+<Return>d__8 : Object
+  GameSpecificInputCellMapper : SingletonAsset<GameSpecificInputCellMapper>
+  GameStatePage : DebugPage
+  GameStatePage+<>c : Object
+  GenericAttack : MonoBehaviour
+  GenericAttack+<>c__DisplayClass20_0 : Object
+  GenericAttack+<>c__DisplayClass20_0+<<RPCA_Attack>g__IBite|0>d : Object
+  GenericAttack+<IIgnorePlayer>d__18 : Object
+  GenericInteractible : Interactable
+  GF_Perlin : Gamefeel
+  GF_SpringShake : Gamefeel
+  Glitch1 : ScriptableRendererFeature
+  Glitch1+Glitch1Pass : ScriptableRenderPass
+  Glitch2 : ScriptableRendererFeature
+  Glitch2+Glitch2Pass : ScriptableRenderPass
+  Glitch3 : ScriptableRendererFeature
+  Glitch3+Glitch3Pass : ScriptableRenderPass
+  GlobalInputHandler : RetrievableSingleton<GlobalInputHandler>
+  GlobalInputHandler+<<OnCreated>g__SetKeybinds|16_0>d : Object
+  GlobalInputHandler+InputKey : Object
+  GlobalPlayerData : MonoBehaviourPunCallbacks
+  GoodCatchContentEvent : PlayerBaseEvent
+  GoodMorning : MonoBehaviour
+  GoToBedFailedObjective : Objective
+  GoToBedSuccessObjective : Objective
+  GroundAllChildren : MonoBehaviour
+  HandAction : MonoBehaviour
+  HandGizmo : MonoBehaviour
+  HandReference : MonoBehaviour
+  HardcodedPrompt : Object
+  HarpoonerContentEvent : MonsterContentEvent
+  HarpoonerContentProvider : MonsterContentProvider
+  HasSpaceTest : MonoBehaviour
+  HasSpaceTest+Bot : Object
+  Hat : MonoBehaviour
+  HatBuyInteractable : Interactable
+  HatDatabase : MonoBehaviour
+  HatItem : ItemInstanceBehaviour
+  HatShop : MonoBehaviour
+  HatShop+<>c__DisplayClass12_0 : Object
+  Hazard : MonoBehaviour
+  HazardHandler : MonoBehaviour
+  HeadFollower : MonoBehaviour
+  HelmetText : MonoBehaviour
+  HelmetText+<InternalHelmetText>d__10 : Object
+  HelmetUIToggler : MonoBehaviour
+  HelperFunctions : MonoBehaviour
+  HelperFunctions+LayerType : Enum
+  Hospital : MonoBehaviour
+  HotbarSlotUI : MonoBehaviour
+  HotbarUI : MonoBehaviour
+  HuggerHealingTrigger : MonoBehaviour
+  IArtifactContent : 
+  IExposedSetting : 
+  IHaveUIData : 
+  IKRigHandler : MonoBehaviour
+  IMKbPromptProvider : 
+  InfiltratorAnimatorValues : MonoBehaviour
+  InfiltratorSpawner : MonoBehaviour
+  InfiltratorSpawner+<>c__DisplayClass9_0 : Object
+  InfiltratorSpawner+<>c__DisplayClass9_1 : Object
+  InfiltratorSpawner+<>c__DisplayClass9_1+<<Update>g__SpawnMonster|0>d : Object
+  InRoomState : ConnectionState
+  InstatiateOnOverlap : MonoBehaviour
+  IntEntry : ItemDataEntry
+  Interactable : MonoBehaviour
+  InteractionUI : MonoBehaviour
+  InteractKeybindSetting : KeyCodeSetting
+  InterviewEvent : ContentEvent
+  InterviewEventCombiner : ContentCombiner
+  IntRangeEntry : ItemDataEntry
+  IntroScreenAnimator : MonoBehaviour
+  InventorySlot : Object
+  InvertedHorizontalView : EnumSetting
+  InvertedMouseSetting : EnumSetting
+  InvertedVerticalView : EnumSetting
+  InviteFriendsObjective : Objective
+  IPlayableVideo : 
+  IslandUnlock : MonoBehaviour
+  IslandUnlock+<<Unlock>g__IUnlock|6_0>d : Object
+  IslandUnlockBox : Interactable
+  IslandUnlocks : MonoBehaviour
+  Item : ScriptableObject
+  Item+ItemType : Enum
+  ItemCLIParser : CLITypeParser
+  ItemDatabase : ObjectDatabaseAsset<ItemDatabase,Item>
+  ItemDatabase+<>c : Object
+  ItemDataEntry : Object
+  ItemDataSyncer : MonoBehaviour
+  ItemDescriptor : ValueType
+  ItemGooBall : ItemInstanceBehaviour
+  ItemGrabberArm : ItemInstanceBehaviour
+  ItemGrabberArm+ClawRotator : Object
+  ItemHugger : ItemInstanceBehaviour
+  ItemInstance : MonoBehaviour
+  ItemInstanceBehaviour : MonoBehaviour
+  ItemInstanceData : Object
+  ItemInstanceDataHandler : RetrievableSingleton<ItemInstanceDataHandler>
+  ItemInstanceHandler : Singleton<ItemInstanceHandler>
+  ItemInstancePackage : CustomCommandPackage<CustomCommandType>
+  ItemKeyTooltip : Object
+  ItemKillbox : MonoBehaviour
+  ItemLostDisc : ItemInstanceBehaviour
+  ItemRPC : Enum
+  ITimeOfDayListener : 
+  JelloContentEvent : MonsterContentEvent
+  JelloContentProvider : MonsterContentProvider
+  JellyTrigger : MonoBehaviour
+  Jitter : VolumeComponent
+  Jitter_RLPRO : ScriptableRendererFeature
+  Jitter_RLPRO+Jitter_RLPROPass : ScriptableRenderPass
+  JoiningSpecificRegionState : ConnectionState
+  JoiningSpecificRoomFromRoomState : ConnectionState
+  JoiningSpecificRoomState : ConnectionState
+  JointConfig : Object
+  JumpKeybindSetting : KeyCodeSetting
+  JumpScareSound : MonoBehaviour
+  KeybinderHandler : RetrievableSingleton<KeybinderHandler>
+  KeybindListenHandle : Object
+  KeybindSettingUtility : Object
+  KeyCodeSettingUI : SettingInputUICell
+  KickPlayerNotificationPackage : CustomCommandPackage<CustomCommandType>
+  KillBox : MonoBehaviour
+  KnifoContentEvent : MonsterContentEvent
+  KnifoContentProvider : MonsterContentProvider
+  LanguageMatchmakingSetting : EnumSetting
+  LanguageMatchmakingSetting+MatchmakingLanguage : Enum
+  LanguageSelectStartup : MonoBehaviour
+  LanguageSetting : EnumSetting
+  LanguageSetting+<>c__DisplayClass4_0 : Object
+  LarvaContentEvent : MonsterContentEvent
+  LarvaContentProvider : MonsterContentProvider
+  Laser : MonoBehaviour
+  Latch : MonoBehaviour
+  LeaveHouseObjective : Objective
+  LerpFollower : MonoBehaviour
+  Level : SerializedMonoBehaviour
+  Level+<>c : Object
+  Level+<>c__DisplayClass13_0 : Object
+  Level+<>c__DisplayClass13_0+<<ToggleLightsForSeconds>g__IToggleLights|0>d : Object
+  Level+<>c__DisplayClass15_0 : Object
+  Level+<Start>d__5 : Object
+  LevelGenerator : MonoBehaviour
+  LifeTimeEntry : ItemDataEntry
+  LightBobber : MonoBehaviour
+  LightingGenerator : MonoBehaviour
+  LightPosition : Object
+  LightToggler : MonoBehaviour
+  LimitlessDev.RetroLookPro.ColorPalettePreset : ScriptableObject
+  LimitlessDev.RetroLookPro.effectPreset : Object
+  LimitlessDev.RetroLookPro.effectPresets : ScriptableObject
+  LimitlessGlitch1 : VolumeComponent
+  LimitlessGlitch2 : VolumeComponent
+  LimitlessGlitch3 : VolumeComponent
+  LimitlessVHSTapeRewind : ScriptableRendererFeature
+  LimitlessVHSTapeRewind+LimitlessVHSTapeRewindPass : ScriptableRenderPass
+  LocaleDropdown : MonoBehaviour
+  LocaleDropdown+<Start>d__1 : Object
+  LostFootageHandle : ValueType
+  LowRes : VolumeComponent
+  LowRes_RLPRO : ScriptableRendererFeature
+  LowRes_RLPRO+LowRes_RLPROPass : ScriptableRenderPass
+  MainCamera : MonoBehaviour
+  MainCameraMovement : MonoBehaviour
+  MainMenuCreditsPage : MainMenuPage
+  MainMenuCreditsPage+<>c__DisplayClass6_0 : Object
+  MainMenuHandler : MonoBehaviourPunCallbacks
+  MainMenuHandler+<<JoinRandomInternal>g__JoinRandomCoroutine|42_0>d : Object
+  MainMenuHandler+<>c : Object
+  MainMenuHandler+<>c__DisplayClass27_0 : Object
+  MainMenuHandler+<>c__DisplayClass28_0 : Object
+  MainMenuHandler+<>c__DisplayClass38_0 : Object
+  MainMenuHandler+<>c__DisplayClass44_0 : Object
+  MainMenuHandler+<>c__DisplayClass45_0 : Object
+  MainMenuHandler+<PhotonStateNotifier>d__36 : Object
+  MainMenuHandler+<SetPhotonNameAsync>d__35 : Object
+  MainMenuHandler+<WaitForPhotonState>d__37 : Object
+  MainMenuHostPage : MainMenuPage
+  MainMenuJoinRoomPage : MainMenuPage
+  MainMenuLoadingPage : MainMenuPage
+  MainMenuMainPage : MainMenuPage
+  MainMenuMainPage+<>c : Object
+  MainMenuModManagerPage : MainMenuPage
+  MainMenuModManagerPage+<>c__DisplayClass8_0 : ValueType
+  MainMenuModManagerPage+<>c__DisplayClass8_1 : ValueType
+  MainMenuPage : UIPage
+  MainMenuSettingsPage : MainMenuPage
+  MainMenuUIHandler : UIPageHandler
+  maskChannelModeParameter : VolumeParameter<maskChannelMode>
+  MasterVolumeSetting : FloatSetting
+  MatchmakingHandler : Singleton<MatchmakingHandler>
+  MatchmakingIdleState : MatchmakingState
+  MatchmakingJoinRandomState : MatchmakingState
+  MatchmakingJoinRandomState+<<NextTask>g__NextTaskCoroutine|12_0>d : Object
+  MatchmakingJoinRandomState+Task : Object
+  MatchmakingState : StateMachineState
+  MatchmakingStateMachine : StateMachine<MatchmakingState>
+  MaxFramerateSetting : FloatSetting
+  MetaProgressionHandler : RetrievableSingleton<MetaProgressionHandler>
+  MimeContentEvent : MonsterContentEvent
+  MimeContentProvider : MonsterContentProvider
+  MimicTarget : Object
+  Mirror : MonoBehaviour
+  Mirror+<>c__DisplayClass25_0 : Object
+  Mirror+Info : Object
+  MirrorToggler : MonoBehaviour
+  MixerHolder : SingletonAsset<MixerHolder>
+  ModlistEntryHeaderUI : MonoBehaviour
+  ModlistEntryUI : MonoBehaviour
+  ModManagerEditPanelUI : MonoBehaviour
+  ModManagerEditPanelUI+<CreateNewMod>d__13 : ValueType
+  ModManagerEditPanelUI+<SubmitClicked>d__10 : ValueType
+  ModManagerEditPanelUI+<UpdateProgressBar>d__11 : Object
+  ModManagerPlugin : Object
+  ModManagerUI : MainMenuPage
+  MoneyAddedUI : MonoBehaviour
+  MoneyAddedUI+<>c : Object
+  MoneyCellUI : MonoBehaviour
+  MoneyCellUI+<<Clear>g__ClearRoutine|16_0>d : Object
+  MoneyCellUI+<>c : Object
+  MoneyCellUI+<Show>d__15 : Object
+  MoneyCellUI+MoneyCellType : Enum
+  MonoFunctions : MonoBehaviour
+  MonoFunctions+<<DelayCall>g__IDelayCall|2_0>d : Object
+  MonoFunctions+<<PhotonDestroy>g__IDelayDestroy|3_0>d : Object
+  Monster : Object
+  MonsterAnimationHandler : MonoBehaviour
+  MonsterAnimationHandler+<<Grab>g__IGrab|31_0>d : Object
+  MonsterAnimationValues : MonoBehaviour
+  MonsterContentEvent : ContentEvent
+  MonsterContentProvider : ContentProvider
+  MonsterEventCombiner : ContentCombiner
+  MonsterGroupClose : MonoBehaviour
+  MonsterGroupClose+<>c : Object
+  MonsterGroupClose+<Start>d__6 : Object
+  MonsterScroller : MonoBehaviour
+  MonsterSpawner : MonoBehaviour
+  MonsterSyncer : MonoBehaviour
+  MonsterWithWeight : Object
+  MouseSensitivitySetting : FloatSetting
+  MouthContentEvent : MonsterContentEvent
+  MouthContentProvider : MonsterContentProvider
+  MovementSpeedModifier : MonoBehaviour
+  MuffleAudioThroughWall : MonoBehaviour
+  MultiMonsterEvent : ContentEvent
+  MultiPropEventCombiner : ContentCombiner
+  MultiPropEventCombiner+<>c : Object
+  Negative : VolumeComponent
+  Negative_RLPRO : ScriptableRendererFeature
+  Negative_RLPRO+Negative_RLPROPass : ScriptableRenderPass
+  NetworkBingoBongo_0 : NetworkDealBase
+  NetworkCLIParser : CLITypeParser
+  NetworkDealBase : Object
+  NetworkDealBase+DEAL_STATE : Enum
+  NetworkDealBase+SerializedNetworkDeal : Object
+  NetworkDealBoss : MonoBehaviourPunCallbacks
+  NetworkDealCell : VisualElement
+  NetworkDealCell+<>c : Object
+  NetworkDealCell+<>c__DisplayClass5_0 : Object
+  NetworkDealDataBase : SingletonAsset<NetworkDealDataBase>
+  NetworkDealDataBase+<>c : Object
+  NetworkDealDataBase+<>c__DisplayClass7_0 : Object
+  NetworkDealSO : ScriptableObject
+  NetworkDealsPage : DebugPage
+  NetworkDealUI : MonoBehaviour
+  NetworkDealUI+UI_STATE : Enum
+  NetworkDummyObject : MonoBehaviour
+  NetworkHoldTheBombo_9 : NetworkDealBase
+  NetworkHuman_10 : NetworkDealBase
+  NetworkInterviewer_2 : NetworkDealBase
+  NetworkInterviewer_2+SerializedNetworkInterviewer_2 : SerializedNetworkDeal
+  NetworkJackass_4 : NetworkDealBase
+  NetworkLongClip_6 : NetworkDealBase
+  NetworkLongClip_6+<>c : Object
+  NetworkMakeAStar_7 : NetworkDealBase
+  NetworkMultiMonsterInFrameAtOnce_5 : NetworkDealBase
+  NetworkMultiMonsterInFrameAtOnce_5+<>c : Object
+  NetworkMultiMonsterInFrameAtOnce_5+<>c__DisplayClass20_0 : Object
+  NetworkReward : 
+  NetworkRewardMoney : MonoBehaviour
+  NetworkTaunting_3 : NetworkDealBase
+  NetworkThrowChallange_8 : NetworkDealBase
+  NetworkThrowChallange_8+<>c : Object
+  NetworkVoiceHandler : MonoBehaviour
+  NetworkWalletMoney_1 : NetworkDealBase
+  NextStepUI : MonoBehaviour
+  Noise : VolumeComponent
+  Noise_RLPRO : ScriptableRendererFeature
+  Noise_RLPRO+Noise_RLPROPass : ScriptableRenderPass
+  NoneState : ConnectionState
+  NorgGun : ItemInstanceBehaviour
+  NTSCEncode : VolumeComponent
+  NTSCEncode_RLPRO : ScriptableRendererFeature
+  NTSCEncode_RLPRO+NTSCEncode_RLPROPass : ScriptableRenderPass
+  Objective : Object
+  ObjectiveDatabase : Object
+  ObjectToggler : MonoBehaviour
+  ObjectToggler+HideType : Enum
+  ObjectToggler+HideWhen : Enum
+  OldFilm : VolumeComponent
+  OldFilm_RLPRO : ScriptableRendererFeature
+  OldFilm_RLPRO+OldFilm_RLPROPass : ScriptableRenderPass
+  OnlyOneEdgeModifier : ProceduralImageModifier
+  OnlyOneEdgeModifier+ProceduralImageEdge : Enum
+  OnOffEntry : ItemDataEntry
+  OxygenDisplay : MonoBehaviour
+  ParticleGasSpawner : MonoBehaviour
+  PartyPopper : ItemInstanceBehaviour
+  PatrolPoint : MonoBehaviour
+  PatrolPoint+PatrolGroup : Enum
+  PerlinSampler : Object
+  PerlinShake : MonoBehaviour
+  PerlinShakeInstance : Object
+  PersistantObject : MonoBehaviour
+  PersistantRadio : ItemInstanceBehaviour
+  PersistentObjectInfo : ValueType
+  PersistentObjectsHolder : RetrievableSingleton<PersistentObjectsHolder>
+  PersistentObjectsHolder+<SpawnObjectsDelayed>d__11 : Object
+  PersistentObjectsHolder+<SpawnPersistentDiveBellObjectsDelayed>d__8 : Object
+  Phosphor : VolumeComponent
+  Phosphor_RLPRO : ScriptableRendererFeature
+  Phosphor_RLPRO+Phosphor_RLPROPass : ScriptableRenderPass
+  Photon.Chat.Demo.AppSettingsExtensions : Object
+  Photon.Chat.Demo.ChannelSelector : MonoBehaviour
+  Photon.Chat.Demo.ChatAppIdCheckerUI : MonoBehaviour
+  Photon.Chat.Demo.ChatGui : MonoBehaviour
+  Photon.Chat.Demo.FriendItem : MonoBehaviour
+  Photon.Chat.Demo.IgnoreUiRaycastWhenInactive : MonoBehaviour
+  Photon.Chat.Demo.NamePickGui : MonoBehaviour
+  Photon.Chat.UtilityScripts.EventSystemSpawner : MonoBehaviour
+  Photon.Chat.UtilityScripts.OnStartDelete : MonoBehaviour
+  Photon.Chat.UtilityScripts.TextButtonTransition : MonoBehaviour
+  Photon.Chat.UtilityScripts.TextToggleIsOnTransition : MonoBehaviour
+  Photon.Realtime.Demo.ConnectAndJoinRandomLb : MonoBehaviour
+  Photon.Voice.Unity.UtilityScripts.MicAmplifier : VoiceComponent
+  Photon.Voice.Unity.UtilityScripts.MicrophoneValue : Object
+  PhotonGameLobbyHandler : MonoBehaviourPunCallbacks
+  PhotonGameLobbyHandler+<>c : Object
+  PhotonGameLobbyHandler+<WaitThen>d__26 : Object
+  PhotonSendVideoHandler : RetrievableSingleton<PhotonSendVideoHandler>
+  PhotonSendVideoHandler+<SendVideoChunks>d__12 : Object
+  PhotonSendVideoHandler+<SendVideoThroughPhoton>d__11 : Object
+  PhysicsObjectSyncer : MonoBehaviour
+  PhysicsSound : MonoBehaviour
+  PhysicsSyncer : MonoBehaviour
+  Pickup : Interactable
+  Pickup+<<RPC_ConfigurePickup>g__RemoveJoint|15_1>d : Object
+  Pickup+<>c__DisplayClass15_0 : Object
+  Pickup+<>c__DisplayClass15_0+<<RPC_ConfigurePickup>g__EnableColliders|0>d : Object
+  PickupDiscObjective : Objective
+  PickupHandler : Singleton<PickupHandler>
+  PickupHandler+<>c__DisplayClass5_0 : Object
+  PickupHandler+<>c__DisplayClass5_1 : Object
+  PickupSpawner : MonoBehaviourPunCallbacks
+  PickupSpawner+<<SpawnMe>g__IChill|7_0>d : Object
+  PickupTheCameraObjective : Objective
+  PickupToggler : MonoBehaviour
+  PictureCorrection : VolumeComponent
+  PictureCorrection_RLPRO : ScriptableRendererFeature
+  PictureCorrection_RLPRO+PictureCorrection_RLPROPass : ScriptableRenderPass
+  Player : MonoBehaviourPunCallbacks
+  Player+<>c__DisplayClass19_0 : Object
+  Player+<>c__DisplayClass19_0+<<LoadHat>g__Wait|0>d : Object
+  Player+<>c__DisplayClass85_0 : Object
+  Player+<>c__DisplayClass85_0+<<ToggleCollisionForSeconds>g__ToggleColliders|0>d : Object
+  Player+<>c__DisplayClass87_0 : Object
+  Player+<>c__DisplayClass87_0+<<Teleport>g__IForcePosition|0>d : Object
+  Player+<>c__DisplayClass95_0 : Object
+  Player+<>c__DisplayClass95_0+<<RPCA_EquipHat>g__HatEquip|0>d : Object
+  Player+<>c__DisplayClass96_0 : Object
+  Player+<>c__DisplayClass96_0+<<OnPlayerEnteredRoom>g__DoLater|0>d : Object
+  Player+<>c__DisplayClass98_0 : Object
+  Player+<>c__DisplayClass98_0+<<RPCA_SlowFor>g__ISlowFor|0>d : Object
+  Player+<DelayDropItems>d__38 : Object
+  Player+<DelayThenTalkToDead>d__36 : Object
+  Player+<Start>d__18 : Object
+  Player+PlayerData : Object
+  Player+PlayerInput : Object
+  Player+PlayerRefs : Object
+  PlayerAnimationHandler : MonoBehaviour
+  PlayerAnimationHandler+<<PlayEmote>g__DelayStopEmote|24_0>d : Object
+  PlayerAnimRefHandler : MonoBehaviour
+  PlayerBaseEvent : ContentEvent
+  PlayerContentEvent : PlayerBaseEvent
+  PlayerContentProvider : ContentProvider
+  PlayerContentProvider+<>c : Object
+  PlayerController : MonoBehaviour
+  PlayerCustomizer : MonoBehaviour
+  PlayerDataSounds : MonoBehaviour
+  PlayerDeadContentEvent : PlayerBaseEvent
+  PlayerEmoteContentEvent : PlayerBaseEvent
+  PlayerEmotes : MonoBehaviour
+  PlayerEmotes+<Start>d__9 : Object
+  PlayerFallingContentEvent : PlayerBaseEvent
+  PlayerGroundPositionTransform : MonoBehaviour
+  PlayerHandler : MonoBehaviour
+  PlayerHands : MonoBehaviour
+  PlayerHoldingMicContentEvent : PlayerBaseEvent
+  PlayerInteraction : MonoBehaviour
+  PlayerInventory : MonoBehaviour
+  PlayerItems : MonoBehaviour
+  PlayerItemsFake : MonoBehaviour
+  PlayerRagdoll : MonoBehaviour
+  PlayerRagdoll+<<TaseShock>g__IWobble|55_0>d : Object
+  PlayerRagdollContentEvent : PlayerBaseEvent
+  PlayerRecorderAudioListener : RecorderAudioListener
+  PlayerRecorderAudioListener+<Start>d__1 : Object
+  PlayerSFX : MonoBehaviour
+  PlayerShroomContentEvent : PlayerBaseEvent
+  PlayerSyncer : MonoBehaviour
+  PlayerSyncerBoolFlag : Enum
+  PlayerTookDamageContentEvent : PlayerBaseEvent
+  PlayerVisor : MonoBehaviour
+  PlayerVisor+<>c__DisplayClass39_0 : Object
+  PlayerVisor+<DeadAnim>d__41 : Object
+  PlayerVisor+<Start>d__30 : Object
+  PlayerVisual : MonoBehaviour
+  PlayerVoiceHandler : MonoBehaviour
+  PlayerVoiceHandler+<Start>d__24 : Object
+  PlayerWearingHatContentEvent : PlayerBaseEvent
+  PlayFlashcardMachine : Interactable
+  Plugin : Object
+  Plugin+PluginHashInfo : ValueType
+  Plugin+PluginInfo : ValueType
+  PluginCell : MonoBehaviour
+  PluginDescriptionField : MonoBehaviour
+  PluginExternal : Plugin
+  PluginHandler : Object
+  PluginHandler+<>c : Object
+  PluginHandler+<>c__DisplayClass16_0 : ValueType
+  PluginHandler+<DoPluginThings>d__9 : ValueType
+  PluginHandler+<FetchUgcDetailsFromFileId>d__15 : ValueType
+  PluginHandler+<FillInUgcDetailsForSubscribedPlugins>d__14 : ValueType
+  PluginHandler+<LoadAuthoredSteamworksPlugins>d__13 : ValueType
+  PluginHandler+<OnItemInstalled>d__12 : ValueType
+  PluginHandler+<UpdatePublishedPlugins>d__19 : ValueType
+  PluginLoadingScreen : MonoBehaviour
+  PluginLocal : Plugin
+  PluginNameField : MonoBehaviour
+  PluginPublished : Plugin
+  PluginSteamworkshopInfo : MonoBehaviour
+  PluginSubscribed : Plugin
+  Portningsbolaget.BlockedPlayer : ValueType
+  Portningsbolaget.BlockedPlayerUI : MonoBehaviour
+  Portningsbolaget.BlocklistPopup : MonoBehaviour
+  Portningsbolaget.BlocklistPopup+<ShowDelayed>d__18 : Object
+  Portningsbolaget.BlocklistTable : MonoBehaviour
+  Portningsbolaget.BlocklistTable+<>c__DisplayClass35_0 : Object
+  Portningsbolaget.BlocklistTable+<>c__DisplayClass42_0 : Object
+  Portningsbolaget.BlocklistTable+<>c__DisplayClass44_0 : Object
+  Portningsbolaget.BlocklistTable+<RebuildLayoutRoutine>d__50 : Object
+  Portningsbolaget.BlocklistTable+<UpdateList>d__34 : Object
+  Portningsbolaget.CameraPlatformSettings : MonoBehaviour
+  Portningsbolaget.CameraPlatformSettings+CameraSettings : ValueType
+  Portningsbolaget.ParticleSystemOptimizer : MonoBehaviour
+  Portningsbolaget.PlaystationPremiumHandler : MonoBehaviourPunCallbacks
+  Portningsbolaget.ReportPlayerPopup : MonoBehaviour
+  Portningsbolaget.ReportPlayerPopup+<ShowDelayed>d__31 : Object
+  Post_Sleep : MonoBehaviour
+  PostVolumeHandler : MonoBehaviour
+  PostVolumeHandler+<Start>d__10 : Object
+  PreferredLanguageMatchmakingSetting : LanguageMatchmakingSetting
+  preLParameter : VolumeParameter<effectPresets>
+  Projectile : MonoBehaviour
+  Projectile_DisableParticles : MonoBehaviour
+  Projectile_SpawnObject : MonoBehaviour
+  Projectile_SpawnObject+DirectionType : Enum
+  Projectile+<<Ignore>g__IIgnoreFor|18_0>d : Object
+  Projectile+PostHitBehaviour : Enum
+  ProjectileStick : MonoBehaviour
+  ProjectorMachine : MonoBehaviour
+  PropContent : ScriptableObject
+  PropContentDatabase : ObjectDatabaseAsset<PropContentDatabase,PropContent>
+  PropContentEvent : ContentEvent
+  PropContentProvider : ContentProvider
+  PropHeightStamp : MonoBehaviour
+  PropSpawner : MonoBehaviour
+  PropSpawner+CollisionType : Enum
+  PropSpawner+SamplerType : Enum
+  PS4RegionSettings : ScriptableObject
+  PuffoContentEvent : MonsterContentEvent
+  PuffoContentEventProvider : MonsterContentProvider
+  PulsatingVignette : VolumeComponent
+  PulsatingVignette_RLPRO : ScriptableRendererFeature
+  PulsatingVignette_RLPRO+PulsatingVignette_RLPROPass : ScriptableRenderPass
+  Puppetmonster : MonoBehaviour
+  PushToTalkButtonSetting : KeyCodeSetting
+  QuotaScreenViewer : MonoBehaviour
+  RadomChanceEvent : MonoBehaviour
+  RagdollHandler : Singleton<RagdollHandler>
+  RandomAnimatorSpeed : MonoBehaviour
+  RandomHole : MonoBehaviour
+  RARITY : Enum
+  Realm : Object
+  RealmGateTrigger : MonoBehaviour
+  Rebake : MonoBehaviour
+  RecorderInfo : ValueType
+  RecordingPageInitter : SingletonAsset<RecordingPageInitter>
+  RecordingPageInitter+<>c : Object
+  RecordingsHandler : RetrievableSingleton<RecordingsHandler>
+  RecordingsHandler+<>c : Object
+  RecordingsHandler+<>c__DisplayClass25_0 : Object
+  RecordingsHandler+<>c__DisplayClass34_0 : Object
+  RecordingsHandler+<CheckIfClipIsComplete>d__46 : Object
+  RecordingsHandler+<Encode>d__28 : Object
+  RecordingsHandler+<ExtractRecording>d__26 : Object
+  RecordingsHandler+<ShareClipJob>d__27 : Object
+  RemoveAfterSeconds : MonoBehaviour
+  RenderFeatureHandler : MonoBehaviour
+  RenderScaleSetting : FloatSetting
+  ReplayVideoInteractable : Interactable
+  ReRequestClipPackage : CustomCommandPackage<CustomCommandType>
+  RescueHook : ItemInstanceBehaviour
+  RescueHookSFX : MonoBehaviour
+  ResetCharacters : MonoBehaviour
+  resModeParameter : VolumeParameter<ResolutionMode>
+  RetroLookPro.Enums.BlendingMode : Enum
+  RetroLookPro.Enums.maskChannelMode : Enum
+  RetroLookPro.Enums.ResolutionMode : Enum
+  RetroLookPro.Enums.VignetteShape : Enum
+  RetroLookPro.Enums.WarpMode : Enum
+  ReturnToTheDiveBellObjective : Objective
+  RichPresenceHandler : Object
+  RichPresenceHandler+<>c : Object
+  RichPresenceState : Enum
+  RigCreator : MonoBehaviour
+  RigCreatorBodypart : Object
+  RigCreatorBodypart+ColliderMaterial : Enum
+  RigCreatorBodypart+RigCreatorColliderData : Object
+  RigCreatorCollider : MonoBehaviour
+  RigCreatorJoint : MonoBehaviour
+  RobotButtonContentEvent : MonsterContentEvent
+  RobotButtonContentProvider : MonsterContentProvider
+  Room : MonoBehaviour
+  RoomCodeSign : MonoBehaviour
+  RoomCodeSign+<Start>d__3 : Object
+  RoomCollider : MonoBehaviour
+  RoomStatsCell : VisualElement
+  RoomStatsHolder : Object
+  RopeRender : Object
+  Rotate : MonoBehaviour
+  RotateToCamera : MonoBehaviour
+  RoundArtifactSpawner : MonoBehaviour
+  RoundArtifactSpawner+<>c : Object
+  RoundArtifactSpawner+<Start>d__5 : Object
+  RoundArtifactSpawner+ArtifactWithWeight : Object
+  RoundModifier : ProceduralImageModifier
+  RoundSpawner : MonoBehaviour
+  RoundSpawner+<>c : Object
+  RoundSpawner+<>c__DisplayClass14_0 : ValueType
+  RoundSpawner+<>c__DisplayClass14_1 : ValueType
+  RoundSpawner+<>c__DisplayClass8_0 : Object
+  RoundSpawner+<>c__DisplayClass8_0+<<SpawnSecondRun>g__SpawnMonsterAfterTime|1>d : Object
+  RoundSpawner+<SpawnMonstersOutOfSight>d__14 : Object
+  RoundSpawner+<Start>d__7 : Object
+  RoundSpawnerTools : MonoBehaviour
+  RoundSpawnerTools+<Start>d__6 : Object
+  RoundSpawnerTools+ToolWithWeight : Object
+  RPC_Relay : MonoBehaviour
+  RtToByteTest : MonoBehaviour
+  Save : Object
+  SavedInventoryItem : Object
+  SavedSurfaceItem : Object
+  SaveIO : Object
+  SaveIO+<>c : Object
+  SaveLoadHandler : Object
+  SaveLoadHandler+<>c : Object
+  SaveLoadPage : DebugPage
+  SaveLoadPage+<>c : Object
+  SaveObfuscator : Object
+  SaveSystem : Object
+  SaveSystem+<LoadSavesFromDisk>d__19 : ValueType
+  SaveUICell : TAB_Button
+  SaveUICellTABS : TABS<SaveUICell>
+  SaveVideoToDesktopInteractable : Interactable
+  ScreenResolutionSetting : ResolutionSetting
+  SecondLanguageMatchmakingSetting : LanguageMatchmakingSetting
+  SeededActivationChance : MonoBehaviour
+  SelectedPluginUI : MonoBehaviour
+  SelectedPluginUI+<<DrawPublishScreen>g__CreateNewMod|8_3>d : ValueType
+  SelectedPluginUI+<>c__DisplayClass7_0 : Object
+  SelectedPluginUI+<>c__DisplayClass8_0 : Object
+  SelectedPluginUI+<>c__DisplayClass8_0+<<DrawPublishScreen>g__Publish|2>d : ValueType
+  SelectedPluginUI+<>c__DisplayClass8_0+<<DrawPublishScreen>g__TryPublish|1>d : ValueType
+  SelectItem1KeybindSetting : KeyCodeSetting
+  SelectItem2KeybindSetting : KeyCodeSetting
+  SelectItem3KeybindSetting : KeyCodeSetting
+  SendClipCompletedPackage : CustomCommandPackage<CustomCommandType>
+  SendVideoChunkPackage : CustomCommandPackage<CustomCommandType>
+  SerializedMetaProgression : Object
+  SerializedPickableNetworkDeal : Object
+  SerializedSave : Object
+  SetBounds : MonoBehaviour
+  SetLayerAfterTime : MonoBehaviour
+  SetLayerAfterTime+<Start>d__2 : Object
+  SetTheme : MonoBehaviour
+  SettingCategory : Enum
+  SettingCategoryTab : MonoBehaviour
+  SettingsCell : MonoBehaviour
+  SettingsHandler : Object
+  SettingsMenu : Singleton<SettingsMenu>
+  SettingsMenu+<>c : Object
+  SFX_Instance : ScriptableObject
+  SFX_Player : MonoBehaviour
+  SFX_Player+<IPlaySFX>d__13 : Object
+  SFX_Player+SFX_Source : Object
+  SFX_PlayOneShot : MonoBehaviour
+  SFX_Settings : Object
+  SFXCanvasFadeSound : MonoBehaviour
+  SFXInstanceCollection : MonoBehaviour
+  SFXOnEnabled : MonoBehaviour
+  SFXVolumeSetting : FloatSetting
+  ShadowQualitySetting : EnumSetting
+  ShadowRealmHandler : MonoBehaviour
+  ShadowRealmHandler+<>c__DisplayClass12_0 : Object
+  ShadowRealmHandler+<>c__DisplayClass12_0+<<RPCA_RemovePlayerFromRealm>g__IReturnPlayer|0>d : Object
+  ShakeSound : MonoBehaviour
+  SharingClipCell : VisualElement
+  ShockStick : ItemInstanceBehaviour
+  ShockStick+<IShock>d__14 : Object
+  ShockStickTrigger : MonoBehaviour
+  ShockStickTrigger+<<OnTriggerStay>g__IgnoreForAbit|1_0>d : Object
+  ShopAction : Enum
+  ShopHandler : MonoBehaviour
+  ShopHandler+<>c : Object
+  ShopHandler+<ShowItemAddedToCart>d__40 : Object
+  ShopInteractableBuy : Interactable
+  ShopInteractableLeftArrow : Interactable
+  ShopInteractableRightArrow : Interactable
+  ShopInteractibleCategory : Interactable
+  ShopInteractibleClear : Interactable
+  ShopInteractibleItem : Interactable
+  ShopInteractibleOrder : Interactable
+  ShopItem : ValueType
+  ShopItemCategory : Enum
+  ShoppingCart : Object
+  ShopViewScreen : MonoBehaviour
+  SimpleMainCameraMovement : MonoBehaviour
+  SimplePlayer : MonoBehaviour
+  SimplePlayer+PlayerData : Object
+  SimplePlayer+PlayerInput : Object
+  SimplePlayer+PlayerRefs : Object
+  SimplePlayerAnimations : MonoBehaviour
+  SimplePlayerController : MonoBehaviour
+  SimplePlayerSyncer : MonoBehaviour
+  Sittable : Interactable
+  SlidingDoor : MonoBehaviour
+  SlidingDoor+<<Start>g__SwitchColliderLayers|11_0>d : Object
+  SlurperContentEvent : MonsterContentEvent
+  SlurperContentProvider : MonsterContentProvider
+  SnailDummy : MonoBehaviour
+  SnailDummy+<<OnTriggerEnter>g__ISpawn|4_0>d : Object
+  SnailSpawnerContentEvent : MonsterContentEvent
+  SnailSpawnerContentProvider : MonsterContentProvider
+  SnailSpawnerPoolHandler : MonoBehaviour
+  SnatchoContentEvent : MonsterContentEvent
+  SnatchoContentProvider : MonsterContentProvider
+  SomeOneIsSeperated : MonoBehaviour
+  SoundBooster : MonoBehaviour
+  SoundOnMesh : MonoBehaviour
+  SoundPlayerItem : ItemInstanceBehaviour
+  SpawnHandler : MonoBehaviour
+  SpawnObject : MonoBehaviour
+  SpawnPoint : MonoBehaviour
+  SpawnPointsForInventory : MonoBehaviour
+  Spawns : Enum
+  Spectate : MonoBehaviour
+  SphereSampler : Object
+  SpiderContentEvent : MonsterContentEvent
+  SpiderContentProvider : MonsterContentProvider
+  SpookyMusicHandler : MonoBehaviour
+  SpookyMusicRelay : MonoBehaviour
+  SpringShake : MonoBehaviour
+  SpringShakeInstance : Object
+  SpringType : Enum
+  SprintKeybindSetting : KeyCodeSetting
+  StandableRig : MonoBehaviour
+  StandingForceModifier : MonoBehaviour
+  StartEvent : MonoBehaviour
+  StartGameDoorInteractable : Interactable
+  StartRecordingCommandPackage : CustomCommandPackage<CustomCommandType>
+  StashAbleEntry : ItemDataEntry
+  SteamAchievementTests : MonoBehaviour
+  SteamAvatarHandler : RetrievableSingleton<SteamAvatarHandler>
+  SteamLobbyHandler : Object
+  SteamLobbyHandler+LobbyChatMsgType : Enum
+  SteamworksAsync : Object
+  SteamworksAsync+<>c__DisplayClass0_0`1 : Object
+  StopRecordingCommandPackage : CustomCommandPackage<CustomCommandType>
+  StreamerContentEvent : MonsterContentEvent
+  StreamerContentProvider : MonsterContentProvider
+  SuckTrigger : MonoBehaviour
+  SurfaceCollisionEffect : MonoBehaviour
+  SurfaceCollisionEffect_Piston : SurfaceCollisionEffect
+  SurfaceCollisionEffect_Piston+<<CollideWithSurface>g__IHoldPlayer|5_0>d : Object
+  SurfaceCollisionEffect_Slide : SurfaceCollisionEffect
+  SurfaceCollisionEffect_Spinner : SurfaceCollisionEffect
+  SurfaceCollisionEffect_Spinner+<<CollideWithSurface>g__IHoldPlayer|5_0>d : Object
+  SurfaceNetworkHandler : MonoBehaviourPunCallbacks
+  SurfaceNetworkHandler+<>c__DisplayClass35_0 : Object
+  SurfaceNetworkHandler+<>c__DisplayClass35_1 : Object
+  SurfaceNetworkHandler+<>c__DisplayClass37_0 : Object
+  SurfaceNetworkHandler+<>c__DisplayClass56_0 : Object
+  SurfaceNetworkHandler+<FailCoroutine>d__69 : Object
+  SurgeryOnASave : Object
+  SurgeryOnASave+<>c__DisplayClass0_0 : Object
+  SyncedAnimTransforms : Object
+  TakeDamagePost : MonoBehaviour
+  TakeDamagePost+<<TakeDamageFeedback>g__IBlink|4_0>d : Object
+  TauntEvent : ContentEvent
+  TauntEventCombiner : ContentCombiner
+  TerminalSounds : MonoBehaviour
+  TerrainChunk : Object
+  TextChangeSFX : MonoBehaviour
+  ThePlanLocalizer : MonoBehaviour
+  ThirdLanguageMatchmakingSetting : LanguageMatchmakingSetting
+  ThrownBodyDamage : MonoBehaviour
+  TimeEntry : ItemDataEntry
+  TimeOfDay : Enum
+  TimeOfDayHandler : RetrievableSingleton<TimeOfDayHandler>
+  TimeOfDayToggler : Singleton<TimeOfDayToggler>
+  TitleCardButton : MonoBehaviour
+  TitleCardButton+ButtonType : Enum
+  TitleCardDataEntry : ItemDataEntry
+  TitleCardItemInstance : ItemInstanceBehaviour
+  TitleCardSyncer : MonoBehaviour
+  TitleCardSyncer+<>c__DisplayClass8_0 : Object
+  ToggleSelfieModeKeybindSetting : KeyCodeSetting
+  ToolkitContentProvider : MonsterContentProvider
+  ToolkitWhiskContentEvent : MonsterContentEvent
+  Trampoline : SurfaceCollisionEffect
+  TransformFollowerPair : Object
+  TransitionHandler : RetrievableResourceSingleton<TransitionHandler>
+  TransitionHandler+<>c__DisplayClass7_0 : Object
+  TransitionHandler+<>c__DisplayClass7_0+<<TransitionToBlack>g__TransitionToBlackCoroutine|0>d : Object
+  TransitionHandler+<>c__DisplayClass8_0 : Object
+  TransitionHandler+<>c__DisplayClass8_0+<<FadeOut>g__FadeOutCoroutine|0>d : Object
+  Trigger_Wisp : MonoBehaviour
+  Trigger_Wisp+<<OnTriggerStay>g__IHoldPlayer|6_0>d : Object
+  TriggerEvent : MonoBehaviour
+  TriggerSound : MonoBehaviour
+  TurnToLocalPlayer : MonoBehaviour
+  TVEffect : VolumeComponent
+  TVEffect_RLPRO : ScriptableRendererFeature
+  TVEffect_RLPRO+TVEffect_RLPROPass : ScriptableRenderPass
+  UI_DaysLeft : MonoBehaviour
+  UI_Feedback : MonoBehaviour
+  UI_Feedback+<>c__DisplayClass13_0 : Object
+  UI_Feedback+<>c__DisplayClass13_0+<<TakeDamage>g__ITakeDamageFeedback|0>d : Object
+  UI_Feedback+<>c__DisplayClass7_0 : Object
+  UI_Feedback+<>c__DisplayClass7_0+<<Die>g__IDieFeedback|0>d : Object
+  UI_Health : MonoBehaviour
+  UI_MetaCoin : MonoBehaviour
+  UI_Money : MonoBehaviour
+  UI_Oxygen : MonoBehaviour
+  UI_Sound : MonoBehaviour
+  UI_Stamina : MonoBehaviour
+  UI_Views : MonoBehaviour
+  UIColorDatabase : SingletonAsset<UIColorDatabase>
+  UltimateVignette : VolumeComponent
+  UltimateVignette_RLPRO : ScriptableRendererFeature
+  UltimateVignette_RLPRO+UltimateVignette_RLPROPass : ScriptableRenderPass
+  UniformModifier : ProceduralImageModifier
+  UniqueDamage : Object
+  UnityEditor.Localization.Samples.LoadingMultipleStringsExample : MonoBehaviour
+  UnityEditor.Localization.Samples.LoadingMultipleStringsExample+<LoadStrings>d__7 : Object
+  UnityEditor.Localization.Samples.LocalizedStringGetLocalizedStringExample : MonoBehaviour
+  UnityEditor.Localization.Samples.LocalizedStringTableExample : MonoBehaviour
+  UnityEditor.Localization.Samples.LocalizedStringWithChangeHandlerExample : MonoBehaviour
+  UnityEditor.Localization.Samples.StringDatabaseGetLocalizedStringExample : MonoBehaviour
+  UnityEditor.Localization.Samples.StringDatabaseGetLocalizedStringExample+<LoadStringWithCoroutine>d__5 : Object
+  UnityEngine.Localization.Samples.LanguageSelectionMenuIMGUI : MonoBehaviour
+  UnityEngine.Localization.Samples.SimpleLocalesProvider : Object
+  UnityEngine.Localization.Samples.SimpleLocalesProvider+<>c__DisplayClass3_0 : Object
+  UnityEngine.Localization.Settings.PlayerPrefLocaleSelector : Object
+  UnityEngine.UI.ProceduralImage.ModifierID : Attribute
+  UnityEngine.UI.ProceduralImage.ProceduralImage : Image
+  UnityEngine.UI.ProceduralImage.ProceduralImageInfo : ValueType
+  UnityEngine.UI.ProceduralImage.ProceduralImageModifier : MonoBehaviour
+  UnitySourceGeneratedAssemblyMonoScriptTypes_v1 : Object
+  UnitySourceGeneratedAssemblyMonoScriptTypes_v1+MonoScriptData : ValueType
+  UniversalBotSounds : MonoBehaviour
+  UploadCompleteState : UploadVideoStationState
+  UploadCompleteState+<>c__DisplayClass7_0 : Object
+  UploadCompleteUI : MonoBehaviour
+  UploadCompleteUI+<<PlayVideo>g__VideoDone|18_0>d : Object
+  UploadCompleteUI+<DisplayVideoEval>d__23 : Object
+  UploadCompleteUI+<PlayVideosAsync>d__20 : Object
+  UploadingVideoState : UploadVideoStationState
+  UploadLostDiscCompleteState : UploadVideoStationState
+  UploadVideoClosedState : UploadVideoStationState
+  UploadVideoObjective : Objective
+  UploadVideoState : UploadVideoStationState
+  UploadVideoStation : Interactable
+  UploadVideoStationState : StateMachineState
+  UploadVideoStationStateMachine : StateMachine<UploadVideoStationState>
+  UseDivingBellButton : Interactable
+  UserInterface : Singleton<UserInterface>
+  UserInterface+<>c__DisplayClass12_0 : ValueType
+  Vector2IntParameter : VolumeParameter<Vector2Int>
+  Vector3Extensions : Object
+  VHSEffect : VolumeComponent
+  VHSEffect_RLPRO : ScriptableRendererFeature
+  VHSEffect_RLPRO+VHSEffect_RLPROPass : ScriptableRenderPass
+  VHSScanlines : VolumeComponent
+  VHSScanlines_RLPRO : ScriptableRendererFeature
+  VHSScanlines_RLPRO+VHSScanlines_RLPROPass : ScriptableRenderPass
+  VHSTapeRewind : VolumeComponent
+  VideoCamera : ItemInstanceBehaviour
+  VideoCamera+<RestartRecordingDelayed>d__34 : Object
+  VideoCamera+<UnlockCamera>d__33 : Object
+  VideoCameraSounds : MonoBehaviour
+  VideoChunk : Object
+  VideoClipShareJob : Object
+  VideoDebugPage : DebugPage
+  VideoExtractMachineState : StateMachineState
+  VideoExtractMachineStateMachine : StateMachine<VideoExtractMachineState>
+  VideoHandle : ValueType
+  VideoInfoEntry : ItemDataEntry
+  VideoPlaybackScreen : MonoBehaviour
+  VignetteModeParameter : VolumeParameter<VignetteShape>
+  VoiceChatModeSetting : EnumSetting
+  VoiceRemoteMimic : Object
+  VoiceSetting : Setting
+  VoiceSetting+<>c__DisplayClass7_0 : Object
+  VoiceSetting+MicrophoneInfo : ValueType
+  VoiceSetting+XboxDeviceInfo : ValueType
+  VoiceSettingDebugUI : SettingUI
+  VoiceSettingDebugUI+<>c : Object
+  VoiceSettingUICell : SettingInputUICell
+  VoiceSettingUICell+<>c : Object
+  VoiceVolumeSetting : FloatSetting
+  VSyncSetting : EnumSetting
+  WakeUpObjective : Objective
+  WalkBackwardKeybindSetting : KeyCodeSetting
+  WalkForwardKeybindSetting : KeyCodeSetting
+  WalkieTalkie : ItemInstanceBehaviour
+  WalkieTalkiePlayer : MonoBehaviour
+  WalkLeftKeybindSetting : KeyCodeSetting
+  WalkRightKeybindSetting : KeyCodeSetting
+  WallExtraGrabArm : MonoBehaviour
+  WalloContentEvent : MonsterContentEvent
+  WalloContentProvider : MonsterContentProvider
+  WallWarpArm : MonoBehaviour
+  Warp : VolumeComponent
+  Warp_RLPRO : ScriptableRendererFeature
+  Warp_RLPRO+Warp_RLPROPass : ScriptableRenderPass
+  WarpModeParameter : VolumeParameter<WarpMode>
+  Water : MonoBehaviour
+  Water+<IgnoreFor>d__12 : Object
+  Web : MonoBehaviour
+  WebParent : MonoBehaviour
+  WebSpawner : MonoBehaviour
+  WeepingContentEvent : MonsterContentEvent
+  WeepingContentEventCaptured : MonsterContentEvent
+  WeepingContentEventFail : MonsterContentEvent
+  WeepingContentEventSuccess : MonsterContentEvent
+  WeepingContentProvider : MonsterContentProvider
+  WeepingContentProvider+WEEPING_CONTENT_STATE : Enum
+  WinchButton : Interactable
+  WorldShaderPerformanceTestingData : SingletonAsset<WorldShaderPerformanceTestingData>
+  WorldShaderSetting : EnumSetting
+  WormContentEvent : MonsterContentEvent
+  WormContentProvider : MonsterContentProvider
+  ZombieContentEvent : MonsterContentEvent
+  ZombieContentProvider : MonsterContentProvider
+
+# Focus types (signatures)
+
+## class AnalogTVNoise : VolumeComponent
+  [VolumeComponentMenu]
+  field public BoolParameter enable
+  field public BoolParameter staticNoise
+  field public BoolParameter Horizontal
+  field public ClampedFloatParameter Fade
+  field public ClampedFloatParameter barWidth
+  field public Vector2Parameter tile
+  field public ClampedFloatParameter textureAngle
+  field public ClampedFloatParameter edgeCutOff
+  field public ClampedFloatParameter CutOff
+  field public ClampedFloatParameter barSpeed
+  field public TextureParameter texture
+  field public TextureParameter mask
+  field public maskChannelModeParameter maskChannel
+  field public BoolParameter GlobalPostProcessingSettings
+  method public virtual Boolean IsActive()
+  method public virtual Boolean IsTileCompatible()
+
+## class AnalogTVNoise_RLPRO : ScriptableRendererFeature
+  field private AnalogTVNoise_RLPROPass RetroPass
+  field public RenderPassEvent Event
+  method public virtual Void Create()
+  method public virtual Void AddRenderPasses(ScriptableRenderer renderer, RenderingData& renderingData)
+
+## class AnalogTVNoise_RLPRO+AnalogTVNoise_RLPROPass : ScriptableRenderPass
+  field private static String k_RenderTag
+  field private static Int32 MainTexId
+  field private static Int32 TimeXV
+  field private static Int32 _PatternV
+  field private static Int32 barHeightV
+  field private static Int32 barSpeedV
+  field private static Int32 cutV
+  field private static Int32 edgeCutOffV
+  field private static Int32 angleV
+  field private static Int32 tileXV
+  field private static Int32 tileYV
+  field private static Int32 horizontalV
+  field private static Int32 _OffsetNoiseXV
+  field private static Int32 _OffsetNoiseYV
+  field private static Int32 _FadeV
+  field private static Int32 TempTargetId
+  field private static Int32 _Mask
+  field private static Int32 _FadeMultiplier
+  field private AnalogTVNoise retroEffect
+  field private Material RetroEffectMaterial
+  field private RenderTargetIdentifier currentTarget
+  field private Single TimeX
+  method public virtual Void OnCameraSetup(CommandBuffer cmd, RenderingData& renderingData)
+  method public virtual Void Execute(ScriptableRenderContext context, RenderingData& renderingData)
+  method public Void Setup(RenderTargetIdentifier& currentTarget)
+  method private Void Render(CommandBuffer cmd, RenderingData& renderingData)
+  method private Void ParamSwitch(Material mat, Boolean paramValue, String paramName)
+
+## class AngularVelocitySound : MonoBehaviour
+  field private Rigidbody rb
+  field private AudioSource audio
+  field public Single vel
+  method private Void Start()
+  method private Void Update()
+
+## class ArtifactRadio : ItemInstanceBehaviour
+  field private IntRangeEntry chargesEntry
+  field private OnOffEntry onOffEntry
+  field private StashAbleEntry stashAbleEntry
+  field private TimeEntry radioTimeEntry
+  field public Single maxBatteryCharge
+  field private BatteryEntry batteryEntry
+  field public MeshRenderer bright
+  field public AudioLoop music
+  field private Single timeOnTheGround
+  field public Single maxTimeOnGround
+  field private Single timeToAlert
+  field public Single alertIntervall
+  prop Boolean IsHeld
+  prop Boolean IsActive
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class AudioLoop : MonoBehaviour
+  field public AudioClip clip
+  field public AudioMixerGroup mixerGroup
+  field public Single volume
+  field public Single pitch
+  field public Single minDistance
+  field public Single maxDistance
+  field public Single obstrability
+  field public Single blend
+  field private Optionable<Single> overrideStartTime
+  field private Int32 checkID
+  method private Void Start()
+  method private Void OnEnable()
+  method private Void OnDisable()
+  method public Void SetTime(Single timeInSong)
+  method public Boolean TryGetOverrideTime(Single& f)
+  method internal Boolean CheckBoost()
+
+## class AudioLoopHandler : Singleton<AudioLoopHandler>
+  [DefaultExecutionOrder]
+  field public GameObject m_sourcePrefab
+  field public AudioMixerGroup boosted
+  field public List<AudioLoop> audioLoops
+  field public Dictionary<AudioLoop,AudioSource> audioSources
+  field public AnimationCurve m_falloffCurve
+  method public static Void RegisterAudioLoop(AudioLoop audioLoop)
+  method public static Void UnregisterAudioLoop(AudioLoop audioLoop)
+  method private Void LateUpdate()
+  method private Void RemoveSource(AudioLoop audioLoop)
+  method private Void AssignSource(AudioLoop audioLoop)
+
+## class AudioObstructability : Object
+  method public static Single GetObstructionValue(Vector3 position, Single obstructability, Single& rangeFactor)
+
+## class AudioToggler : MonoBehaviour
+  field private static Single distance
+  field public GameObject sfxHolder
+  field private Bot bot
+  method private Void Start()
+  method private Void Update()
+
+## class AudioTrigger : MonoBehaviour
+  field public SFX_Instance sound
+  method public Void OnTriggerEnter(Collider other)
+
+## class AudioVolumeOverDistance : MonoBehaviour
+  field public AnimationCurve VolumeOverDistance
+  field private AudioSource _audioSource
+  method private Void Start()
+  method private Void Update()
+
+## class BatteryDisplay : MonoBehaviour
+  field public Material m_offMaterial
+  field public Material m_greenMaterial
+  field public Material m_yellowMaterial
+  field public Material m_redMaterial
+  field public Renderer[] m_renderer
+  method public Void SetCharge(Single charge)
+  method private Material <SetCharge>g__GetOnMaterial|5_0(<>c__DisplayClass5_0& )
+
+## class BatteryEntry : ItemDataEntry
+  field public Single m_charge
+  field public Single m_maxCharge
+  field private Int32 m_percentage
+  field private String m_info
+  field private String m_batteryText
+  method public virtual Void Serialize(BinarySerializer binarySerializer)
+  method public Void AddCharge(Single chargeToAdd)
+  method public virtual Void Deserialize(BinaryDeserializer binaryDeserializer)
+  method public virtual String GetString()
+  method public virtual Void UpdateLocale()
+  method public Single GetPercentage()
+
+## enum BleedMode : Enum
+  NTSCOld3Phase
+  NTSC3Phase
+  NTSC2Phase
+
+## class bleedModeParameter : VolumeParameter<BleedMode>
+
+## class BlendModeParameter : VolumeParameter<BlendingMode>
+
+## class BombItem : ItemInstanceBehaviour
+  field public GameObject explosion
+  field public Single fuze
+  field private TimeEntry fuzeTimeEntry
+  field private StashAbleEntry stashAbleEntry
+  prop Boolean IsHeld
+  prop Boolean IsActive
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class CameraUpgradeItem : Item
+  [CreateAssetMenuAttribute]
+  field public Byte upgradeId
+  field public CameraUpgradeType UpgradeType
+
+## class CameraUpgradesDatabase : ObjectDatabaseAsset<CameraUpgradesDatabase,CameraUpgradeItem>
+  [CreateAssetMenuAttribute]
+  field public Dictionary<CameraUpgradeType,List<CameraUpgradeItem>> UpgradeTypeToItemsDic
+  method public static Boolean TryGetItemFromUpgradeID(Byte id, CameraUpgradeItem& item)
+
+## class CD_Item : ItemInstanceBehaviour
+  field private StashAbleEntry stashAbleEntry
+  field private Single timeSinceHeld
+  field public Single timeToTeleport
+  field private ExtractVideoMachine machine
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class CloseVideoInteractable : Interactable
+  field public UploadVideoStation UploadVideoStation
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+
+## class CommentSounds : MonoBehaviour
+  field public GameObject playVideo
+  field public Transform commentParent
+  field public SFX_Instance[] viewSound
+  field public SFX_Instance[] commentSfx
+  field private Int32 childCount
+  field public TextMeshProUGUI viewCount
+  field private Boolean t
+  method private Void Update()
+
+## class ComputerRoomDoorInteractable : Interactable
+  field private String m_StartGameTitleText
+  field private String m_StartGameBody
+  field private String m_StartGameConfirmText
+  field private String m_CancelText
+  method public virtual Boolean IsValid(Player player)
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+
+## class ContentWarningPlugin : Attribute
+  [AttributeUsageAttribute]
+  field private String <Guid>k__BackingField
+  field private String <Version>k__BackingField
+  field private Boolean <VanillaCompatible>k__BackingField
+  prop String Guid
+  prop String Version
+  prop Boolean VanillaCompatible
+
+## class CurseDataBase : MonoBehaviour
+  field public List<GameObject> curses
+  method private Void Start()
+  method private Void Update()
+
+## class CurvedUIInputModule : InputSystemUIInputModule
+  [ExecuteInEditMode]
+
+## class DatabaseLoader : Object
+
+## class DealInteractableSign : Interactable
+  field private DealProposalUI proposalUI
+  method protected virtual Void Awake()
+  method private Void OnDestroy()
+  method private Void OnLanguageChanged()
+  method public virtual Void Interact(Player player)
+  method public virtual Void OnStartHover(Player player)
+  method public virtual Void OnEndHover(Player player)
+
+## class DealRewardDatabase : SingletonAsset<DealRewardDatabase>
+  [CreateAssetMenuAttribute]
+  field public Dictionary<Int32,Type> rewards
+  method public DealRewardBase GetRewardFromIndex(Int32 index)
+  method public DealRewardBase GetRandom()
+
+## class DealRewardItem_1 : DealRewardBase
+  prop Boolean UseInGame
+  method public virtual DealRewardBase CreateNew()
+  method public virtual String GetRewardDescription()
+  method private Int32 GetAmount()
+  method public virtual Boolean ClaimReward()
+  method public virtual String GetRewardClaimDescription()
+  method public virtual Void MakeLocalized()
+  method public virtual Void DebugReward()
+  method private ShoppingCart GetItemsNew()
+  method private ShoppingCart GetItems()
+  method public virtual Byte GetIndex()
+
+## class DefaultNamespace.BatteryRechargeStation : MonoBehaviour
+  field public Single rechargeRate
+  field public Single range
+  field public ParticleSystem part
+  field public Transform field
+  method public Void LateUpdate()
+  method private Boolean DontGo(PlayerInventory& inv)
+
+## class DefaultNamespace.LostFootageDatabase : SingletonAsset<LostFootageDatabase>
+  [CreateAssetMenuAttribute]
+  field public List<FootageRarityPair> footageRarityPairs
+  method public Void Init()
+  method public Void PrintChances()
+  method public Boolean GetFootageByIndex(Int32 i, FootageRarityPair& footage)
+  method public Int32 GetRandomLostFootageIndex()
+  method public static Boolean TryGetLostFootage(LostFootageHandle handle, FootageRarityPair& footage)
+
+## class DimensionSound : MonoBehaviour
+  field public Single anticipation
+  field public Single possess
+  field public Bot_Skinny reference
+  field public SFX_PlayOneShot[] on
+  field public SFX_PlayOneShot[] off
+  field private Boolean t
+  field private Boolean t2
+  field public AudioLoop possesAudio
+  field public AudioLoop possesAudio2
+  field public SFX_PlayOneShot anticipationAudio2
+  method private Void Update()
+
+## class DistanceSFX : MonoBehaviour
+  field public SFX_Instance sfx
+  field private TextMeshProUGUI tm
+  field private String prev
+  method private Void Start()
+  method private Void Update()
+
+## class DiveBellPickupDetector : MonoBehaviour
+  field public Transform[] m_detectors
+  field private Collider[] results
+  field private HashSet<Pickup> m_pickups
+  method public ICollection<Pickup> CheckForPickups()
+
+## class DiveBellSFX : MonoBehaviour
+  field private static Int32 Land
+  field public AudioClip loopSound
+  field public DivingBell diveBell
+  field public TextMeshProUGUI text
+  field private String textprev
+  field public SFX_Instance readyToSubmerge
+  field public SFX_Instance closeDoor
+  field public SFX_Instance notAll
+  field public SFX_Instance diveBellStartGoingDown
+  field public Animator diveBellLand
+  method private Void Update()
+  method public Void PlayStartTransition()
+
+## class DiveBellTransitionSound : MonoBehaviour
+  method public Void Init(DiveBellSFX sfx)
+  method public static Void Remove()
+  method private IEnumerator FadeOut()
+
+## class DoorSoundHax : MonoBehaviour
+  method private Void LateUpdate()
+
+## enum DynamicBone+UpdateMode : Enum
+  Normal
+  AnimatePhysics
+  UnscaledTime
+  Default
+
+## class EdgeNoise : VolumeComponent
+  [VolumeComponentMenu]
+  field public BoolParameter enable
+  field public BoolParameter left
+  field public BoolParameter right
+  field public BoolParameter top
+  field public BoolParameter bottom
+  field public ClampedFloatParameter height
+  field public Vector2Parameter tile
+  field public ClampedFloatParameter intencity
+  field public TextureParameter noiseTexture
+  field public BoolParameter GlobalPostProcessingSettings
+  method public virtual Boolean IsActive()
+  method public virtual Boolean IsTileCompatible()
+
+## class EdgeNoise_RLPRO : ScriptableRendererFeature
+  field private EdgeNoise_RLPROPass RetroPass
+  field public RenderPassEvent Event
+  method public virtual Void Create()
+  method public virtual Void AddRenderPasses(ScriptableRenderer renderer, RenderingData& renderingData)
+
+## class EdgeNoise_RLPRO+EdgeNoise_RLPROPass : ScriptableRenderPass
+  field private static String k_RenderTag
+  field private static Int32 MainTexId
+  field private static Int32 _OffsetNoiseYV
+  field private static Int32 _OffsetNoiseXV
+  field private static Int32 _NoiseBottomHeightV
+  field private static Int32 _NoiseBottomIntensityV
+  field private static Int32 _NoiseTextureV
+  field private static Int32 tileXV
+  field private static Int32 tileYV
+  field private static Int32 TempTargetId
+  field private EdgeNoise retroEffect
+  field private Material RetroEffectMaterial
+  field private RenderTargetIdentifier currentTarget
+  method public virtual Void OnCameraSetup(CommandBuffer cmd, RenderingData& renderingData)
+  method public virtual Void Execute(ScriptableRenderContext context, RenderingData& renderingData)
+  method public Void Setup(RenderTargetIdentifier& currentTarget)
+  method private Void Render(CommandBuffer cmd, RenderingData& renderingData)
+  method private Void ParamSwitch(Material mat, Boolean paramValue, String paramName)
+
+## class Emote : Object
+  field public String displayName
+  field public String animationName
+  field public Boolean unequip
+  field public Single emoteLength
+  field public Single emoteMovementSpeed
+  field public Boolean emoteAllowRotate
+  field public Single emoteBaseScore
+  field public Single emoteScoreMultiplier
+  field public String[] comments
+
+## class EmoteItem : ItemInstanceBehaviour
+  field public TextMeshPro emoteText
+  field private OnOffEntry onOffEntry
+  field private Boolean invalid
+  field public GameObject useEffectPref
+  method private Void Start()
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class EmoteKeybindSetting : KeyCodeSetting
+  method protected virtual KeyCode GetDefaultKey()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+
+## class Emotes : MonoBehaviour
+  field public Boolean emoting
+  field private Boolean t
+  field public Int32 currentEmote
+  field public AnimationClip[] emotes
+  field private Animator anim
+  method private Void Start()
+
+## class EmoteUI : MonoBehaviour
+  field public CanvasGroup canvasGroup
+  field public Image progressImage
+  field public Image emoteIconImage
+  method private Void Update()
+
+## enum ExitGames.Client.Photon.Encryption.EncryptorNative+ChainingMode : Enum
+  CBC
+  GCM
+
+## class ExtractAudio : MonoBehaviour
+  field public ExtractVideoMachine extract
+  field public GameObject extractSound
+  field public GameObject errorSound
+  field public ExtractVideoStationHatch hatch
+  field public SFX_Instance hatchClose
+  field public SFX_Instance hatchOpen
+  field private Boolean prevOpenHatch
+  field public CDRom rom
+  field private Boolean prevOpenRom
+  field public SFX_Instance romClose
+  field public SFX_Instance romOpen
+  method private Void Update()
+
+## class ExtractMachineCheckItemState : VideoExtractMachineState
+  field private Optionable<Single> m_timeBeenSearchingForItem
+  method public virtual Void Enter()
+  method public virtual Void Update()
+
+## class ExtractVideoItemDetector : MonoBehaviour
+  field private Collider[] results
+  method public List<ValueTuple<Item,Pickup>> CheckForItems()
+  method private Void OnDrawGizmos()
+
+## class FaceDatabase : SingletonAsset<FaceDatabase>
+  [CreateAssetMenuAttribute]
+  field public Color[] FaceColors
+  field public String[] Faces
+  method public static Byte GetRandomFaceIndex()
+  method public static Byte GetRandomColorIndex()
+  method public static String GetFace(Byte index)
+  method public static Color GetColor(Byte index)
+
+## class FakeFlashLight : MonoBehaviour
+  field public Light m_light
+  field public MeshRenderer lightBeam
+  field public MeshRenderer brightPart
+  field public Boolean isOn
+  field public ItemInstance itemInstance
+  field public Color angryBrightEmission
+  field private Color defaultLightColor
+  field private Color defaultBeamColor
+  field private Color defaultBrightColor
+  field private Color defaultBrightEmission
+  method private Void Awake()
+  method private Void Start()
+  method public Void ColorRed()
+  method public Void ColorDefault()
+  method public Void Toggle(Boolean on)
+
+## class Flashlight : ItemInstanceBehaviour
+  field private static Int32 Strength
+  field public Light m_light
+  field public MeshRenderer lightBeam
+  field public MeshRenderer brightPart
+  field public GameObject trigger
+  field public BatteryDisplay m_batteryDisplay
+  field private BatteryEntry m_batteryEntry
+  field private OnOffEntry m_onOffEntry
+  field public Single maxCharge
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+  method private Void Update()
+
+## class FlashLightTrigger : MonoBehaviour
+  field public Int32 lightLevel
+  field private Boolean isPlayerLight
+  method private Void Start()
+  method private Void OnTriggerStay(Collider other)
+
+## class FreeModifier : ProceduralImageModifier
+  [ModifierID]
+  field private Vector4 radius
+  prop Vector4 Radius
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+  method protected Void OnValidate()
+
+## class GameHandler+<DoPluginThings>d__9 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncVoidMethodBuilder <>t__builder
+  field private TaskAwaiter <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class GenericInteractible : Interactable
+  field public UnityEvent interactEvent
+  method public virtual Void Interact(Player player)
+
+## class GlobalPlayerData : MonoBehaviourPunCallbacks
+  field private PhotonView m_photonView
+  field public PlayerInventory inventory
+  field public Single localVoiceVolume
+  field public Boolean isMuted
+  field public Boolean isBlocked
+  field public Boolean canCommunicateWith
+  field public Boolean Initialized
+  field private static Dictionary<Player,GlobalPlayerData> m_instances
+  method private Void Awake()
+  method private Void OnDestroy()
+  method private Void Start()
+  method public static Boolean TryGetPlayerData(Player player, GlobalPlayerData& globalPlayerData)
+  method public virtual Void OnPlayerEnteredRoom(Player newPlayer)
+  method public static Void Cleanup()
+
+## class HatBuyInteractable : Interactable
+  field public Transform hatSpot
+  field public Outlinable outlinable
+  field public TextMeshPro nameText
+  field public TextMeshPro priceText
+  field private HatShop hatShop_gp
+  field public GameObject hatPrefab
+  field public Hat ihat
+  field private String LOC_ALREADYOWN_TEXT
+  field private String LOC_BUYHAT_TEXT
+  field private String LOC_CANT_AFFORD_TEXT
+  field private static String HAT_LOC_KEY
+  prop Boolean IsEmpty
+  prop String hoverText
+  prop Boolean IsOwned
+  method protected virtual Void Awake()
+  method private Void Start()
+  method public virtual Boolean IsValid(Player player)
+  method public Void LoadHat(GameObject hatPrefab, Int32 price)
+  method private Void AddToOutlineable()
+  method public Void ClearHat()
+  method public virtual Void Interact(Player player)
+  method private Boolean <get_IsOwned>b__19_0(Int32 o)
+
+## class HatDatabase : MonoBehaviour
+  field public static HatDatabase instance
+  field public String WARNING
+  field public Hat[] hats
+  method public Void Awake()
+  method private Void MakeLocalizedHatNames()
+  method public static Void Init()
+  method public Hat InstantiateHat(GameObject hatPrefab)
+  method public Hat GetHatFromIndex(Int32 index)
+  method public Int32 GetIndexOfHat(Hat hatBuySlotHatPrefab)
+
+## class HatItem : ItemInstanceBehaviour
+  field private OnOffEntry onOffEntry
+  field private Boolean invalid
+  field public Hat hatprefab
+  method private Void Start()
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class HatShop : MonoBehaviour
+  field public SFX_Instance buyHat
+  field public SFX_Instance noHat
+  field public static HatShop instance
+  field public List<HatBuyInteractable> hatBuyInteractables
+  field private Int32 savedSeed
+  field private PhotonView view
+  method private Void Awake()
+  method private Void Start()
+  method private Void StockShop()
+  method public Void RPCA_StockShop(Int32 seed)
+  method public Void Restock()
+  method public Void HatBuyClicked(HatBuyInteractable hatBuyInteractable)
+  method public Void RPCM_TryBuyHat(Int32 hatBuyIndex, Int32 buyerActorNumber)
+  method public Void RPCA_BuyHat(Int32 hatBuyIndex, Int32 buyerActorNumber)
+
+## class Interactable : MonoBehaviour
+  field private Outlinable m_outline
+  field private String <hoverText>k__BackingField
+  prop String hoverText
+  method protected virtual Void Awake()
+  method public virtual Boolean IsValid(Player player)
+  method public virtual Void Interact(Player player)
+  method public virtual Void OnEndHover(Player player)
+  method public virtual Void OnStartHover(Player player)
+
+## class InteractionUI : MonoBehaviour
+  field public CanvasGroup m_canvasGroup
+  field public TextMeshProUGUI m_text
+  field public TextMeshProUGUI m_interactText
+  field private Interactable m_currentInteractable
+  field private InteractKeybindSetting m_interactKeybindSetting
+  method public Void SetData(Interactable interactable)
+  method private Void Start()
+  method private Void Update()
+
+## class InteractKeybindSetting : KeyCodeSetting
+  method protected virtual KeyCode GetDefaultKey()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+  method public virtual String GetPrompt()
+
+## class Item : ScriptableObject
+  [CreateAssetMenuAttribute]
+  field public String displayName
+  field public Sprite icon
+  field public GameObject itemObject
+  field public ItemType itemType
+  field public Int32 toolBudgetCost
+  field public Boolean spawnable
+  field public RARITY toolSpawnRarity
+  field public Int32 budgetCost
+  field public Single rarity
+  field public PropContent content
+  field public Single groundSizeMultiplier
+  field public Single groundMassMultiplier
+  field public Single mass
+  field public Vector3 holdPos
+  field public Boolean useAlternativeHoldingPos
+  field public Vector3 alternativeHoldPos
+  field public Vector3 holdRotation
+  field public Boolean useAlternativeHoldingRot
+  field public Vector3 alternativeHoldRot
+  field public Byte id
+  field public String persistentID
+  field public Boolean purchasable
+  field public ShopItemCategory Category
+  field public Int32 price
+  field public Int32 quantity
+  field public Emote emoteInfo
+  field public List<ItemKeyTooltip> Tooltips
+  prop Single ToolRarity
+  prop Guid PersistentID
+  method private Boolean ShowEmoteInfo()
+  method public static Void SpawnItem(Item item)
+  method public static Void EquipItem(Item item)
+  method public IEnumerable<IHaveUIData> GetTootipData()
+  method public String GetLocalizedDisplayName()
+  method internal static String <GetTootipData>g__ParseTip|36_0(String t, IMKbPromptProvider& provider, List`1& glpyhType)
+
+## enum Item+ItemType : Enum
+  Camera
+  Tool
+  Artifact
+  Disc
+
+## class ItemCLIParser : CLITypeParser
+  [TypeParserAttribute]
+  method public virtual Object Parse(String str)
+  method public virtual List<ParameterAutocomplete> FindAutocomplete(String parameterText)
+
+## class ItemDatabase : ObjectDatabaseAsset<ItemDatabase,Item>
+  [CreateAssetMenuAttribute]
+  field public List<String> lastLoadedPersistentIDs
+  field public List<Item> lastLoadedItems
+  method public virtual Void AddRuntimeEntry(Item obj)
+  method public static Boolean TryGetItemFromID(Byte id, Item& item)
+  method public static Boolean TryGetItemFromPersistentID(Guid id, Item& item)
+
+## class ItemDataEntry : Object
+  field private Boolean m_dirty
+  field private Boolean m_forceDirty
+  method public virtual Void Serialize(BinarySerializer binarySerializer)
+  method public virtual Void Deserialize(BinaryDeserializer binaryDeserializer)
+  method public Void SetDirty()
+  method public Void SetForceDirty()
+  method public Boolean IsDirty()
+  method public Boolean IsForceDirty()
+  method public Void ClearDirty()
+  method public Void ClearForceDirty()
+
+## class ItemDataSyncer : MonoBehaviour
+  field private PhotonView m_photonView
+  field private ItemInstanceData m_instanceData
+  field private ItemInstance m_itemInstance
+  field private Guid m_guid
+  prop Boolean isMine
+  method private Void Awake()
+  method public Void RPC_SetInstanceData(Byte[] id)
+  method public Void RPC_Update(Byte[] buffer)
+  method private Void Update()
+
+## class ItemDescriptor : ValueType
+  field public Item item
+  field public ItemInstanceData data
+  prop ItemDescriptor Empty
+
+## class ItemGooBall : ItemInstanceBehaviour
+  field private StashAbleEntry stashAbleEntry
+  field private LifeTimeEntry m_lifeTimeEntry
+  field public Single explodeTime
+  field private OnOffEntry usedEntry
+  field public GameObject explodedGoopPref
+  field public SphereCollider sphereCollider
+  field public AudioLoop tickingSound
+  field public GameObject lightObj
+  field private Boolean exploded
+  field private Single timeNotHeld
+  method private Void Update()
+  method private Void SpawnExplosive()
+  method private Void OnCollisionEnter(Collision other)
+  method private Void CheckCollision(Collision other)
+  method private Void OnCollisionStay(Collision other)
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class ItemGrabberArm : ItemInstanceBehaviour
+  field public Transform rightClaw
+  field public Transform leftClaw
+  field public Transform grabPoint
+  field public Single clawSpeed
+  field public Single closedAngle
+  field public Vector2 breakForceStartEnd
+  field public Single breakForceTransitionTime
+  field private ConfigurableJoint joint
+  field private Single jointLifeTime
+  field private ClawRotator leftClawRotator
+  field private ClawRotator rightClawRotator
+  field private OnOffEntry onOffEntry
+  field private Player playerHoldingItem
+  field private Boolean wasOn
+  field private Rigidbody attachedTo
+  prop Bodypart ItemBodyPart
+  method private Void Awake()
+  method private Void Update()
+  method private Boolean TryGrabItem(Collider hit)
+  method public Void RPCA_AttachToItem(BinaryDeserializer deserializer)
+  method private Boolean TryGrabPlayer(Collider hit)
+  method public Void RPCA_AttachToPlayer(BinaryDeserializer deserializer)
+  method private Void AttachJoint(Rigidbody otherRig, Boolean lockRotation)
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+  method public Void RPCA_DestroyJoint(BinaryDeserializer binaryDeserializer)
+
+## class ItemHugger : ItemInstanceBehaviour
+  field public Item hugEmote
+  field private Player playerHoldingItem
+  field public Single healInterval
+  field public Single fullHealTime
+  field private Single timeSinceLastHeal
+  field private OnOffEntry onOffEntry
+  field private Boolean playedEmote
+  field public GameObject trigger
+  field public Single hugForce
+  field public Single hugBoxDistance
+  prop PlayerEmotes PlayerEmotes
+  method public Void TriggerSaysTriggerStay(Collider other)
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class ItemInstance : MonoBehaviour
+  field public Item item
+  field private Rigidbody rig
+  field public Bodypart itemBody
+  field public UnityEvent<Player> onItemEquipped
+  field private ItemDataSyncer m_syncer
+  field public Optionable<Guid> m_guid
+  field public UnityEvent<Player> onUnequip
+  field private Boolean isHeld
+  field private Boolean isHeldByMe
+  field public ItemInstanceData instanceData
+  field private Boolean wasHeldOnstart
+  field private Single m_fixedPositionTime
+  field private Single m_fixedRotationTime
+  method public Void InitItem(Item setItem, ItemInstanceData data, PhotonView playerView, PhotonView pickupView)
+  method public Void RegisterRPC(ItemRPC rpc, Action<BinaryDeserializer> action)
+  method private Void OnDestroy()
+  method private Void OnCollisionEnter(Collision other)
+  method private Void OnCollisionStay(Collision other)
+  method public Void SetItemBody(Bodypart part)
+  method public Void Update()
+  method internal Void ConfigItemPosition(Player player)
+  method public Void CallRPC(ItemRPC rpc, BinarySerializer binarySerializer)
+
+## class ItemInstanceBehaviour : MonoBehaviour
+  field public Boolean isHeldByMe
+  field public Boolean isSimulatedByMe
+  field public ItemInstance itemInstance
+  field public Boolean isHeld
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class ItemInstanceData : Object
+  field public Guid m_guid
+  field public HashSet<ItemDataEntry> m_dataEntries
+  field public Single timeSinceGrounded
+  field private Boolean isHeld
+  field private Boolean isHeldByMe
+  field public Single timeInHand
+  method public Boolean TryGetEntry(T& t)
+  method public Void TryGetElseAdd(T& startValue)
+  method public Boolean TryGetEntry(Type type, ItemDataEntry& t)
+  method public Void AddDataEntry(ItemDataEntry entry)
+  method public Void RemoveDataEntry(ItemDataEntry entry)
+  method public Void Serialize(BinarySerializer binarySerializer, Boolean createNewGuid)
+  method public Byte[] Serialize(Boolean createNewGuid)
+  method public NativeArray<Byte> SerializeAsNative()
+  method public Void Deserialize(BinaryDeserializer binaryDeserializer)
+  method public Void Deserialize(Byte[] bytes)
+  method public Byte GetEntryIdentifier(Type type)
+  method public ItemDataEntry GetEntryType(Byte identifier)
+  method public ItemDataSyncer CreateDataSyncer(Boolean roomOwned)
+  method public Boolean IsDirty()
+  method public Boolean IsForceDirty()
+  method public Void ClearForceDirty()
+  method public Void ClearDirty()
+  method public ItemInstanceData Copy()
+
+## class ItemInstanceDataHandler : RetrievableSingleton<ItemInstanceDataHandler>
+  field private Dictionary<Guid,ItemInstanceData> m_instanceData
+  method protected virtual Void OnCreated()
+  method public static Void AddInstanceData(ItemInstanceData instanceData)
+  method public static Void RemoveInstanceData(Guid guid)
+  method public static Boolean TryGetInstanceData(Guid guid, ItemInstanceData& o)
+
+## class ItemInstanceHandler : Singleton<ItemInstanceHandler>
+  field public Dictionary<Guid,ItemInstance> m_itemInstances
+  field private Dictionary<Guid,Dictionary<ItemRPC,Action<BinaryDeserializer>>> m_rpcActions
+  field private ListenerHandle m_listenerHandle
+  method protected virtual Void OnCreated()
+  method private Void OnDestroy()
+  method private static Void HandleRPC(ItemInstancePackage package)
+  method public static Void RegisterItemInstance(Guid guid, ItemInstance itemInstance)
+  method public static Void UnregisterItemInstance(Guid guid)
+  method public static Void RegisterRPC(Guid itemInstance, ItemRPC rpc, Action<BinaryDeserializer> action)
+  method public static Void CallRPC(Guid guid, ItemRPC rpc, BinarySerializer binarySerializer)
+
+## class ItemInstancePackage : CustomCommandPackage<CustomCommandType>
+  field public Guid ItemInstanceGuid
+  field public ItemRPC ItemRPC
+  field public NativeArray<Byte> Data
+  method protected virtual Void SerializeData(BinarySerializer binarySerializer)
+  method public virtual Void DeserializeData(BinaryDeserializer binaryDeserializer)
+  method public virtual CustomCommandType GetCommandType()
+  method public virtual SendOptions GetSendOptions()
+
+## class ItemKeyTooltip : Object
+  field public String m_text
+  field public List<GlyphType> GlpyhType
+  field private IMKbPromptProvider promptProvider
+  field private InputScheme m_currentInputType
+  field private String m_info
+  method public virtual String GetString()
+  method public virtual Void UpdateLocale()
+  method private String <GetString>b__6_0(GlyphType type)
+
+## class ItemKillbox : MonoBehaviour
+  field private Collider m_collider
+  field private Vector3 m_spawnPosition
+  method private Void Start()
+  method private Void OnTriggerEnter(Collider other)
+
+## class ItemLostDisc : ItemInstanceBehaviour
+  field public Single timeToTeleport
+  field private ExtractVideoMachine machine
+  field private Single timeSinceHeld
+  field public IntEntry lostFootageIndex
+  field public BoolEntry boolEntry
+  method private Void Update()
+  method public Boolean GetFootage(FootageRarityPair& footage)
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## enum ItemRPC : Enum
+  RPC0
+  RPC1
+  RPC2
+  RPC3
+
+## class JumpScareSound : MonoBehaviour
+  field public Int32 level
+  field public SFX_Instance sfx
+  field private Int32 monsterID
+  field public Bot currentBot
+  field private Single currentDistance
+  field private Single sinceSeeCurrent
+  method private Void Update()
+  method private Void Scare()
+  method private Void GetCurrent()
+
+## class MainMenuModManagerPage : MainMenuPage
+  field public SelectedPluginUI selectedPluginUI
+  field public Button backButton
+  field public Transform pluginListParent
+  field public GameObject pluginCellPrefab
+  field private List<PluginCell> m_cells
+  field private PluginCell m_currentSelectedCell
+  method private Void Awake()
+  method public virtual Void OnPageEnter()
+  method public Void DrawMods()
+  method public Void Select(PluginCell cell)
+  method private Void BackButtonClicked()
+  method public virtual ValueTuple<UIPage,PageTransistion> GetParentPage()
+  method public virtual GameObject GetFirstSelectedGameObject()
+  method public Void SelectFromIdentity(Plugin plugin)
+  method internal static Boolean <DrawMods>g__AlreadyExists|8_0(ModManagerPlugin& existingPlugin, <>c__DisplayClass8_0& , <>c__DisplayClass8_1& )
+
+## class maskChannelModeParameter : VolumeParameter<maskChannelMode>
+
+## class ModlistEntryHeaderUI : MonoBehaviour
+  field public TMP_Text text
+
+## class ModlistEntryUI : MonoBehaviour
+  field private Plugin plugin
+  field private Nullable<PublishedFileId_t> publishedFileId
+  field private ModManagerUI modManagerUI
+  field public TMP_Text title
+  field public Button webUIButton
+  field public Button editButton
+  method private Void Awake()
+  method private Void OnWebUIClick()
+  method private Void OnEditClick()
+  method public Void SetInfo(ModManagerUI modManagerUI, Plugin plugin)
+
+## class ModManagerEditPanelUI : MonoBehaviour
+  field private PluginPublished _existingPlugin
+  field private PluginLocal _plugin
+  field public TMP_InputField title
+  field public TMP_InputField description
+  field public TMP_Text reasonCantPublish
+  field public Button submitButton
+  method private Void Awake()
+  method private Void CheckPublishable()
+  method public Boolean CanPublish(String& reason)
+  method public Void EditMod(PluginLocal plugin)
+  method private Void SubmitClicked()
+  method private IEnumerator UpdateProgressBar(UGCUpdateHandle_t handle, Task completeTask)
+  method private Void UpdateProgressBarUI(String message, UInt64 bytesProcessed, UInt64 bytesTotal)
+  method private static Task<Nullable<PublishedFileId_t>> CreateNewMod()
+  method private Void <Awake>b__6_0(String _)
+  method private Void <Awake>b__6_1(String _)
+
+## class ModManagerEditPanelUI+<CreateNewMod>d__13 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncTaskMethodBuilder<Nullable<PublishedFileId_t>> <>t__builder
+  field private TaskAwaiter<CreateItemResult_t> <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class ModManagerPlugin : Object
+  field public PluginLocal PluginLocal
+  field public PluginSubscribed PluginSubscribed
+  field public PluginPublished PluginPublished
+  field public PluginExternal PluginExternal
+  field private Plugin originalPlugin
+  prop Plugin OriginalPlugin
+  prop String DisplayName
+  prop String Version
+  method public Void Update(Plugin plugin)
+
+## class ModManagerUI : MainMenuPage
+  field public GameObject modlist
+  field public ModlistEntryUI modlistEntryPrefab
+  field public ModlistEntryHeaderUI modlistEntryHeaderPrefab
+  field public ModManagerEditPanelUI modManagerEditPanel
+  field public Button backButton
+  field private Boolean hasInit
+  method private Void Awake()
+  method private Void Update()
+  method public Void EditMod(PluginLocal plugin)
+  method private Void RefreshList()
+  method private Void AddList(String headerName, IReadOnlyList<Plugin> plugins)
+  method private Void <Awake>b__6_0()
+
+## class MovementSpeedModifier : MonoBehaviour
+  field public PlayerController movement
+  field public Single mod
+  method private Void Update()
+
+## class MuffleAudioThroughWall : MonoBehaviour
+  field public LayerMask worldLayer
+  field public Single lerp
+  field private AudioLowPassFilter lowPass
+  field private RaycastHit hit
+  method private Void Start()
+  method private Void Update()
+
+## class NetworkDealDataBase : SingletonAsset<NetworkDealDataBase>
+  [CreateAssetMenuAttribute]
+  field public List<NetworkDealBase> deals
+  method public Void LoadDeals()
+  method public List<ParameterAutocomplete> GetAutoCompleteOptions(String parameterText)
+  method private Void Go()
+  method public NetworkDealBase GetDealFromString(String inString)
+  method public NetworkDealBase GetDealFromIndex(Int32 index)
+  method public List<NetworkDealBase> GetWeightedRandomDeal(List<DIFFICULTY> difficulties, Int32 numbers, Boolean allowDuplicates)
+  method private Void PrintChances()
+  method private Void PrintChancesOnce()
+  method public List<NetworkDealBase> GetDeals(DIFFICULTY difficulty)
+  method public List<NetworkDealBase> GetDeals(List<DIFFICULTY> difficulties)
+
+## class Noise : VolumeComponent
+  [VolumeComponentMenu]
+  field public BoolParameter enable
+  field public FloatParameter stretchResolution
+  field public FloatParameter VerticalResolution
+  field public BoolParameter Granularity
+  field public ClampedFloatParameter GranularityAmount
+  field public BoolParameter TapeNoise
+  field public ClampedFloatParameter TapeNoiseSignalProcessing
+  field public ClampedFloatParameter TapeNoiseFade
+  field public ClampedFloatParameter TapeNoiseAmount
+  field public ClampedFloatParameter tapeLinesAmount
+  field public ClampedFloatParameter TapeNoiseSpeed
+  field public BoolParameter LineNoise
+  field public ClampedFloatParameter LineNoiseAmount
+  field public ClampedFloatParameter LineNoiseSpeed
+  field public BoolParameter SignalNoise
+  field public ClampedFloatParameter SignalNoisePower
+  field public ClampedFloatParameter SignalNoiseAmount
+  field public TextureParameter mask
+  field public maskChannelModeParameter maskChannel
+  field public BoolParameter unscaledTime
+  field public BoolParameter GlobalPostProcessingSettings
+  method public virtual Boolean IsActive()
+  method public virtual Boolean IsTileCompatible()
+
+## class Noise_RLPRO : ScriptableRendererFeature
+  field private Noise_RLPROPass RetroPass
+  field public RenderPassEvent Event
+  method public virtual Void Create()
+  method public virtual Void AddRenderPasses(ScriptableRenderer renderer, RenderingData& renderingData)
+
+## class Noise_RLPRO+Noise_RLPROPass : ScriptableRenderPass
+  field private static String k_RenderTag
+  field private static Int32 MainTexId
+  field private static Int32 alphaTexV
+  field private static Int32 _AlphaMapTexV
+  field private static Int32 tapeLinesAmountV
+  field private static Int32 time_V
+  field private static Int32 screenLinesNumV
+  field private static Int32 noiseLinesNumV
+  field private static Int32 noiseQuantizeXV
+  field private static Int32 signalNoisePowerV
+  field private static Int32 signalNoiseAmountV
+  field private static Int32 filmGrainAmountV
+  field private static Int32 tapeNoiseTHV
+  field private static Int32 tapeNoiseAmountV
+  field private static Int32 tapeNoiseSpeedV
+  field private static Int32 lineNoiseAmountV
+  field private static Int32 lineNoiseSpeedV
+  field private static Int32 _TapeTexV
+  field private static Int32 TempTargetId
+  field private static Int32 _FadeMultiplier
+  field private static Int32 _Mask
+  field private Noise retroEffect
+  field private Material RetroEffectMaterial
+  field private RenderTargetIdentifier currentTarget
+  field private Single _time
+  field private RenderTexture texTape
+  method public virtual Void OnCameraSetup(CommandBuffer cmd, RenderingData& renderingData)
+  method public virtual Void Execute(ScriptableRenderContext context, RenderingData& renderingData)
+  method public Void Setup(RenderTargetIdentifier& currentTarget)
+  method private Void Render(CommandBuffer cmd, RenderingData& renderingData)
+  method private Void ParamSwitch(Material mat, Boolean paramValue, String paramName)
+
+## class ObjectiveDatabase : Object
+  field private static Boolean m_isInitialized
+  field private static BidirectionalDictionary<Byte,Type> types
+  method public static Void Initialize()
+  method public static Byte GetIndex(Type type)
+  method public static Byte GetIndex(Objective objective)
+  method public static Type GetType(Byte key)
+  method public static Objective GetObjectiveInstance(Byte index)
+  method public static T GetObjectiveInstance()
+  method public static Boolean HasObjectiveBeenCompleted(Objective objective)
+
+## class OnlyOneEdgeModifier : ProceduralImageModifier
+  [ModifierID]
+  field private Single radius
+  field private ProceduralImageEdge side
+  prop Single Radius
+  prop ProceduralImageEdge Side
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class PersistantRadio : ItemInstanceBehaviour
+  field private IntRangeEntry chargesEntry
+  field private OnOffEntry onOffEntry
+  field private TimeEntry radioTimeEntry
+  field public Single maxBatteryCharge
+  field private BatteryEntry batteryEntry
+  field public MeshRenderer bright
+  field public AudioLoop music
+  field private Single timeOnTheGround
+  field public Single maxTimeOnGround
+  field private Single timeToAlert
+  field public Single alertIntervall
+  prop Boolean IsHeld
+  prop Boolean IsActive
+  method private Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+
+## class Photon.Chat.Demo.FriendItem : MonoBehaviour
+  field public Text NameLabel
+  field public Text StatusLabel
+  field public Text Health
+  prop String FriendId
+  method public Void Awake()
+  method public Void OnFriendStatusUpdate(Int32 status, Boolean gotMessage, Object message)
+
+## class PhysicsSound : MonoBehaviour
+  field public SFX_Instance[] impactSounds
+  field private Single counter
+  method private Void Update()
+  method private Void OnCollisionEnter(Collision collision)
+
+## class Pickup : Interactable
+  field public PhotonView m_photonView
+  field private Rigidbody m_rigidbody
+  field private ItemInstanceData instanceData
+  field private Byte m_itemID
+  field private Vector3 lastPos
+  field public ItemInstance itemInstance
+  prop Rigidbody Rigidbody
+  method protected virtual Void Awake()
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+  method public virtual Void OnStartHover(Player player)
+  method public virtual Void OnEndHover(Player player)
+  method public Void ConfigurePickup(Byte itemID, ItemInstanceData data)
+  method public Void ConfigurePickup(Byte itemID, ItemInstanceData data, Vector3 vel, Vector3 angVel)
+  method public Void RPC_ConfigurePickup(Byte itemID, Byte[] data)
+  method public Void RPC_SetVelocity(Vector3 vel, Vector3 angVel)
+  method public Void RPC_Remove()
+  method public Void RPC_RequestPickup(Int32 photonView)
+  method private Void OnEnable()
+  method private Void OnDisable()
+  method public Void ForceSync()
+  method public Void RPC_ForceSync(Vector3 pos, Quaternion rot)
+  method public Void RPC_FailedToPickup()
+  method internal static IEnumerator <RPC_ConfigurePickup>g__RemoveJoint|15_1(ConfigurableJoint configurableJoint)
+
+## class Pickup+<<RPC_ConfigurePickup>g__RemoveJoint|15_1>d : Object
+  [CompilerGeneratedAttribute]
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public ConfigurableJoint configurableJoint
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class Pickup+<>c__DisplayClass15_0+<<RPC_ConfigurePickup>g__EnableColliders|0>d : Object
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public <>c__DisplayClass15_0 <>4__this
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class PickupDiscObjective : Objective
+  method public virtual String GetObjectiveDescription()
+
+## class PickupHandler : Singleton<PickupHandler>
+  field private List<Pickup> m_pickup
+  method public static Pickup CreatePickup(Byte itemID, ItemInstanceData data, Vector3 pos, Quaternion rot, Vector3 vel, Vector3 angVel)
+  method public static Pickup CreatePickup(Byte itemID, ItemInstanceData data, Vector3 pos, Quaternion rot)
+  method public static Void RegisterPickup(Pickup pickup)
+  method public static Void UnregisterPickup(Pickup pickup)
+  method public static Boolean GetRandomPickup(Pickup& pickup, List<Item> excludedItems)
+  method public static Void SendPosToEveryone()
+
+## class PickupSpawner : MonoBehaviourPunCallbacks
+  field private Item m_ItemToSpawn
+  field private Transform m_Transform
+  field private Boolean m_Spawned
+  prop Item ItemToSpawn
+  method private Void Awake()
+  method public virtual Void OnJoinedRoom()
+  method public Void SpawnMe(Boolean force)
+  method private Void DestroyMe()
+  method internal static IEnumerator <SpawnMe>g__IChill|7_0(Pickup pickup)
+
+## class PickupTheCameraObjective : Objective
+  method public virtual String GetObjectiveDescription()
+
+## class PickupToggler : MonoBehaviour
+  method private Void Start()
+
+## class Player : MonoBehaviourPunCallbacks
+  field public static Player localPlayer
+  field public static Player observedPlayer
+  field public Boolean ai
+  field public PlayerInput input
+  field public static Boolean justDied
+  field public TextMeshPro m_name
+  field public PlayerData data
+  field public PlayerRefs refs
+  field private PhotonGameLobbyHandler m_LobbyHandler
+  field private Single voiceNoiseCounter
+  field private VoiceSetting m_VoiceSetting
+  field private VoiceChatModeSetting m_VoiceChatModeSetting
+  field public SFX_Instance sfx_0_Impact
+  field private Coroutine toggleCollisionCor
+  field private List<Boolean> collidersEnabled
+  field private List<Collider> collidersToToggleList
+  prop Boolean IsLocal
+  method private Void Awake()
+  method private Void CheckOxygen()
+  method private Void OnDestroy()
+  method public Boolean HasFlashLightThatIsOn()
+  method private IEnumerator Start()
+  method private Void LoadHat()
+  method private Void DoInits()
+  method private Void Update()
+  method private Void MakeVoiceNoise()
+  method public Boolean HasLockedInput()
+  method public Boolean HasLockedMovement()
+  method private Boolean AllowInput()
+  method public Void TakeDamageLocalIKnowWhatImDoing(Single damage)
+  method private Void TakeDamage(Single damage)
+  method public Boolean CallHeal(Single healAmount)
+  method private Void RPCA_Heal(Single amount)
+  method public static Void KillLocal()
+  method public Void Die()
+  method internal Void CallDie()
+  method public Void CallRevive()
+  method public Void RPCA_PlayerDie()
+  method private IEnumerator DelayThenTalkToDead(Single f)
+  method private Void RPCA_PlayerRevive()
+  method private IEnumerator DelayDropItems()
+  method private Void FixedUpdate()
+  method internal Vector3 GetRelativePosition_Rig(BodypartType bodypart, Vector3 relativePosition)
+  method internal Vector3 GetRelativePosition_Anim(BodypartType bodypart, Vector3 relativePosition)
+  method internal Vector3 LookDirection(Vector3 direction)
+  method internal Void MoveAllRigsInDirection(Vector3 delta)
+  method internal Vector3 Center()
+  method internal Vector3 TransformCenter()
+  method internal Vector3 CenterGroundPos()
+  method internal Void SetLookDirection(Vector3 vector3)
+  method public Boolean TryGetGlobalPlayerData(GlobalPlayerData& d)
+  method public Boolean TryGetInventory(PlayerInventory& o)
+  method public Void RequestCreatePickup(Byte itemID, ItemInstanceData data, Vector3 pos, Quaternion rot, Vector3 vel, Vector3 angVel)
+  method public Void RequestCreatePickup(Item item, ItemInstanceData data, Vector3 pos, Quaternion rot)
+  method public Void RPC_RequestCreatePickupVel(Byte itemID, Byte[] dataBuffer, Vector3 pos, Quaternion rot, Vector3 vel, Vector3 angVel)
+  method public Void RPC_RequestCreatePickup(Byte itemID, Byte[] dataBuffer, Vector3 pos, Quaternion rot)
+  method public Vector3 HeadPosition()
+  method public Boolean CanSee(Vector3 targetPos, Single validLookAngle, Boolean checkLineOfSight, LayerType mask)
+  method public Void OnGetMic(Single db)
+  method private Single GetMicValueFromDecibels(Single decibels)
+  method internal Boolean Ragdoll()
+  method internal Void SetPhysicsCamera(Single seconds)
+  method internal Boolean HangingUpsideDown()
+  method internal Vector3 GetUpDirection()
+  method internal Boolean NoControl()
+  method public Void CallTakeDamage(Single damage)
+  method public Void RPCA_CallTakeDamage(Single damage)
+  method internal Void CallTakeDamageAndTase(Single damage, Single tase)
+  method public Void RPCA_CallTakeDamageAndTase(Single damage, Single tase)
+  method public Void RPCM_RequestSit(Int32 viewID, Int32 seatID)
+  method public Void RPCA_Sit(Int32 viewID, Int32 seatID)
+  method public Void RPCA_UnSit(Int32 viewID, Int32 seatID)
+  method internal Void CallTakeDamageAndAddForceAndFall(Single damage, Vector3 force, Single fall)
+  method public Void RPCA_TakeDamageAndAddForce(Single damage, Vector3 force, Single fall)
+  method internal Void CallTakeDamageAndAddForceAndFallWithFallof(Single damage, Vector3 force, Single fall, Vector3 pos, Single range)
+  method public Void RPCA_TakeDamageAndAddForceFallWithFallof(Single damage, Vector3 force, Single fall, Vector3 pos, Single range)
+  method public Void WakeUp()
+  method internal Single Visibility()
+  method public Void RPC_SelectSlot(Int32 slotID)
+  method internal Void CallMakeSound(Int32 soundID)
+  method public Void RPC_MakeSound(Int32 soundID)
+  method internal Void ToggleCollisionForSeconds(Single seconds)
+  method internal Void ReToggleCollision()
+  method internal Void Teleport(Vector3 position, Vector3 forward)
+  method internal Rigidbody GetRig(BodypartType part)
+  method internal Void ClampGravity(Single clampTime)
+  method internal Boolean TryingToLeavePose()
+  method internal Void CallAddForceToBodyParts(Int32[] ints, Vector3[] vector3s)
+  method internal Void RPCA_AddForceToBodyParts(Int32[] ints, Vector3[] vector3s)
+  method public Void Call_EquipHat(Int32 hatIndex)
+  method public Void Call_RemoveHat()
+  method public Void RPCA_EquipHat(Int32 hatIndex)
+  method public virtual Void OnPlayerEnteredRoom(Player newPlayer)
+  method internal Void CallSlowFor(Single speedFactor, Single time)
+  method internal Void RPCA_SlowFor(Single speedFactor, Single time)
+  method private Void AssignUserID(UInt64 userID)
+  method private Void AssignPlatformFamily(PlatformFamily platformFamily)
+
+## class Player+<DelayDropItems>d__38 : Object
+  [CompilerGeneratedAttribute]
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public Player <>4__this
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class Player+PlayerData : Object
+  field public AnimationCurve oxygenDisplayCurve
+  field public Boolean tasable
+  field public Single simplifiedColliderHeight
+  field public Single simplifiedColliderRadius
+  field public Boolean simplifiedRagdoll
+  field public Boolean playerIsInRealm
+  field public Vector3 gravityDirection
+  field public Player player
+  field public Boolean dead
+  field public Single sinceDied
+  field public Boolean isGrounded
+  field public Single sinceGrounded
+  field public Single groundHeight
+  field public Vector3 groundPos
+  field public Single sinceJump
+  field public Single distanceToGround
+  field public Single groundAngle
+  field public Single totalMass
+  field public Single headHeight
+  field public Vector2 playerLookValues
+  field public Vector3 movementVector
+  field public Vector3 groundNormal
+  field public Vector3 lookDirection
+  field public Vector3 lookDirectionUp
+  field public Vector3 lookDirectionRight
+  field public Boolean isCrouching
+  field public Single crouchingFor
+  field public Single sinceCrouchSwitch
+  field public Boolean isLocal
+  field public Single health
+  field public static Single maxHealth
+  field public Boolean playerSetUpAndReady
+  field public Boolean isSprinting
+  field public Single cameraPhysicsAmount
+  field public Single damageFeedback
+  field public Single targetHeight
+  field public ItemInstance currentItem
+  field public Boolean physicsAreReady
+  field public Int32 selectedItemSlot
+  field public Int32 nrOfGroundCols
+  field public String groundTag
+  field public Boolean groundBelow
+  field public List<Bot> fearList
+  field public Boolean carried
+  field public Boolean hookedIntoTerminal
+  field public Single inputOverideAmount
+  field public Vector2 overrideMovementInput
+  field public Single possession
+  field public Vector3 lastSimplifiedPosition
+  field public Single remainingOxygen
+  field public Single maxOxygen
+  field public Boolean usingOxygen
+  field public Single microphoneValue
+  field public Single throwCharge
+  field public Quaternion rotationOvveride
+  field public Single rotationOvverideStr
+  field public Single jelloTime
+  field public Single fallTime
+  field public Single tazeTime
+  field public Single sinceGotBackUp
+  field public Single physicsCameraTime
+  field public Boolean isInCostomizeTerminal
+  field public Boolean isInTitleCardTerminal
+  field public Boolean isSnatched
+  field public Single dropItemsFor
+  field public Boolean isHangingUpsideDown
+  field public Single currentStamina
+  field public Boolean staminaDepleated
+  field public Single sinceSprint
+  field public Bed currentBed
+  field public Single sleepAmount
+  field public Single triedToSleepTime
+  field public Boolean rested
+  field public Boolean isInDiveBell
+  field public Int32 framesSinceBotTeleport
+  field public Single emoteTime
+  field public Single cantUseItemFor
+  field public Single voiceVolumeModifier
+  field public Boolean looksLikeShroomMonster
+  field public List<UniqueDamage> recentDamage
+  field public Single sinceRescueDragged
+  field public Single inWaterAmount
+  field public Sittable currentSeat
+  field public Single sinceTrampoline
+  field public Single strangledForSeconds
+  field public Single movementSlowFactor
+  field public Hat currentHat
+  field public Boolean forceAimPressed
+  field public UInt64 userID
+  field public PlatformFamily platformFamily
+  method public Void UpdateValues_Fixed()
+  method internal Boolean StandingStill()
+  method internal Void UpdateValues()
+  method internal Single OxygenPercentage()
+  method public Single OxygenDisplayPercentage()
+  method public Single CameraPhysicsAmount()
+  method public Boolean PhysicsCamera()
+  method internal Void clampLookValues()
+  method internal Boolean CanInteract()
+
+## class Player+PlayerRefs : Object
+  field public PlayerRagdoll ragdoll
+  field public PlayerAnimRefHandler animRefHandler
+  field public GameObject rigRoot
+  field public Animator animator
+  field public Transform animatorTransform
+  field public PlayerAnimationHandler animationHandler
+  field public PlayerItems items
+  field public Transform headPos
+  field public Transform cameraPos
+  field public PlayerInteraction interaction
+  field public PlayerVisor visor
+  field public Rig IKRig
+  field public TwoBoneIKConstraint IK_Right
+  field public Transform IK_Hand_R
+  field public TwoBoneIKConstraint IK_Left
+  field public Transform IK_Hand_L
+  field public PhotonView view
+  field public PlayerController controller
+  field public IKRigHandler ikHandler
+  field public SkinnedMeshRenderer bodyMeshRenderer
+  field private SphereCollider simpleCollider
+  field public CursedPlayerBoss curses
+  field public WalkieTalkiePlayer walkieTalkiePlayer
+  field public PlayerEmotes emotes
+
+## class PlayerAnimationHandler+<<PlayEmote>g__DelayStopEmote|24_0>d : Object
+  [CompilerGeneratedAttribute]
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public Single emoteLength
+  field public PlayerAnimationHandler <>4__this
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class PlayerDataSounds : MonoBehaviour
+  field private static Int32 Damage
+  field public Player player
+  field private Single prevHealth
+  field private Single prevStamina
+  field public Single dmg
+  field public Animator dmgLvl1
+  field public Animator dmgLvl2
+  field public Animator dmgLvl3
+  field public Animator heal
+  field public Animator dead
+  field public Animator stamina
+  field public Animator staminaReturn
+  field public Animator oxygen
+  field public Animator oxygenReturn
+  field public AudioSource staminaLoop
+  field public AudioSource oxygenLoop
+  field public AudioSource oxygenTimer
+  field private Boolean t
+  field private Boolean t2
+  field private Boolean t3
+  field public AudioSource throwCharge
+  field public SFX_Instance throwStart
+  field public SFX_Instance throwEndLvl1
+  field public SFX_Instance throwEndLvl2
+  field private Single prevCharge
+  field public SFX_Instance bedOn
+  field public SFX_Instance bedOff
+  field private Boolean sleepToggle
+  field public AudioSource fallLoop
+  field public AudioSource swimLoop
+  field private PlayerController m_playerController
+  method private Void Start()
+  method private Void Update()
+
+## class PlayerEmoteContentEvent : PlayerBaseEvent
+  field public Byte emoteItemID
+  field public Item item
+  method public virtual Single GetContentValue()
+  method public virtual UInt16 GetID()
+  method public virtual String GetName()
+  method public virtual String[] GetAllComments()
+  method public virtual Comment GenerateComment()
+  method public virtual Void Serialize(BinarySerializer serializer)
+  method public virtual Void Deserialize(BinaryDeserializer deserializer)
+
+## class PlayerEmotes : MonoBehaviour
+  field public Item chokedEmote
+  field public Item childUnsafeEmote
+  field public Item childSafeEmote
+  field public Item latestEmotePlayed
+  field private Player player
+  field private PhotonView photonView_g
+  field private PlayerVoiceHandler playerVoice
+  prop Boolean IsPlayingEmote
+  method private IEnumerator Start()
+  method private Void Update()
+  method private Void StartEmote()
+  method public Void PlayChokedAnimation()
+  method public Void PlayEmote(Item emoteItem)
+  method private Void RPC_PlayEmote(Byte itemId)
+  method private Void DoEmote(Item emote)
+  method private Void OnEmote(Item emote)
+  method public Void DoBookEquipEffect(Int32 viewID, Byte itemId, Vector3 pos, Quaternion rotation)
+  method private Void RPC_DoBookEquipEffect(Int32 viewID, Byte itemId, Vector3 pos, Quaternion rotation)
+
+## class PlayerInteraction : MonoBehaviour
+  field private Player player
+  field private Interactable m_currentInteractable
+  field private Boolean simulatedEPress
+  field private Single sinceSimulatedEPress
+  prop Interactable CurrentInteractable
+  method private Void Start()
+  method private Void Update()
+  method private Interactable FindBestInteractible()
+  method public Void PressE()
+
+## class PlayerItems : MonoBehaviour
+  field public InputActionReference item1Action
+  field public InputActionReference item2Action
+  field public InputActionReference item3Action
+  field private Player player
+  field private Bodypart itemBodypart
+  field private Transform targetHandGizmo
+  field public Int32 m_displayingSlot
+  field private Single m_fixedWeightTime
+  field private Single shakeTime
+  method private Void Start()
+  method private Void FixedUpdate()
+  method private Void Update()
+  method private Void ChangeToSlot(Int32 slotID)
+  method public Void DropItem(Int32 slotID, Boolean notCurrentItem)
+  method internal Void EquipItem(ItemDescriptor item)
+  method private Void Equip(ItemDescriptor itemDescriptor)
+  method private Quaternion GetSpawnRot(Item item)
+  method private Vector3 GetSpawnPos(Item item)
+  method private Void Unequip()
+  method private Void <Update>g__CheckKey|10_0(Int32 slotID)
+
+## class PlayerItemsFake : MonoBehaviour
+  field private Player player
+  field private Bodypart itemBodypart
+  field private Transform targetHandGizmo
+  field public FakeFlashLight fakeFlashLight
+  field private Boolean once
+  field public GameObject itemCopy
+  prop ItemInstance CurrentItem
+  method private Void Start()
+  method private Void LateUpdate()
+  method private Void FixedUpdate()
+  method private Void Equip(ItemDescriptor itemDescriptor, GameObject fakeItemGo)
+  method private Quaternion GetSpawnRot(Item item)
+  method private Vector3 GetSpawnPos(Item item)
+
+## class PlayerRecorderAudioListener : RecorderAudioListener
+  field private VoiceChatModeSetting voiceChatModeSettings
+  method private IEnumerator Start()
+  method public virtual Boolean CanRecordMic()
+
+## class PlayerSFX : MonoBehaviour
+  field private Player player
+  method private Void Start()
+  method private Void LateUpdate()
+
+## class Plugin : Object
+  field public static Harmony Harmony
+  prop Nullable<PluginInfo> InfoFromAssembly
+  prop Assembly Assembly
+  prop String DisplayName
+  prop Boolean Publishable
+  prop Nullable<PublishedFileId_t> PublishedFileId
+  prop String SteamMetadata
+  method public static Boolean HasSameIdentity(Plugin left, Plugin right)
+  method public Nullable<PublishedFileId_t> DiscoverPublishedFileId(List<Plugin> allPlugins)
+  method public static Boolean LoadDirFromFileId(PublishedFileId_t fileId, String& directory)
+  method public static Boolean FindDllInDirectory(String directory, String& result, String& guid)
+  method public static Boolean LoadAssemblyFromFile(String dllPath, Assembly& asm)
+  method private static Boolean IsValidSteamworksPlugin(String dll, String& guid)
+  method public Nullable<PluginHashInfo> GetPluginHashInfo()
+  method public static Boolean FetchAttrsFromAssembly(Assembly assembly, PluginInfo& pluginInfo)
+  method private static Boolean IsMelonLoaderPlugin(Assembly assembly)
+  method private static Boolean IsBepInExPlugin(Assembly assembly)
+  method private static Boolean IsSkippedDueToAssemblyMetadata(Assembly assembly)
+  method private static ContentWarningPlugin GetContentWarningPlugin(Assembly assembly)
+
+## class Plugin+PluginHashInfo : ValueType
+  field public Int32 version
+  field public Int32 guid
+  field public Int32 name
+
+## class Plugin+PluginInfo : ValueType
+  field public String guid
+  field public String name
+  field public String version
+  field public Boolean vanillaCompatible
+
+## class PluginCell : MonoBehaviour
+  field public TextMeshProUGUI pluginName
+  field public TextMeshProUGUI directory
+  field public GameObject selectedIndicator
+  field private Boolean m_selected
+  field private MainMenuModManagerPage m_page
+  field private ModManagerPlugin m_plugin
+  method private Void Awake()
+  method private Void Clicked()
+  method public Void Setup(ModManagerPlugin plugin, MainMenuModManagerPage page)
+  method public Void Select()
+  method public Void Deselect()
+  method public ModManagerPlugin GetPlugin()
+
+## class PluginDescriptionField : MonoBehaviour
+  field public TMP_InputField inputField
+  method public Void Enable(String defaultValue)
+  method public String GetValue()
+
+## class PluginExternal : Plugin
+  field public Assembly assembly
+  field public PluginInfo info
+  prop Nullable<PluginInfo> InfoFromAssembly
+  prop Assembly Assembly
+  prop String DisplayName
+  prop Boolean Publishable
+  prop Nullable<PublishedFileId_t> PublishedFileId
+  prop String SteamMetadata
+  method public static Boolean TryFrom(Assembly assembly, PluginExternal& result)
+
+## class PluginHandler : Object
+  field private static Callback<ItemInstalled_t> itemInstalledCallback
+  field public static Boolean needsHashRefresh
+  field public static List<PluginLocal> LocalPlugins
+  field public static List<PluginSubscribed> SubscribedPlugins
+  field public static List<PluginPublished> PublishedPlugins
+  field public static List<PluginExternal> ExternalPlugins
+  field public static List<Plugin> AllPlugins
+  prop PublishedFileId_t[] SubscribedItems
+  method public static Task DoPluginThings()
+  method private static List<PluginLocal> LoadLocalPlugins()
+  method private static List<PluginSubscribed> LoadSubscribedSteamworksPlugins(List<Plugin> existingPlugins)
+  method private static Void OnItemInstalled(ItemInstalled_t param)
+  method private static Task<List<PluginPublished>> LoadAuthoredSteamworksPlugins()
+  method private static Task FillInUgcDetailsForSubscribedPlugins(List<PluginSubscribed> plugins)
+  method private static Task<List<ValueTuple<SteamUGCDetails_t,String>>> FetchUgcDetailsFromFileId(PublishedFileId_t[] fileIds)
+  method private static List<PluginExternal> ScanLoadedAssemblies(List<Plugin> alreadyLoadedPlugins)
+  method private static Void SortPlugins(List<Plugin> allPlugins)
+  method public static Nullable<Hash128> CheckPlugins()
+  method public static Task UpdatePublishedPlugins()
+  method internal static Boolean <ScanLoadedAssemblies>g__AlreadyLoaded|16_0(Assembly assembly, <>c__DisplayClass16_0& )
+
+## class PluginHandler+<DoPluginThings>d__9 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncTaskMethodBuilder <>t__builder
+  field private TaskAwaiter <>u__1
+  field private TaskAwaiter<List<PluginPublished>> <>u__2
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class PluginHandler+<FillInUgcDetailsForSubscribedPlugins>d__14 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncTaskMethodBuilder <>t__builder
+  field public List<PluginSubscribed> plugins
+  field private TaskAwaiter<List<ValueTuple<SteamUGCDetails_t,String>>> <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class PluginHandler+<LoadAuthoredSteamworksPlugins>d__13 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncTaskMethodBuilder<List<PluginPublished>> <>t__builder
+  field private UGCQueryHandle_t <query>5__2
+  field private TaskAwaiter<SteamUGCQueryCompleted_t> <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class PluginHandler+<OnItemInstalled>d__12 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncVoidMethodBuilder <>t__builder
+  field public ItemInstalled_t param
+  field private TaskAwaiter <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class PluginHandler+<UpdatePublishedPlugins>d__19 : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncTaskMethodBuilder <>t__builder
+  field private TaskAwaiter<List<PluginPublished>> <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class PluginLoadingScreen : MonoBehaviour
+  field public TextMeshProUGUI m_text
+  field private UGCUpdateHandle_t _handle
+  field private Task _completeTask
+  method public Void Show(UGCUpdateHandle_t handle, Task completeTask)
+  method private Void Update()
+
+## class PluginLocal : Plugin
+  field public String directory
+  field public String dllPath
+  field public Assembly assembly
+  field public PluginInfo info
+  prop Nullable<PluginInfo> InfoFromAssembly
+  prop Assembly Assembly
+  prop String DisplayName
+  prop Boolean Publishable
+  prop String SteamMetadata
+  prop Nullable<PublishedFileId_t> PublishedFileId
+  method public static Boolean Load(String directory, PluginLocal& result)
+  method public String GetPreviewImagePath()
+
+## class PluginNameField : MonoBehaviour
+  field public TMP_InputField inputField
+  method public Void Enable(String defaultName)
+  method public String GetValue()
+
+## class PluginPublished : Plugin
+  field public SteamUGCDetails_t steamUgcDetails
+  field public String steamMetadata
+  prop Nullable<PluginInfo> InfoFromAssembly
+  prop Assembly Assembly
+  prop String DisplayName
+  prop Boolean Publishable
+  prop Nullable<PublishedFileId_t> PublishedFileId
+  prop String SteamMetadata
+
+## class PluginSteamworkshopInfo : MonoBehaviour
+  field public TextMeshProUGUI m_text
+  method public Void Show(String message)
+
+## class PluginSubscribed : Plugin
+  field public PublishedFileId_t publishedFileId
+  field public String directory
+  field public String dllPath
+  field public Assembly assembly
+  field public PluginInfo info
+  field public Nullable<SteamUGCDetails_t> steamUgcDetails
+  field public String steamMetadata
+  prop Nullable<PublishedFileId_t> PublishedFileId
+  prop Boolean Publishable
+  prop Nullable<PluginInfo> InfoFromAssembly
+  prop Assembly Assembly
+  prop String DisplayName
+  prop String SteamMetadata
+  method public static Boolean Load(PublishedFileId_t publishedFileId, List<Plugin> existingPlugins, PluginSubscribed& result)
+
+## class Portningsbolaget.BlockedPlayer : ValueType
+  field public String Nickname
+  field public Int32 AccountHash
+  field public Boolean OnPlatform
+  method public String Serialize()
+  method public Void Deserialize(String data)
+  method public Boolean Has(String nickname, Int32 accountHash, Boolean onPlatform)
+  method public virtual String ToString()
+
+## class PropContentDatabase : ObjectDatabaseAsset<PropContentDatabase,PropContent>
+  [CreateAssetMenuAttribute]
+  method public static PropContent GetEntryFromID(UInt16 id)
+
+## class ReplayVideoInteractable : Interactable
+  field public UploadCompleteUI m_uploadCompleteUI
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+
+## class RescueHookSFX : MonoBehaviour
+  field public LineRenderer reference
+  field public SFX_PlayOneShot[] on
+  field public SFX_PlayOneShot[] off
+  field public SFX_PlayOneShot[] pull
+  field public GameObject[] onObject
+  field public GameObject[] offObject
+  field private Boolean t
+  field public RescueHook hook
+  method private Void Update()
+
+## class resModeParameter : VolumeParameter<ResolutionMode>
+
+## enum RetroLookPro.Enums.BlendingMode : Enum
+  Normal
+  Darken
+  Multiply
+  ColorBurn
+  LinearBurn
+  DarkerColor
+  Lighten
+  Screen
+  ColorDodge
+  LinearDodge
+  LighterColor
+  Overlay
+  SoftLight
+  HardLight
+  VividLight
+  LinearLight
+  PinLight
+  HardMix
+  Difference
+  Exclusion
+  Subtract
+  Divide
+
+## enum RetroLookPro.Enums.maskChannelMode : Enum
+  alphaChannel
+  redChannel
+
+## enum RetroLookPro.Enums.ResolutionMode : Enum
+  ConstantResolution
+  ConstantPixelSize
+
+## enum RetroLookPro.Enums.WarpMode : Enum
+  SimpleWarp
+  CubicDistortion
+
+## class RoundModifier : ProceduralImageModifier
+  [ModifierID]
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class SavedInventoryItem : Object
+  field public String persistentID
+  method public Guid GetPersistentID()
+
+## class SavedSurfaceItem : Object
+  field public String persistentID
+  field public Single posX
+  field public Single posY
+  field public Single posZ
+  field public Single rotX
+  field public Single rotY
+  field public Single rotZ
+  field public Single rotW
+  method public Guid GetPersistentID()
+
+## class SaveVideoToDesktopInteractable : Interactable
+  field private CameraRecording m_recording
+  method private Void Start()
+  method public virtual Boolean IsValid(Player player)
+  method public virtual Void Interact(Player player)
+  method public Void SetRecording(CameraRecording recording)
+
+## class SelectedPluginUI : MonoBehaviour
+  field public GameObject m_actionButtonPrefab
+  field public Transform m_actionButtonParent
+  field public PluginNameField m_pluginNameField
+  field public PluginDescriptionField m_pluginDescriptionField
+  field public PluginLoadingScreen m_loadingScreen
+  field public PluginSteamworkshopInfo m_workshopInfo
+  field public TextMeshProUGUI m_pluginName
+  method public Void DrawPlugin(ModManagerPlugin plugin, MainMenuModManagerPage page)
+  method public Void DrawPublishScreen(ModManagerPlugin plugin, MainMenuModManagerPage page)
+  method private static Void OpenPublishedPlugin(PublishedFileId_t fileID)
+  method private Void ShowLoadingScreen(UGCUpdateHandle_t handle, Task completeTask)
+  method private Void ClearScreen()
+  method private Void SpawnActionButton(String text, UnityAction action)
+  method internal static Task<Nullable<PublishedFileId_t>> <DrawPublishScreen>g__CreateNewMod|8_3()
+
+## class SelectedPluginUI+<<DrawPublishScreen>g__CreateNewMod|8_3>d : ValueType
+  [CompilerGeneratedAttribute]
+  field public Int32 <>1__state
+  field public AsyncTaskMethodBuilder<Nullable<PublishedFileId_t>> <>t__builder
+  field private TaskAwaiter<CreateItemResult_t> <>u__1
+  method private virtual Void MoveNext()
+  method private virtual Void SetStateMachine(IAsyncStateMachine stateMachine)
+
+## class SelectItem1KeybindSetting : KeyCodeSetting
+  method public virtual Void ApplyValue()
+  method protected virtual KeyCode GetDefaultKey()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+
+## class SelectItem2KeybindSetting : KeyCodeSetting
+  method public virtual Void ApplyValue()
+  method protected virtual KeyCode GetDefaultKey()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+
+## class SelectItem3KeybindSetting : KeyCodeSetting
+  method public virtual Void ApplyValue()
+  method protected virtual KeyCode GetDefaultKey()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+
+## class SFX_Instance : ScriptableObject
+  [CreateAssetMenuAttribute]
+  field public AudioClip[] clips
+  field public SFX_Settings settings
+  field private Single lastTimePlayed
+  method public AudioClip GetClip()
+  method public Void Play(Vector3 pos, Boolean local, Single volumeMultiplier, Transform followTransform)
+  method internal Single GetPitch()
+  method internal Single GetVolume()
+  method internal Void OnPlayed()
+  method internal Boolean ReadyToPlay()
+
+## class SFX_Player : MonoBehaviour
+  field private GameObject defaultSource
+  field private Dictionary<SFX_Instance,List<SFX_Source>> sources
+  field public static SFX_Player instance
+  field public AudioMixerGroup boostGroup
+  field private Int32 nrOfSoundsPlayed
+  field private List<SFX_Source> availibleSources
+  field public Action<Vector3,Single,Int32> playNoiseAction
+  field private AudioClip warmupClip
+  field private List<SoundBooster> soundBoosters
+  field public AnimationCurve defaultCurve
+  method private Void Start()
+  method public Void PlaySFX(SFX_Instance SFX, Vector3 position, Transform followTransform, SFX_Settings overrideSettings, Single volumeMultiplier, Boolean loop, Boolean local, Boolean isNoise, Single stepNoiseMultiplier, Int32 alerts)
+  method public Void PlayNoise(Vector3 position, Single distance, Int32 alerts)
+  method private IEnumerator IPlaySFX(SFX_Source source, SFX_Instance SFX, Vector3 position, Transform followTransform, SFX_Settings overrideSettings, Single volumeMultiplier, Boolean local)
+  method private Void RemoveSource(SFX_Source source, SFX_Instance sfx)
+  method public static Single GetBoostValue(Vector3 position)
+  method public static Single GetBoostValue(Vector3 position, Single& distance)
+  method private SFX_Source GetAvailibleSource()
+  method private SFX_Source CreateNewSource()
+
+## class SFX_Player+<IPlaySFX>d__13 : Object
+  [CompilerGeneratedAttribute]
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public SFX_Player <>4__this
+  field public SFX_Instance SFX
+  field public SFX_Source source
+  field public SFX_Settings overrideSettings
+  field public Vector3 position
+  field public Single volumeMultiplier
+  field public Boolean local
+  field public Transform followTransform
+  field private SFX_Settings <settings>5__2
+  field private Single <c>5__3
+  field private Single <t>5__4
+  field private Vector3 <relativePos>5__5
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class SFX_Player+SFX_Source : Object
+  field public AudioSource source
+  field public SFX_Player player
+  method public Void StopPlaying()
+  method public Void StartPlaying()
+  method public Void ReEnable()
+
+## class SFX_PlayOneShot : MonoBehaviour
+  field public Action beforePlayAction
+  field public Action afterPlayAction
+  field public Boolean playOnStart
+  field public Boolean playOnEnable
+  field public Boolean playOnClick
+  field public Single cd
+  field private Single lastTimePlayed
+  field private Boolean t
+  field public SFX_Instance sfx
+  field public SFX_Instance[] sfxs
+  method private Void Update()
+  method public Void Start()
+  method public Void OnEnable()
+  method public Void Play()
+
+## class SFX_Settings : Object
+  field public Boolean spatialize
+  field public Boolean nonSpatializedForLocalPlayer
+  field public Boolean occlusion
+  field public Boolean reflections
+  field public Boolean transmission
+  field public Single volume
+  field public Single volume_Variation
+  field public Single pitch
+  field public Single pitch_Variation
+  field public Single spatialBlend
+  field public Single obstructability
+  field public Single dopplerLevel
+  field public Single range
+  field public Single minRange
+  field public Int32 noiseDistance
+  field public Single cooldown
+  field public Int32 maxInstances
+  field public AudioMixerGroup mixerGroup
+
+## class SFXCanvasFadeSound : MonoBehaviour
+  field public CanvasGroup cGroup
+  field public SFX_Instance on
+  field public SFX_Instance off
+  field private Boolean t
+  method private Void Update()
+
+## class SFXInstanceCollection : MonoBehaviour
+  field public SFX_Instance[] instances
+
+## class SFXOnEnabled : MonoBehaviour
+  field public GameObject reference
+  field public SFX_Instance onSFX
+  field public SFX_Instance offSFX
+  field private Boolean t
+  method private Void Update()
+
+## class SFXVolumeSetting : FloatSetting
+  field public AudioMixerGroup mixerGroup
+  method protected virtual Single GetDefaultValue()
+  method protected virtual float2 GetMinMaxValue()
+  method public virtual Void ApplyValue()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+  method public virtual Void Update()
+
+## class ShakeSound : MonoBehaviour
+  field public Single minDist
+  field public SFX_Instance shakeSound
+  field private Boolean shake
+  field private Vector3 prevPos
+  method private Void Update()
+
+## enum ShopAction : Enum
+  Invalid
+  ChangeCategory
+  AddItemToCart
+  ClearCart
+  BuyCart
+
+## class ShopHandler : MonoBehaviour
+  field public GameObject droneObject
+  field private static ShopHandler <Instance>k__BackingField
+  field private Transform m_BoughtItemPosition
+  field private TextMeshProUGUI m_ItemAddedToCartText
+  field public SFX_Instance clickSFX
+  field public SFX_Instance addSFX
+  field public SFX_Instance noMoneySFX
+  field public SFX_Instance emptykSFX
+  field public SFX_Instance purchaseSFX
+  field private String m_AddedToCartText
+  field private RoomStatsHolder m_RoomStats
+  field private Dictionary<Byte,ShopItem> m_ItemsForSaleDictionary
+  field private ShoppingCart m_ShoppingCart
+  field private Dictionary<ShopItemCategory,List<ShopItem>> m_CategoryItemDic
+  field private Action m_OnBuyAction
+  field private ShopViewScreen m_ShopView
+  field private PhotonView m_PhotonView
+  prop ShopHandler Instance
+  prop Int32 NumberOfItemsInShop
+  method private Void Awake()
+  method private Void OnDestroy()
+  method private Void OnLanguageChanged()
+  method public Void InitShopHandler()
+  method public Void InitShopScreen()
+  method private Void InitShop()
+  method private Void SortShopItemsByPrice()
+  method public Void OnAddToCartItemClicked(Byte itemID)
+  method public Void OnChangeCategoryClicked(Byte category)
+  method public Void OnClearCartClicked()
+  method public Void ForceUpdate()
+  method public Void OnOrderCartClicked()
+  method private Void RPCM_RequestShop(Int32 playerRequesting)
+  method private Void RPCO_UpdateShop(Byte category, Byte[] itemsInCart)
+  method private Void ResetCart(Byte[] itemsInCart)
+  method private Void RPCM_RequestShopAction(Byte shopAction, Byte argument)
+  method private Void RPCA_ClearCart()
+  method private Void RPCA_AddItemToCart(Byte itemID)
+  method private IEnumerator ShowItemAddedToCart(Single f, ShopItem item)
+  method private Void RPCA_ChangeCategory(Byte categoryID)
+  method public Boolean TryGetShopItem(Byte index, ShopItem& item)
+  method public Boolean TryGetShopCategoryItems(ShopItemCategory categoryIndex, ShopItem[]& items)
+  method public Void BuyItem(ShoppingCart cart)
+  method private Void BuyItem(Int32 cost, Byte[] itemIDs, Single x, Single y, Single z)
+  method private Void RPCA_SpawnDrone(Byte[] itemIDs)
+  method private Void CheckIfBoughtCameraUpgrade(Item item)
+  method public Void AddOnBuyListeners(Action a)
+  method public Int32 GetCurrentCartValue()
+  method public Int32 GetNumberOfItemsInCart()
+  method public List<ShopItem> GetItemsInCart()
+
+## class ShopHandler+<ShowItemAddedToCart>d__40 : Object
+  [CompilerGeneratedAttribute]
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public ShopHandler <>4__this
+  field public ShopItem item
+  field public Single f
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class ShopInteractableBuy : Interactable
+  field private Action m_OnAction
+  method protected virtual Void Awake()
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+  method public Void AddOnAction(Action a)
+
+## class ShopInteractableLeftArrow : Interactable
+  field private Action m_OnAction
+  method protected virtual Void Awake()
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+  method public Void AddOnAction(Action a)
+
+## class ShopInteractableRightArrow : Interactable
+  field private Action m_OnAction
+  method protected virtual Void Awake()
+  method private Void Start()
+  method public virtual Void Interact(Player player)
+  method public Void AddOnAction(Action a)
+
+## class ShopInteractibleCategory : Interactable
+  field private TextMeshProUGUI m_CategoryText
+  field private ShopItemCategory m_Category
+  field private static ShopHandler m_ShopHandler
+  method protected virtual Void Awake()
+  method private Void OnDestroy()
+  method private Void UpdateCategoryText()
+  method public virtual Void Interact(Player player)
+  method public Void Setup(ShopHandler handler, ShopItemCategory category)
+
+## class ShopInteractibleClear : Interactable
+  method protected virtual Void Awake()
+  method private Void OnDestroy()
+  method private Void OnLanguageChanged()
+  method public virtual Void Interact(Player player)
+
+## class ShopInteractibleItem : Interactable
+  field private Byte <ItemID>k__BackingField
+  field private String m_Name
+  field private Int32 m_Price
+  field private TMP_Text m_ItemNameText
+  field private TMP_Text m_PriceText
+  field private TMP_Text m_NumberInBagText
+  field private GameObject m_DiscountObject
+  field private GameObject m_NumberInBagObject
+  field public Image m_icon
+  field public Sprite defaultIcon
+  field private Int32 m_NumberInCart
+  field private ShopItem m_Item
+  field private static ShopHandler m_Handler
+  field private Boolean m_Valid
+  prop Byte ItemID
+  method protected virtual Void Awake()
+  method private Void OnDestroy()
+  method private Void UpdateItemTexts()
+  method public virtual Boolean IsValid(Player player)
+  method public virtual Void Interact(Player player)
+  method public Void Setup(ShopHandler handler, ShopItem item)
+  method public Void AddOneToCartVisual()
+  method public Void ClearCartVisual()
+  method private Void CartTextUpdated()
+
+## class ShopInteractibleOrder : Interactable
+  method protected virtual Void Awake()
+  method private Void OnDestroy()
+  method private Void OnLanguageChanged()
+  method public virtual Void Interact(Player player)
+
+## class ShopItem : ValueType
+  field private Boolean <HasSale>k__BackingField
+  field private String <DisplayName>k__BackingField
+  field private Int32 <Price>k__BackingField
+  field public Item Item
+  field private Int32 <Quantity>k__BackingField
+  field private Byte <UpgradeID>k__BackingField
+  prop Boolean HasSale
+  prop String DisplayName
+  prop Int32 Price
+  prop Byte ItemID
+  prop Int32 Quantity
+  prop Byte UpgradeID
+  method public Void UpdateLocalizedName()
+
+## enum ShopItemCategory : Enum
+  Invalid
+  Lights
+  Medical
+  Gadgets
+  Emotes
+  Emotes2
+  Upgrades
+  Misc
+
+## class ShoppingCart : Object
+  field private List<ShopItem> <Cart>k__BackingField
+  field private Int32 <CartValue>k__BackingField
+  prop Boolean IsEmpty
+  prop List<ShopItem> Cart
+  prop Int32 CartValue
+  method public Void AddItemToCart(ShopItem itemToAdd)
+  method public Void ClearCart()
+
+## class ShopViewScreen : MonoBehaviour
+  field private GameObject m_ItemCell
+  field private GameObject m_CategoryCell
+  field private Transform m_CategoriesGrid
+  field private Transform m_ItemsGrid
+  field private TextMeshProUGUI m_CurrentCategoryNameText
+  field private TextMeshProUGUI m_CartValueText
+  field private TextMeshProUGUI m_CartNumberOfItemsText
+  field private ShopItem <CurrentSelectedShopItem>k__BackingField
+  field private ShopItem[] <CurrentShopItems>k__BackingField
+  field private Dictionary<ShopItem,ShopInteractibleItem> m_ShopItemToInteractable
+  field private ShopHandler m_ShopHandler
+  field private ShopItemCategory m_CurrentCategoryScreenIndex
+  field public List<ShopItemCategory> excludeCategories
+  field private Int32 m_ItemsInShop
+  field private String m_ItemsLocalized
+  field private Boolean m_Inited
+  prop ShopItem CurrentSelectedShopItem
+  prop ShopItem[] CurrentShopItems
+  prop ShopItemCategory CurrentCategoryIndex
+  method private Void Awake()
+  method public Void Init(ShopHandler handler)
+  method private Void CloseShop()
+  method private Void DrawItems()
+  method private Void DrawCategories()
+  method private Void SpawnCategoryCell(ShopItemCategory category)
+  method private Void SpawnItemCell(ShopItem item)
+  method private Void DestroyItemGrid()
+  method private Void DestroyCategoryGrid()
+  method public Void SetIndex(ShopItemCategory newIndex)
+  method public Void UpdateView()
+  method private Void UpdateViewScreen()
+  method public Void ChangeCategory(ShopItemCategory argument)
+  method private Void ResetScreenIndex()
+  method private Void InitListeners()
+  method private Void OnUpdate()
+  method public Void OnCartUpdated()
+  method private Void UpdateCartTexts()
+  method private Void UpdateShopInteractablesInCart()
+  method private Void OnDestroy()
+  method public virtual Void DayTimeChanged(TimeOfDay timeOfDay)
+  method private Void OpenShop()
+
+## class SimplePlayer : MonoBehaviour
+  field public static SimplePlayer localPlayer
+  field public PlayerInput input
+  field public PlayerData data
+  field public PlayerRefs refs
+  method private Void Start()
+  method private Void Update()
+
+## class SimplePlayer+PlayerData : Object
+  field public Vector2 playerLookValues
+  field public Vector3 playerLookForward
+  field public Vector3 playerLookRight
+  field public Vector3 playerLookUp
+  field public Boolean isLocalPlayer
+  field public Vector3 movementVector
+  field public Boolean isGrounded
+  field public Single sinceGrounded
+  field public Single groundHeight
+  field public Vector3 groundPos
+  field public Vector3 groundNormal
+  field public Vector3 relativeVel
+
+## class SimplePlayer+PlayerRefs : Object
+  field public SimplePlayerController controller
+  field public Transform head
+  field public Transform cameraPoint
+  field public Transform modelRoot
+  field public Rigidbody rig
+  field public PhotonView view
+
+## class SoundBooster : MonoBehaviour
+  field public Single maxRange
+  field public Single minRange
+  method private Void Start()
+  method private Void OnDestroy()
+
+## class SoundOnMesh : MonoBehaviour
+  field public Renderer reference
+  field public Light lightRef
+  field public SFX_PlayOneShot[] on
+  field public SFX_PlayOneShot[] off
+  field public GameObject[] onObject
+  field public GameObject[] offObject
+  field private Boolean t
+  method private Void Update()
+
+## class SoundPlayerItem : ItemInstanceBehaviour
+  field public InputActionReference m_cameraZoomIn
+  field public InputActionReference m_cameraZoomOut
+  field public SFX_Instance[] sounds
+  field private IntRangeEntry selectionEntry
+  field private OnOffEntry playingEntry
+  field public TextMeshPro numberText
+  field public TextMeshPro text
+  field public Transform spinner
+  field private Single counter
+  field private Int32 currentNr
+  field private Boolean ready
+  field private Boolean on
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+  method private Void Update()
+
+## class SpookyMusicHandler : MonoBehaviour
+  field public Int32 level
+  field private Single sinceDanger
+  field public Single onVolume
+  field private AudioSource source
+  field private PhotonView view
+  field private Boolean isDanger
+  method private Void Awake()
+  method private Void Update()
+  method public Void AddDanger(Single dangerPercentage, Int32 jumpScareLevel)
+  method private Void ToggleDanger(Boolean setDanger)
+  method public Void RPCA_ToggleDanger(Boolean setDanger)
+
+## class SpookyMusicRelay : MonoBehaviour
+  field public static SpookyMusicRelay instance
+  field private SpookyMusicHandler[] musics
+  method private Void Awake()
+  method private Void Start()
+  method internal Void AddDanger(Single spookAmount, Int32 jumpScareLevel)
+
+## class StandingForceModifier : MonoBehaviour
+  field public PlayerController movement
+  field public Single mod
+  method private Void Update()
+
+## class StartGameDoorInteractable : Interactable
+  field private SurfaceNetworkHandler m_NetworkHandler
+  field private String m_StartGameTitleText
+  field private String m_StartGameBody
+  field private String m_StartGameConfirmText
+  field private String m_CancelText
+  method protected virtual Void Awake()
+  method private Void OnDestroy()
+  method private Void Start()
+  method private Void OnLanguageChanged()
+  method public virtual Void Interact(Player player)
+  method private Void <Interact>b__9_0()
+
+## class TerminalSounds : MonoBehaviour
+  method private Void Start()
+  method private Void Update()
+
+## class TextChangeSFX : MonoBehaviour
+  field public Boolean usePosition
+  field public SFX_Instance textSound
+  field private TextMeshProUGUI text
+  field private TextMeshPro text2
+  field private String prevText
+  method private Void Start()
+  method private Void Update()
+
+## class TitleCardItemInstance : ItemInstanceBehaviour
+  field private OnOffEntry onOffEntry
+  field private TitleCardCanvas titleCardCanvas
+  field private TitleCardSyncer syncer
+  field private MouseBrush mouseBrush
+  field private TitleCardDataEntry titleCardDataEntry
+  field private Player playerHoldingItem
+  prop Boolean InTitleCardTerminal
+  method private Void Awake()
+  method public Void Update()
+  method public virtual Void ConfigItem(ItemInstanceData data, PhotonView playerView)
+  method private Void RPCA_SyncCanvas(BinaryDeserializer deserializer)
+  method private Void OnDestroy()
+  method private Void SyncCanvas()
+  method private Boolean IsBlocked()
+  method private Void <Update>b__10_0(NativeArray<UInt32> data)
+
+## class ToggleSelfieModeKeybindSetting : KeyCodeSetting
+  method protected virtual KeyCode GetDefaultKey()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+  method public virtual String GetPrompt()
+
+## class TriggerSound : MonoBehaviour
+
+## class TurnToLocalPlayer : MonoBehaviour
+  method private Void Update()
+
+## class UI_Sound : MonoBehaviour
+  field public SFX_Instance hoverSound
+  field public SFX_Instance clickSound
+  method public Void OnHover()
+  method public Void ButtonClicked()
+  method public virtual Void OnPointerEnter(PointerEventData eventData)
+  method public virtual Void OnPointerClick(PointerEventData eventData)
+
+## class UIColorDatabase : SingletonAsset<UIColorDatabase>
+  [CreateAssetMenuAttribute]
+  field public Color WhiteColor
+  field public Color BlackColor
+
+## class UniformModifier : ProceduralImageModifier
+  [ModifierID]
+  field private Single radius
+  prop Single Radius
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class UnityEditor.Localization.Samples.StringDatabaseGetLocalizedStringExample : MonoBehaviour
+  field public Boolean useCoroutine
+  method private Void OnEnable()
+  method private Void OnDisable()
+  method private Void SelectedLocaleChanged(Locale locale)
+  method private Void UpdateString()
+  method private IEnumerator LoadStringWithCoroutine(AsyncOperationHandle<String> stringOperation)
+  method private Void SetString(AsyncOperationHandle<String> stringOperation)
+
+## class UnityEngine.UI.ProceduralImage.ModifierID : Attribute
+  [AttributeUsageAttribute]
+  field private String name
+  prop String Name
+
+## class UnityEngine.UI.ProceduralImage.ProceduralImageModifier : MonoBehaviour
+  [DisallowMultipleComponent]
+  field private Graphic graphic
+  prop Graphic _Graphic
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class UniversalBotSounds : MonoBehaviour
+  field public SFX_Instance alertSound
+  field private Bot bot
+  field private PhotonView view
+  method private Void Awake()
+  method public Void PlayAlertSound(Single spookAmount)
+
+## class VideoCameraSounds : MonoBehaviour
+  field private VideoCamera cam
+  field public SFX_PlayOneShot recStart
+  field public SFX_PlayOneShot recStop
+  field public SFX_PlayOneShot zoomIn
+  field public SFX_PlayOneShot zoomOut
+  field private Single prevZoom
+  field private Boolean prevBool
+  method private Void Start()
+  method private Void Update()
+
+## class VignetteModeParameter : VolumeParameter<VignetteShape>
+
+## class VoiceChatModeSetting : EnumSetting
+  field private Boolean talking
+  field private Single lastInputTime
+  method public virtual Void ApplyValue()
+  method public virtual Int32 GetDefaultValue()
+  method public virtual List<String> GetChoices()
+  method public virtual SettingCategory GetSettingCategory()
+  method public virtual String GetDisplayName()
+  method public Boolean CanTalk()
+
+## class VoiceRemoteMimic : Object
+  field public MimicTarget MimicTarget
+  method public Void MakeMimicTargets(PhotonView mimicPlayer, Transform mimicParent)
+  method public PhotonView SearchForTargetToMimic(PhotonView ownerID)
+  method public Void SwitchMimics()
+  method public Void ResetMimicTargets()
+
+## class WalkieTalkiePlayer : MonoBehaviour
+  field private AudioLoop m_RadioStatic
+  field public SFX_Instance sfxOn
+  field public SFX_Instance sfxOff
+  field public Boolean on
+  method private Void Start()
+  method private Void InitReferences()
+  method public Void PlayStatic()
+  method public Void KillStatic()
+
+## class WarpModeParameter : VolumeParameter<WarpMode>
