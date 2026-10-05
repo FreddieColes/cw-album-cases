@@ -20,7 +20,7 @@ namespace FluidLove.AlbumCases
                 playEntry = new IntEntry();
                 data.AddDataEntry(playEntry);
             }
-            lastSeen = playEntry.value; // don't replay an old clip when the case is picked up
+            lastSeen = playEntry.i; // don't replay an old clip when the case is picked up
         }
 
         void Update()
@@ -31,13 +31,13 @@ namespace FluidLove.AlbumCases
             if (isHeldByMe && me != null && !me.HasLockedInput() && me.input.clickWasPressed)
             {
                 int clip = Random.Range(0, album.Sfx.Length);
-                playEntry.value = (playEntry.value / 64 + 1) * 64 + clip;
+                playEntry.i = (playEntry.i / 64 + 1) * 64 + clip;
                 playEntry.SetDirty();
             }
 
-            if (playEntry.value != lastSeen)
+            if (playEntry.i != lastSeen)
             {
-                lastSeen = playEntry.value;
+                lastSeen = playEntry.i;
                 int idx = lastSeen % 64;
                 if (idx < album.Sfx.Length) album.Sfx[idx].Play(transform.position, false, 1f, transform);
             }
