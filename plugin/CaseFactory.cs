@@ -85,10 +85,12 @@ namespace FluidLove.AlbumCases
             foreach (var old in prefab.GetComponentsInChildren<ItemInstanceBehaviour>(true)) Object.DestroyImmediate(old);
             prefab.AddComponent<AlbumCaseBehaviour>();
 
-            const float size = 0.2f;
+            const float size = 0.36f;                                // 1.8x the old 0.2m
+            Vector3 handNudge = new Vector3(-0.06f, 0f, 0f);         // shift left so the hand holds the edge
             var caseGo = new GameObject("AlbumCase") { layer = layer };
             caseGo.transform.SetParent(prefab.transform, false);
             caseGo.transform.position = b.center;
+            caseGo.transform.localPosition += handNudge;
             caseGo.AddComponent<MeshFilter>().sharedMesh = Pin(CaseMesh.Make(size, size, size * 0.08f));
             var mr = caseGo.AddComponent<MeshRenderer>();
             mr.sharedMaterial = Pin(MakeMat(baseMat, atlas));
