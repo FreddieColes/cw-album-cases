@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>FluidLoveAlbumCases</AssemblyName>
+    <RootNamespace>FluidLove.AlbumCases</RootNamespace>
+    <CWDir Condition=" '$(CWDir)' == '' ">/workspaces/cw-game</CWDir>
+    <RestoreAdditionalProjectSources>https://nuget.bepinex.dev/v3/index.json</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="all" />
+    <!-- Shop API is a separate Workshop item; compile against it but never ship its DLL -->
+    <PackageReference Include="Xerren.ContentWarning.ShopAPI" Version="1.3.3" ExcludeAssets="runtime" PrivateAssets="all" />
+    <Reference Include="$(CWDir)/Content Warning_Data/Managed/*.dll" Private="false" />
+    <Publicize Include="Assembly-CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Album art and clips are baked into the DLL, so the mod is a single file -->
+    <EmbeddedResource Include="../assets/**/*.png;../assets/**/*.wav" LogicalName="%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

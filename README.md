@@ -12,16 +12,26 @@ Albums: Ready For Business, Man Of The Cloth, Backwater Crimes, Pleasure Island 
    - It downloads Content Warning, finds its Unity version, installs that Unity plus Windows build support (a few GB, so it takes a while), then pushes a report to the repo.
 3. Tell Claude: **game done**.
 
-## Stage 2 (next): plugin + asset bundle + build
+## Stage 2: build the plugin
 
-Claude writes the plugin and Unity builder once the report is in. Then you'll run `./start-hub.sh` once to add the free Unity licence, and `./build.sh`.
+No Unity needed after all: the jewel case is built in code and the art and clips are baked into the DLL.
+
+1. In the Codespace terminal: `./build.sh`
+2. If it fails it sends the errors to the repo automatically. Tell Claude: **report pushed**.
+3. If it works you get `dist/FluidLoveAlbumCases.zip` (one DLL plus a preview image).
+
+## Testing (needs a Windows PC with Content Warning)
+
+1. Subscribe to Shop API on the Steam Workshop (required).
+2. Unzip into `Content Warning/Plugins/` so you have `Plugins/FluidLoveAlbumCases/FluidLoveAlbumCases.dll`.
+3. Launch, check the mod list, buy a case from the shop (Misc tab), click to play.
+4. Logs: `%USERPROFILE%/AppData/LocalLow/Landfall Games/Content Warning/Player.log`, search for `[CWAlbum]`.
 
 ## What's where
 
-- `assets/<Album>/Art` jewel case texture and shop icon (from album-blades)
-- `assets/<Album>/Audio` 9 clips per album, 2.6s, already loud
-- `get-game.sh` Steam download + Unity install
-- `api-dump.sh` / `tools/ApiDump` lists the game's class signatures for Claude (no game code)
-- `report.sh` sends logs to the repo
+- `plugin/` the C# mod (`CaseFactory.cs` builds the items, `AlbumCaseBehaviour.cs` click to play, synced)
+- `assets/<Album>/` jewel case texture, shop icon and 9 clips per album (from album-blades)
+- `build.sh` compile and package, `get-game.sh` Steam download, `report.sh` logs to repo
+- `tools/ApiDump` lists game class signatures for Claude (no game code)
 
 Game files live in `/workspaces/cw-game` and are never committed.
