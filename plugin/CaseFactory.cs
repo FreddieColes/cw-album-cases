@@ -63,7 +63,8 @@ namespace FluidLove.AlbumCases
 
             // --- textures
             var atlas = LoadTex(album.Key + "_Atlas.png", true);
-            var iconTex = LoadTex(album.Key + "_Icon.png", false);
+            // CW shop icons are white line art on transparent; the shop screen only uses their shape
+            var iconTex = LoadTex(album.Key + "_ShopIcon.png", false);
 
             // --- prefab
             var prefab = Object.Instantiate(template.itemObject, holder);
@@ -74,14 +75,17 @@ namespace FluidLove.AlbumCases
             int layer = body.Length > 0 ? body[0].gameObject.layer : prefab.layer;
             Material baseMat = body.Select(r => r.sharedMaterial).FirstOrDefault(m => m != null && !m.shader.name.Contains("TextMeshPro"));
 
-            Bounds b = new Bounds(prefab.transform.position, Vector3.one * 0.15f);
-            for (int i = 0; i < body.Length; i++) { if (i == 0) b = body[i].bounds; else b.Encapsulate(body[i].bounds); }
+            // Only the item's own body: skip long light beams etc. that stretch metres away
+            var root = prefab.transform.position;
+            var near = body.Where(r => r.bounds.size.magnitude < 1f && Vector3.Distance(r.bounds.center, root) < 0.6f).ToArray();
+            Bounds b = new Bounds(root, Vector3.zero);
+            for (int i = 0; i < near.Length; i++) { if (i == 0) b = near[i].bounds; else b.Encapsulate(near[i].bounds); }
             foreach (var r in all) r.enabled = false;
             foreach (var l in prefab.GetComponentsInChildren<Light>(true)) l.enabled = false;
             foreach (var old in prefab.GetComponentsInChildren<ItemInstanceBehaviour>(true)) Object.DestroyImmediate(old);
             prefab.AddComponent<AlbumCaseBehaviour>();
 
-            float size = Mathf.Clamp(Mathf.Max(b.size.x, b.size.y, b.size.z), 0.14f, 0.3f);
+            const float size = 0.2f;
             var caseGo = new GameObject("AlbumCase") { layer = layer };
             caseGo.transform.SetParent(prefab.transform, false);
             caseGo.transform.position = b.center;
@@ -120,7 +124,7 @@ namespace FluidLove.AlbumCases
             Shop.RegisterItem(item);
             AlbumCasesPlugin.Log($"{album.Display}: {album.Clips.Length} clips, atlas {atlas.width}x{atlas.height}, icon {iconTex.width}x{iconTex.height}, " +
                                  $"shader '{mr.sharedMaterial.shader.name}', layer '{LayerMask.LayerToName(layer)}', case {size:0.00}m at {caseGo.transform.localPosition}, " +
-                                 $"base renderers {body.Length}/{all.Length}");
+                                 $"base renderers {near.Length} near / {body.Length} body / {all.Length} total");
         }
 
         static Material MakeMat(Material baseMat, Texture2D tex)
