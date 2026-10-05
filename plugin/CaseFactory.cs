@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using ContentWarningShop;
+using TMPro;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -14,6 +15,16 @@ namespace FluidLove.AlbumCases
     internal static class CaseFactory
     {
         static readonly Assembly Asm = typeof(CaseFactory).Assembly;
+        static readonly List<Object> Keep = new List<Object>();
+
+        // Runtime-made assets get cleared by Unity's unused-asset cleanup on scene changes unless flagged
+        static T Pin<T>(T o) where T : Object { o.hideFlags |= HideFlags.DontUnloadUnusedAsset; Keep.Add(o); return o; }
+
+        public static void LogHealth(string when)
+        {
+            int dead = Keep.Count(o => o == null);
+            AlbumCasesPlugin.Log($"Asset check ({when}): {Keep.Count - dead}/{Keep.Count} alive");
+        }
 
         public static bool BuildAll()
         {
@@ -30,42 +41,42 @@ namespace FluidLove.AlbumCases
             holder.SetActive(false); // children stay 'active' themselves, so instantiated copies are active
             Object.DontDestroyOnLoad(holder);
 
-            SFX_Settings baseSettings = template.itemObject.GetComponentInChildren<SoundPlayerItem>(true)?.sounds?
-                .FirstOrDefault(s => s != null)?.settings;
+            Albums.Mixer = template.itemObject.GetComponentInChildren<SoundPlayerItem>(true)?.sounds?
+                .FirstOrDefault(s => s != null && s.settings != null)?.settings.mixerGroup;
 
             foreach (var album in Albums.All)
             {
-                try { BuildOne(album, template, holder.transform, baseSettings); }
+                try { BuildOne(album, template, holder.transform); }
                 catch (Exception e) { Debug.LogError($"[CWAlbum] {album.Key} failed: {e}"); }
             }
             return true;
         }
 
-        static void BuildOne(AlbumInfo album, Item template, Transform holder, SFX_Settings baseSettings)
+        static bool IsText(Renderer r) => r.GetComponent<TMP_Text>() != null;
+
+        static void BuildOne(AlbumInfo album, Item template, Transform holder)
         {
             // --- audio
-            var clipNames = Asm.GetManifestResourceNames().Where(n => n.StartsWith(album.ClipPrefix) && n.EndsWith(".wav")).OrderBy(n => n).ToList();
-            album.Sfx = clipNames.Select(n => MakeSfx(Wav.Load(n, ReadRes(n)), baseSettings)).ToArray();
+            album.Clips = Asm.GetManifestResourceNames()
+                .Where(n => n.StartsWith(album.ClipPrefix) && n.EndsWith(".wav")).OrderBy(n => n)
+                .Select(n => Pin(Wav.Load(n, ReadRes(n)))).ToArray();
 
             // --- textures
-            var atlas = LoadTex(album.Key + "_Atlas.png");
-            var iconTex = LoadTex(album.Key + "_Icon.png");
+            var atlas = LoadTex(album.Key + "_Atlas.png", true);
+            var iconTex = LoadTex(album.Key + "_Icon.png", false);
 
             // --- prefab
             var prefab = Object.Instantiate(template.itemObject, holder);
             prefab.name = "FluidLove_" + album.Key;
 
-            var renderers = prefab.GetComponentsInChildren<Renderer>(true);
-            Material baseMat = renderers.OfType<MeshRenderer>().Select(r => r.sharedMaterial).FirstOrDefault(m => m != null);
-            int layer = renderers.Length > 0 ? renderers[0].gameObject.layer : prefab.layer;
+            var all = prefab.GetComponentsInChildren<Renderer>(true);
+            var body = all.Where(r => !(r is ParticleSystemRenderer) && !IsText(r)).ToArray();
+            int layer = body.Length > 0 ? body[0].gameObject.layer : prefab.layer;
+            Material baseMat = body.Select(r => r.sharedMaterial).FirstOrDefault(m => m != null && !m.shader.name.Contains("TextMeshPro"));
+
             Bounds b = new Bounds(prefab.transform.position, Vector3.one * 0.15f);
-            bool first = true;
-            foreach (var r in renderers)
-            {
-                if (r is ParticleSystemRenderer) continue;
-                if (first) { b = r.bounds; first = false; } else b.Encapsulate(r.bounds);
-                r.enabled = false;
-            }
+            for (int i = 0; i < body.Length; i++) { if (i == 0) b = body[i].bounds; else b.Encapsulate(body[i].bounds); }
+            foreach (var r in all) r.enabled = false;
             foreach (var l in prefab.GetComponentsInChildren<Light>(true)) l.enabled = false;
             foreach (var old in prefab.GetComponentsInChildren<ItemInstanceBehaviour>(true)) Object.DestroyImmediate(old);
             prefab.AddComponent<AlbumCaseBehaviour>();
@@ -74,16 +85,18 @@ namespace FluidLove.AlbumCases
             var caseGo = new GameObject("AlbumCase") { layer = layer };
             caseGo.transform.SetParent(prefab.transform, false);
             caseGo.transform.position = b.center;
-            caseGo.AddComponent<MeshFilter>().sharedMesh = CaseMesh.Make(size, size, size * 0.08f);
+            caseGo.AddComponent<MeshFilter>().sharedMesh = Pin(CaseMesh.Make(size, size, size * 0.08f));
             var mr = caseGo.AddComponent<MeshRenderer>();
-            mr.sharedMaterial = MakeMat(baseMat, atlas);
+            mr.sharedMaterial = Pin(MakeMat(baseMat, atlas));
+            caseGo.AddComponent<CaseMarker>();
 
             // --- item
-            var item = ScriptableObject.CreateInstance<Item>();
+            var item = Pin(ScriptableObject.CreateInstance<Item>());
             item.name = album.Display;
             item.displayName = album.Display;
             item.persistentID = album.Guid;
-            item.icon = Sprite.Create(iconTex, new Rect(0, 0, iconTex.width, iconTex.height), new Vector2(0.5f, 0.5f));
+            item.icon = Pin(Sprite.Create(iconTex, new Rect(0, 0, iconTex.width, iconTex.height), new Vector2(0.5f, 0.5f), 100f));
+            item.icon.name = album.Key + "_Icon";
             item.itemObject = prefab;
             item.itemType = Item.ItemType.Tool;
             item.purchasable = true;
@@ -105,51 +118,33 @@ namespace FluidLove.AlbumCases
 
             Albums.Register(album);
             Shop.RegisterItem(item);
-            AlbumCasesPlugin.Log($"{album.Display}: {album.Sfx.Length} clips, case {size:0.00}m, registered");
-        }
-
-        static SFX_Instance MakeSfx(AudioClip clip, SFX_Settings src)
-        {
-            var sfx = ScriptableObject.CreateInstance<SFX_Instance>();
-            sfx.name = clip.name;
-            sfx.clips = new[] { clip };
-            var s = new SFX_Settings();
-            if (src != null)
-            {
-                s.occlusion = src.occlusion; s.reflections = src.reflections; s.transmission = src.transmission;
-                s.obstructability = src.obstructability; s.dopplerLevel = src.dopplerLevel; s.mixerGroup = src.mixerGroup;
-                s.nonSpatializedForLocalPlayer = src.nonSpatializedForLocalPlayer;
-            }
-            s.spatialize = true;
-            s.spatialBlend = 1f;
-            s.volume = 1f; s.volume_Variation = 0f;
-            s.pitch = 1f; s.pitch_Variation = 0f;
-            s.range = 45f; s.minRange = 4f;
-            s.noiseDistance = 25;   // monsters can hear it
-            s.cooldown = 0f;
-            s.maxInstances = 3;
-            sfx.settings = s;
-            return sfx;
+            AlbumCasesPlugin.Log($"{album.Display}: {album.Clips.Length} clips, atlas {atlas.width}x{atlas.height}, icon {iconTex.width}x{iconTex.height}, " +
+                                 $"shader '{mr.sharedMaterial.shader.name}', layer '{LayerMask.LayerToName(layer)}', case {size:0.00}m at {caseGo.transform.localPosition}, " +
+                                 $"base renderers {body.Length}/{all.Length}");
         }
 
         static Material MakeMat(Material baseMat, Texture2D tex)
         {
-            var shader = baseMat != null ? baseMat.shader : Shader.Find("Universal Render Pipeline/Lit");
-            var m = baseMat != null ? new Material(baseMat) : new Material(shader);
+            var lit = Shader.Find("Universal Render Pipeline/Lit");
+            Material m = lit != null ? new Material(lit) : baseMat != null ? new Material(baseMat) : new Material(Shader.Find("Standard"));
+            m.name = "AlbumCase_" + tex.name;
             foreach (var p in new[] { "_BaseMap", "_MainTex", "_BaseColorMap" }) if (m.HasProperty(p)) m.SetTexture(p, tex);
             foreach (var p in new[] { "_BaseColor", "_Color" }) if (m.HasProperty(p)) m.SetColor(p, Color.white);
             foreach (var p in new[] { "_BumpMap", "_EmissionMap", "_MetallicGlossMap", "_OcclusionMap" }) if (m.HasProperty(p)) m.SetTexture(p, null);
             if (m.HasProperty("_EmissionColor")) m.SetColor("_EmissionColor", Color.black);
             m.DisableKeyword("_EMISSION"); m.DisableKeyword("_NORMALMAP"); m.DisableKeyword("_METALLICSPECGLOSSMAP");
             if (m.HasProperty("_Smoothness")) m.SetFloat("_Smoothness", 0.7f);
+            if (m.HasProperty("_Metallic")) m.SetFloat("_Metallic", 0f);
             return m;
         }
 
-        static Texture2D LoadTex(string res)
+        static Texture2D LoadTex(string res, bool mips)
         {
-            var t = new Texture2D(2, 2, TextureFormat.RGBA32, true) { name = res };
-            ImageConversion.LoadImage(t, ReadRes(res), false);
-            return t;
+            var t = new Texture2D(2, 2, TextureFormat.RGBA32, mips) { name = res };
+            bool ok = ImageConversion.LoadImage(t, ReadRes(res), false);
+            if (!ok) Debug.LogError("[CWAlbum] Could not decode " + res);
+            t.wrapMode = TextureWrapMode.Clamp;
+            return Pin(t);
         }
 
         static byte[] ReadRes(string name)

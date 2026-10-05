@@ -5,16 +5,20 @@ using UnityEngine.SceneManagement;
 namespace FluidLove.AlbumCases
 {
     // vanillaCompatible false: everyone in the lobby needs the mod (new shop items).
-    [ContentWarningPlugin("FluidLove.AlbumCases", "0.1.0", vanillaCompatible: false)]
+    [ContentWarningPlugin("FluidLove.AlbumCases", "0.2.0", vanillaCompatible: false)]
     public class AlbumCasesPlugin
     {
         static bool built;
 
         static AlbumCasesPlugin()
         {
-            Log("Loaded. Waiting for the item database...");
+            Log("Loaded v0.2.0. Waiting for the item database...");
             TryBuild("plugin load");
-            SceneManager.sceneLoaded += (s, m) => TryBuild("scene " + s.name);
+            SceneManager.sceneLoaded += (s, m) =>
+            {
+                TryBuild("scene " + s.name);
+                if (built) CaseFactory.LogHealth("scene " + s.name);
+            };
         }
 
         static void TryBuild(string when)

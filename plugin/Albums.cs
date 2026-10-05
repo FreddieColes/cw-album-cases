@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Audio;
 
 namespace FluidLove.AlbumCases
 {
@@ -6,7 +8,7 @@ namespace FluidLove.AlbumCases
     {
         public string Key, Display, ClipPrefix, Guid;
         public int Price;
-        public SFX_Instance[] Sfx;
+        public AudioClip[] Clips;
         public AlbumInfo(string key, string display, string prefix, string guid, int price)
         { Key = key; Display = display; ClipPrefix = prefix; Guid = guid; Price = price; }
     }
@@ -20,6 +22,9 @@ namespace FluidLove.AlbumCases
             new AlbumInfo("BackwaterCrimes",   "Backwater Crimes",    "BAC_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000003", 0),   // TEST PRICE: set back to 40 for release
             new AlbumInfo("PleasureIslandDLC", "Pleasure Island DLC", "PID_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000004", 0),   // TEST PRICE: set back to 40 for release
         };
+
+        // Game's SFX mixer group, so the master/SFX volume sliders affect the cases too
+        public static AudioMixerGroup Mixer;
 
         static readonly Dictionary<string, AlbumInfo> byGuid = new Dictionary<string, AlbumInfo>();
         public static void Register(AlbumInfo a) => byGuid[a.Guid] = a;

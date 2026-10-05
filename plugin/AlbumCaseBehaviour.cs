@@ -3,14 +3,18 @@ using UnityEngine;
 
 namespace FluidLove.AlbumCases
 {
-    // Click while holding: pick a random clip. The choice goes into an IntEntry on the item's synced data,
-    // so every player's copy of the case sees the change and plays the same clip.
-    // Value = playCount * 64 + clipIndex, so the same clip twice in a row still counts as a new play.
+    // Click while holding: if a clip is playing, stop it; otherwise play a random clip.
+    // The holder writes the choice into an IntEntry on the item's synced data, and every player's
+    // copy of the case reacts to the change, so the whole lobby hears (or stops) the same thing.
+    // Value = actionCount * 64 + clipIndex, clipIndex 63 = stop.
     public class AlbumCaseBehaviour : ItemInstanceBehaviour
     {
+        const int Stop = 63;
         IntEntry playEntry;
         int lastSeen;
         AlbumInfo album;
+        AudioSource source;
+        bool logged;
 
         public override void ConfigItem(ItemInstanceData data, PhotonView playerView)
         {
@@ -21,17 +25,33 @@ namespace FluidLove.AlbumCases
                 data.AddDataEntry(playEntry);
             }
             lastSeen = playEntry.i; // don't replay an old clip when the case is picked up
+
+            source = gameObject.AddComponent<AudioSource>();
+            source.playOnAwake = false;
+            source.spatialBlend = 1f;
+            source.rolloffMode = AudioRolloffMode.Logarithmic;
+            source.minDistance = 2f;
+            source.maxDistance = 30f;
+            source.dopplerLevel = 0f;
+            if (Albums.Mixer != null) source.outputAudioMixerGroup = Albums.Mixer;
+
+            if (!logged)
+            {
+                logged = true;
+                var mr = GetComponentInChildren<CaseMarker>(true);
+                AlbumCasesPlugin.Log($"Case spawned: album={(album != null ? album.Key : "NONE")}, caseVisible={(mr != null && mr.Ok())}, layer={LayerMask.LayerToName(mr != null ? mr.gameObject.layer : gameObject.layer)}");
+            }
         }
 
         void Update()
         {
-            if (album == null || playEntry == null || album.Sfx == null || album.Sfx.Length == 0) return;
+            if (album == null || playEntry == null || source == null || album.Clips == null || album.Clips.Length == 0) return;
 
             var me = Player.localPlayer;
             if (isHeldByMe && me != null && !me.HasLockedInput() && me.input.clickWasPressed)
             {
-                int clip = Random.Range(0, album.Sfx.Length);
-                playEntry.i = (playEntry.i / 64 + 1) * 64 + clip;
+                int next = source.isPlaying ? Stop : Random.Range(0, album.Clips.Length);
+                playEntry.i = (playEntry.i / 64 + 1) * 64 + next;
                 playEntry.SetDirty();
             }
 
@@ -39,8 +59,26 @@ namespace FluidLove.AlbumCases
             {
                 lastSeen = playEntry.i;
                 int idx = lastSeen % 64;
-                if (idx < album.Sfx.Length) album.Sfx[idx].Play(transform.position, false, 1f, transform);
+                source.Stop();
+                if (idx != Stop && idx < album.Clips.Length)
+                {
+                    source.clip = album.Clips[idx];
+                    source.volume = AlbumCaseVolumeSetting.Volume01;
+                    source.Play();
+                    // Let monsters hear it
+                    try { SFX_Player.instance?.PlayNoise(transform.position, 20f, 1); } catch { }
+                }
             }
+        }
+    }
+
+    // Tags the jewel case mesh so we can check it's still alive in the logs
+    public class CaseMarker : MonoBehaviour
+    {
+        public bool Ok()
+        {
+            var mf = GetComponent<MeshFilter>(); var r = GetComponent<MeshRenderer>();
+            return mf != null && mf.sharedMesh != null && r != null && r.enabled && r.sharedMaterial != null;
         }
     }
 }
