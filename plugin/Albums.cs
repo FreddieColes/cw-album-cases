@@ -15,10 +15,10 @@ namespace FluidLove.AlbumCases
     {
         public static readonly AlbumInfo[] All =
         {
-            new AlbumInfo("ReadyForBusiness",  "Ready For Business",  "REA_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000001", 40),
-            new AlbumInfo("ManOfTheCloth",     "Man Of The Cloth",    "MAN_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000002", 40),
-            new AlbumInfo("BackwaterCrimes",   "Backwater Crimes",    "BAC_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000003", 40),
-            new AlbumInfo("PleasureIslandDLC", "Pleasure Island DLC", "PID_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000004", 40),
+            new AlbumInfo("ReadyForBusiness",  "Ready For Business",  "REA_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000001", 0),   // TEST PRICE: set back to 40 for release
+            new AlbumInfo("ManOfTheCloth",     "Man Of The Cloth",    "MAN_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000002", 0),   // TEST PRICE: set back to 40 for release
+            new AlbumInfo("BackwaterCrimes",   "Backwater Crimes",    "BAC_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000003", 0),   // TEST PRICE: set back to 40 for release
+            new AlbumInfo("PleasureIslandDLC", "Pleasure Island DLC", "PID_", "6f1d2c10-5a1e-4c7e-9b1a-0f10e0000004", 0),   // TEST PRICE: set back to 40 for release
         };
 
         static readonly Dictionary<string, AlbumInfo> byGuid = new Dictionary<string, AlbumInfo>();
