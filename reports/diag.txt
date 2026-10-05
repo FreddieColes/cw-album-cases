@@ -1,8 +1,8 @@
 == date
-Mon Oct  5 15:07:24 UTC 2026
+Mon Oct  5 15:17:05 UTC 2026
 == disk / memory
 /dev/loop4       32G   13G   18G  42% /workspaces
-Mem:            15Gi       2.3Gi       351Mi       116Mi        13Gi        13Gi
+Mem:            15Gi       2.4Gi       459Mi       123Mi        13Gi        13Gi
 == unity version / changeset
 6000.0.67f1
 78a1c2bbeb6a
@@ -249,3 +249,13 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 === SETUP DONE. Next: ./get-game.sh ===
 
 == build log key lines
+4:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(23,34): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) [
+5:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(34,27): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) [
+6:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(34,46): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) [
+7:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(38,27): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) [
+8:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(40,38): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) [
+13:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(23,34): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) 
+14:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(34,27): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) 
+15:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(34,46): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) 
+16:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(38,27): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) 
+17:/workspaces/cw-album-cases/plugin/AlbumCaseBehaviour.cs(40,38): error CS1061: 'IntEntry' does not contain a definition for 'value' and no accessible extension method 'value' accepting a first argument of type 'IntEntry' could be found (are you missing a using directive or an assembly reference?) 

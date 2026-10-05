@@ -1,0 +1,284 @@
+
+# Focus types (signatures)
+
+## class BoolEntry : ItemDataEntry   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Boolean state
+  method public virtual Void Serialize(BinarySerializer binarySerializer)
+  method public virtual Void Deserialize(BinaryDeserializer binaryDeserializer)
+
+## class IntEntry : ItemDataEntry   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Int32 i
+  method public virtual Void Serialize(BinarySerializer binarySerializer)
+  method public virtual Void Deserialize(BinaryDeserializer binaryDeserializer)
+
+## class IntRangeEntry : ItemDataEntry   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Int32 selectedValue
+  field public Int32 maxValue
+  method public virtual Void Serialize(BinarySerializer binarySerializer)
+  method public virtual Void Deserialize(BinaryDeserializer binaryDeserializer)
+
+## class ItemDataSyncer : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private PhotonView m_photonView
+  field private ItemInstanceData m_instanceData
+  field private ItemInstance m_itemInstance
+  field private Guid m_guid
+  prop Boolean isMine
+  method private Void Awake()
+  method public Void RPC_SetInstanceData(Byte[] id)
+  method public Void RPC_Update(Byte[] buffer)
+  method private Void Update()
+
+## class OnOffEntry : ItemDataEntry   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Boolean on
+  method public virtual Void Serialize(BinarySerializer binarySerializer)
+  method public virtual Void Deserialize(BinaryDeserializer binaryDeserializer)
+
+## class Player+PlayerInput : Object   [Assembly-CSharp.dll]
+  ctor public ()
+  field public AnimationCurve analogInputCurve
+  field public InputActionReference lookAction
+  field public InputActionReference moveAction
+  field public InputActionReference jumpAction
+  field public InputActionReference sprintAction
+  field public InputActionReference crouchAction
+  field public InputActionReference interactAction
+  field public InputActionReference dropItemAction
+  field public InputActionReference selfieModeAction
+  field public InputActionReference pushToTalkAction
+  field public InputActionReference itemClickAction
+  field public InputActionReference itemRightClickAction
+  field public InputActionReference menuBackAction
+  field public InputActionReference emoteAction
+  field public Vector2 movementInput
+  field public Vector2 lookInput
+  field public Boolean sprintIsPressed
+  field public Boolean clickWasPressed
+  field public Boolean clickIsPressed
+  field public Boolean clickWasReleased
+  field public Boolean aimWasPressed
+  field public Boolean aimIsPressed
+  field public Boolean jumpWasPressed
+  field public Boolean crouchWasPressed
+  field public Boolean dropItemIsPressed
+  field public Boolean dropItemWasReleased
+  field public Boolean interactWasPressed
+  field public Boolean escapeWasPressed
+  field public Boolean controllerBackWasPressed
+  field public Boolean emoteWasPressed
+  field public Boolean emoteIsPressed
+  field public Boolean toggleCameraFlipWasPressed
+  field private Boolean isControllerSprinting
+  field private MouseSensitivitySetting mouseSensitivitySetting
+  field private ControllerSensitivitySetting controllerSensitivitySetting
+  field private InvertedMouseSetting invertedMouseSetting
+  field private InvertedVerticalView invertedVerticalSetting
+  field private InvertedHorizontalView invertedHorizontalSetting
+  method public Void SampeInput(PlayerData data, Player player)
+  method internal Void ResetInput()
+  method public Void Initialize()
+
+## class SimplePlayer+PlayerInput : Object   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Vector2 movementInput
+  field public Vector2 lookInput
+  field public Boolean jumpWasPressed
+  field public Boolean jumpIsPressed
+  field public Boolean sprintIsPressed
+  field public Boolean interactWasPressed
+  field public Boolean interactIsPressed
+  method internal Void Update()
+
+## class Zorro.Core.ObjectDatabaseAsset`2 : DatabaseAsset<T,ObjectT>   [Zorro.Core.Runtime.dll]
+  ctor protected ()
+  method public static ObjectT GetObjectFromString(String inString)
+  method public static String[] GetAllObjectNames()
+  method public List<ParameterAutocomplete> GetAutocompleteOptions(String parameterText)
+
+## class Zorro.Core.Serizalization.BinaryDeserializer : Object   [Zorro.Core.Runtime.dll]
+  ctor public (NativeArray<Byte> buffer)
+  ctor public (Byte[] buffer, Allocator allocator)
+  ctor public (BinarySerializer serializer)
+  field public NativeArray<Byte> buffer
+  field public Int32 position
+  method public virtual Void Dispose()
+  method public Byte ReadByte()
+  method public Single ReadFloat()
+  method public float2 ReadFloat2()
+  method public float3 ReadFloat3()
+  method public float4 ReadFloat4()
+  method public half ReadHalf()
+  method public Int32 ReadInt()
+  method public int2 ReadInt2()
+  method public int3 ReadInt3()
+  method public int4 ReadInt4()
+  method public UInt32 ReadUInt()
+  method public uint2 ReadUInt2()
+  method public uint3 ReadUInt3()
+  method public uint4 ReadUInt4()
+  method public Boolean ReadBool()
+  method public UInt64 ReadUlong()
+  method public Int64 ReadLong()
+  method public UInt16 ReadUShort()
+  method public Int16 ReadShort()
+  method public NativeArray<Byte> ReadBytes(Int32 count, Allocator allocator)
+  method public Byte[] ReadBytes(Int32 count)
+  method public Guid ReadGuid()
+  method public String ReadString(Encoding encoding)
+  method public Color ReadColor()
+  method public Quaternion ReadQuaternion()
+
+## class Zorro.Core.Serizalization.BinarySerializer : Object   [Zorro.Core.Runtime.dll]
+  ctor public ()
+  ctor public (Int32 defaultCapacity, Allocator allocator)
+  field private NativeList<Byte> m_buffer
+  prop Int32 Position
+  prop NativeArray<Byte> buffer
+  method public Void Shorten()
+  method public virtual Void Dispose()
+  method public Void WriteByte(Byte value)
+  method public Void WriteBytes(NativeArray<Byte> value)
+  method public Void WriteBytes(Byte[] value)
+  method public Void WriteFloat(Single value)
+  method public Void WriteFloat2(float2 value)
+  method public Void WriteFloat3(float3 value)
+  method public Void WriteFloat4(float4 value)
+  method public Void WriteHalf(half value)
+  method public Void WriteInt(Int32 value)
+  method public Void WriteInt2(int2 value)
+  method public Void WriteInt3(int3 value)
+  method public Void WriteInt4(int4 value)
+  method public Void WriteUInt(UInt32 value)
+  method public Void WriteUInt2(uint2 value)
+  method public Void WriteUInt3(uint3 value)
+  method public Void WriteUInt4(uint4 value)
+  method public Void WriteBool(Boolean value)
+  method public Void WriteUlong(UInt64 value)
+  method public Void WriteLong(Int64 value)
+  method public Void WriteShort(Int16 value)
+  method public Void WriteUshort(UInt16 value)
+  method public Void WriteOptionableLong(Optionable<Int64> value)
+  method public Void WriteGuid(Guid guid)
+  method public Void WriteString(String comment, Encoding encoding)
+  method public Void WriteColor32(Color32 c)
+  method public Void WriteQuaternion(Quaternion quaternion)
+
+## class Zorro.Core.SingletonAsset`1 : SerializedScriptableObject   [Zorro.Core.Runtime.dll]
+  ctor protected ()
+  field private static T _instance
+  prop T Instance
+  method public virtual Void OnLoaded()
+
+## class UnityEngine.InputSystem.PlayerInput : MonoBehaviour   [Unity.InputSystem.dll]
+  ctor public ()
+  ctor private ()
+  field public static String DeviceLostMessage
+  field public static String DeviceRegainedMessage
+  field public static String ControlsChangedMessage
+  field private Int32 m_AllMapsHashCode
+  field private InputActionAsset m_Actions
+  field private PlayerNotifications m_NotificationBehavior
+  field private InputSystemUIInputModule m_UIInputModule
+  field private DeviceLostEvent m_DeviceLostEvent
+  field private DeviceRegainedEvent m_DeviceRegainedEvent
+  field private ControlsChangedEvent m_ControlsChangedEvent
+  field private ActionEvent[] m_ActionEvents
+  field private Boolean m_NeverAutoSwitchControlSchemes
+  field private String m_DefaultControlScheme
+  field private String m_DefaultActionMap
+  field private Int32 m_SplitScreenIndex
+  field private Camera m_Camera
+  field private InputValue m_InputValueObject
+  field private InputActionMap m_CurrentActionMap
+  field private Int32 m_PlayerIndex
+  field private Boolean m_InputActive
+  field private Boolean m_Enabled
+  field private Boolean m_ActionsInitialized
+  field private Dictionary<String,String> m_ActionMessageNames
+  field private InputUser m_InputUser
+  field private Action<CallbackContext> m_ActionTriggeredDelegate
+  field private CallbackArray<Action<PlayerInput>> m_DeviceLostCallbacks
+  field private CallbackArray<Action<PlayerInput>> m_DeviceRegainedCallbacks
+  field private CallbackArray<Action<PlayerInput>> m_ControlsChangedCallbacks
+  field private CallbackArray<Action<CallbackContext>> m_ActionTriggeredCallbacks
+  field private Action<InputControl,InputEventPtr> m_UnpairedDeviceUsedDelegate
+  field private Func<InputDevice,InputEventPtr,Boolean> m_PreFilterUnpairedDeviceUsedDelegate
+  field private Boolean m_OnUnpairedDeviceUsedHooked
+  field private Action<InputDevice,InputDeviceChange> m_DeviceChangeDelegate
+  field private Boolean m_OnDeviceChangeHooked
+  field private static Int32 s_AllActivePlayersCount
+  field private static PlayerInput[] s_AllActivePlayers
+  field private static Action<InputUser,InputUserChange,InputDevice> s_UserChangeDelegate
+  field private static Int32 s_InitPairWithDevicesCount
+  field private static InputDevice[] s_InitPairWithDevices
+  field private static Int32 s_InitPlayerIndex
+  field private static Int32 s_InitSplitScreenIndex
+  field private static String s_InitControlScheme
+  field private static Boolean s_DestroyIfDeviceSetupUnsuccessful
+  prop Boolean inputIsActive
+  prop Boolean active
+  prop Int32 playerIndex
+  prop Int32 splitScreenIndex
+  prop InputActionAsset actions
+  prop String currentControlScheme
+  prop String defaultControlScheme
+  prop Boolean neverAutoSwitchControlSchemes
+  prop InputActionMap currentActionMap
+  prop String defaultActionMap
+  prop PlayerNotifications notificationBehavior
+  prop ReadOnlyArray<ActionEvent> actionEvents
+  prop DeviceLostEvent deviceLostEvent
+  prop DeviceRegainedEvent deviceRegainedEvent
+  prop ControlsChangedEvent controlsChangedEvent
+  prop Camera camera
+  prop InputSystemUIInputModule uiInputModule
+  prop InputUser user
+  prop ReadOnlyArray<InputDevice> devices
+  prop Boolean hasMissingRequiredDevices
+  prop ReadOnlyArray<PlayerInput> all
+  prop Boolean isSinglePlayer
+  method public TDevice GetDevice<TDevice>()
+  method public Void ActivateInput()
+  method private Void UpdateDelegates()
+  method public Void DeactivateInput()
+  method public Void PassivateInput()
+  method public Boolean SwitchCurrentControlScheme(InputDevice[] devices)
+  method public Void SwitchCurrentControlScheme(String controlScheme, InputDevice[] devices)
+  method public Void SwitchCurrentActionMap(String mapNameOrId)
+  method public static PlayerInput GetPlayerByIndex(Int32 playerIndex)
+  method public static PlayerInput FindFirstPairedToDevice(InputDevice device)
+  method public static PlayerInput Instantiate(GameObject prefab, Int32 playerIndex, String controlScheme, Int32 splitScreenIndex, InputDevice pairWithDevice)
+  method public static PlayerInput Instantiate(GameObject prefab, Int32 playerIndex, String controlScheme, Int32 splitScreenIndex, InputDevice[] pairWithDevices)
+  method private static PlayerInput DoInstantiate(GameObject prefab)
+  method private Void InitializeActions()
+  method private Void CopyActionAssetAndApplyBindingOverrides()
+  method private Void UninitializeActions()
+  method private Void InstallOnActionTriggeredHook()
+  method private Void UninstallOnActionTriggeredHook()
+  method private Void OnActionTriggered(CallbackContext context)
+  method private Void CacheMessageNames()
+  method private Void ClearCaches()
+  method private Void AssignUserAndDevices()
+  method private Boolean HaveBindingForDevice(InputDevice device)
+  method private Void UnassignUserAndDevices()
+  method private Boolean TryToActivateControlScheme(InputControlScheme controlScheme)
+  method private Void AssignPlayerIndex()
+  method private Void OnEnable()
+  method private Void StartListeningForUnpairedDeviceActivity()
+  method private Void StopListeningForUnpairedDeviceActivity()
+  method private Void StartListeningForDeviceChanges()
+  method private Void StopListeningForDeviceChanges()
+  method private Void OnDisable()
+  method public Void DebugLogAction(CallbackContext context)
+  method private Void HandleDeviceLost()
+  method private Void HandleDeviceRegained()
+  method private Void HandleControlsChanged()
+  method private static Void OnUserChange(InputUser user, InputUserChange change, InputDevice device)
+  method private static Boolean OnPreFilterUnpairedDeviceUsed(InputDevice device, InputEventPtr eventPtr)
+  method private Void OnUnpairedDeviceUsed(InputControl control, InputEventPtr eventPtr)
+  method private Void OnDeviceChange(InputDevice device, InputDeviceChange change)
+  method private Void SwitchControlSchemeInternal(ref InputControlScheme& controlScheme, InputDevice[] devices)
