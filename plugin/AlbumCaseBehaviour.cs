@@ -7,18 +7,12 @@ namespace FluidLove.AlbumCases
     // The holder writes the choice into an IntEntry on the item's synced data, and every player's
     // copy of the case reacts to the change, so the whole lobby hears (or stops) the same thing.
     // Value = actionCount * 64 + clipIndex, clipIndex 63 = stop.
-    // A BoolEntry holds which way the case faces; the holder picks it at random on pickup.
     public class AlbumCaseBehaviour : ItemInstanceBehaviour
     {
         const int Stop = 63;
         IntEntry playEntry;
-        BoolEntry flipEntry;
         int lastSeen;
         int lastClip = -1;
-        bool facingChosen;
-        bool appliedFlip;
-        Transform caseT;
-        Quaternion caseBaseRot;
         AlbumInfo album;
         AudioSource source;
         bool logged;
@@ -27,14 +21,9 @@ namespace FluidLove.AlbumCases
         {
             album = Albums.For(itemInstance != null ? itemInstance.item : null);
             if (!data.TryGetEntry<IntEntry>(out playEntry)) { playEntry = new IntEntry(); data.AddDataEntry(playEntry); }
-            if (!data.TryGetEntry<BoolEntry>(out flipEntry)) { flipEntry = new BoolEntry(); data.AddDataEntry(flipEntry); }
             lastSeen = playEntry.i; // don't replay an old clip when the case is picked up
             int prev = lastSeen % 64;
             if (prev != Stop && lastSeen != 0) lastClip = prev;
-
-            var marker = GetComponentInChildren<CaseMarker>(true);
-            if (marker != null) { caseT = marker.transform; caseBaseRot = caseT.localRotation; }
-            ApplyFlip(true);
 
             source = gameObject.AddComponent<AudioSource>();
             source.playOnAwake = false;
@@ -48,30 +37,15 @@ namespace FluidLove.AlbumCases
             if (!logged)
             {
                 logged = true;
-                AlbumCasesPlugin.Log($"Case spawned: album={(album != null ? album.Key : "NONE")}, caseVisible={(marker != null && marker.Ok())}, layer={LayerMask.LayerToName(marker != null ? marker.gameObject.layer : gameObject.layer)}");
+                var marker = GetComponentInChildren<CaseMarker>(true);
+                AlbumCasesPlugin.Log($"Case spawned: album={(album != null ? album.Key : "NONE")}, caseVisible={(marker != null && marker.Ok())}, " +
+                                     $"layer={LayerMask.LayerToName(marker != null ? marker.gameObject.layer : gameObject.layer)}, held={isHeld}");
             }
-        }
-
-        void ApplyFlip(bool force)
-        {
-            if (caseT == null || flipEntry == null) return;
-            if (!force && appliedFlip == flipEntry.state) return;
-            appliedFlip = flipEntry.state;
-            caseT.localRotation = caseBaseRot * (appliedFlip ? Quaternion.Euler(0f, 180f, 0f) : Quaternion.identity);
         }
 
         void Update()
         {
             if (album == null || playEntry == null || source == null || album.Clips == null || album.Clips.Length == 0) return;
-
-            // Picked up: the holder chooses front or back at random, everyone else follows
-            if (isHeldByMe && !facingChosen && flipEntry != null)
-            {
-                facingChosen = true;
-                flipEntry.state = Random.value < 0.5f;
-                flipEntry.SetDirty();
-            }
-            ApplyFlip(false);
 
             var me = Player.localPlayer;
             if (isHeldByMe && me != null && !me.HasLockedInput() && me.input.clickWasPressed)
@@ -109,7 +83,7 @@ namespace FluidLove.AlbumCases
         }
     }
 
-    // Tags the jewel case mesh so we can find it and check it's still alive in the logs
+    // Tags the jewel case mesh so we can check it's still alive in the logs
     public class CaseMarker : MonoBehaviour
     {
         public bool Ok()

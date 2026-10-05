@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 namespace FluidLove.AlbumCases
 {
     // vanillaCompatible false: everyone in the lobby needs the mod (new shop items).
-    [ContentWarningPlugin("FluidLove.AlbumCases", "0.4.0", vanillaCompatible: false)]
+    [ContentWarningPlugin("FluidLove.AlbumCases", "0.4.1", vanillaCompatible: false)]
     public class AlbumCasesPlugin
     {
         static bool built;
 
         static AlbumCasesPlugin()
         {
-            Log("Loaded v0.4.0. Waiting for the item database...");
+            Log("Loaded v0.4.1. Waiting for the item database...");
             TryBuild("plugin load");
             SceneManager.sceneLoaded += (s, m) =>
             {

@@ -91,6 +91,8 @@ namespace FluidLove.AlbumCases
             caseGo.transform.SetParent(prefab.transform, false);
             caseGo.transform.position = b.center;
             caseGo.transform.localPosition += handNudge;
+            // The item points along +Z (away from the player), so turn the case round to show the cover to the holder
+            caseGo.transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
             caseGo.AddComponent<MeshFilter>().sharedMesh = Pin(CaseMesh.Make(size, size, size * 0.08f));
             var mr = caseGo.AddComponent<MeshRenderer>();
             mr.sharedMaterial = Pin(MakeMat(baseMat, atlas));
