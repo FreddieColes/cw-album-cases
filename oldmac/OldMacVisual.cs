@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -8,7 +9,7 @@ namespace FluidLove.OldMac
     // whichever camera is rendering, including the in-game video camera.
     public class OldMacVisual : MonoBehaviour
     {
-        const float Height = 2.2f;
+        const float Height = 3.3f;   // 1.5x the first test
         static readonly List<OldMacVisual> Live = new List<OldMacVisual>();
         static bool hooked;
         static Mesh quadMesh;
@@ -79,8 +80,8 @@ namespace FluidLove.OldMac
 
             animT += dt * fps;
             var tex = set[(int)animT % set.Length];
-            mat.SetTexture("_BaseMap", tex);
-            mat.SetTexture("_MainTex", tex);
+            if (mat.HasProperty("_BaseMap")) mat.SetTexture("_BaseMap", tex);
+            if (mat.HasProperty("_MainTex")) mat.SetTexture("_MainTex", tex);
 
             float w = Height * tex.width / tex.height;
             quad.position = p + Vector3.up * (Height * 0.5f);
@@ -119,19 +120,49 @@ namespace FluidLove.OldMac
             return m;
         }
 
+        // The game strips shader features it never uses, so a see-through cut-out can't be switched on from code.
+        // Instead copy a real game material that already uses cut-out transparency (leaves, fences, decals),
+        // and fall back to the always-available sprite shader if there isn't one.
+        static Material template;
+        static bool templateIsLit;
+
         static Material MakeMat()
         {
-            var sh = Shader.Find("Universal Render Pipeline/Lit");
-            var m = new Material(sh) { name = "OldMacSprite" };
-            m.SetColor("_BaseColor", Color.white);
-            m.SetFloat("_AlphaClip", 1f);
-            m.SetFloat("_Cutoff", 0.5f);
-            m.EnableKeyword("_ALPHATEST_ON");
-            m.SetFloat("_Cull", 0f);              // draw both sides
-            m.SetFloat("_Smoothness", 0.1f);
-            m.SetFloat("_Metallic", 0f);
-            m.renderQueue = (int)RenderQueue.AlphaTest;
+            if (template == null) FindTemplate();
+            var m = new Material(template) { name = "OldMacSprite" };
             return m;
+        }
+
+        static void FindTemplate()
+        {
+            var mats = Resources.FindObjectsOfTypeAll<Material>().Where(x => x != null && x.shader != null).ToArray();
+            var cut = mats.FirstOrDefault(x => x.shader.name == "Universal Render Pipeline/Lit" && x.IsKeywordEnabled("_ALPHATEST_ON") && !x.IsKeywordEnabled("_SURFACE_TYPE_TRANSPARENT"))
+                   ?? mats.FirstOrDefault(x => x.shader.name.StartsWith("Universal Render Pipeline/") && x.IsKeywordEnabled("_ALPHATEST_ON") && x.HasProperty("_BaseMap"));
+            if (cut != null)
+            {
+                var m = new Material(cut) { name = "OldMacTemplate" };
+                foreach (var p in new[] { "_BumpMap", "_EmissionMap", "_MetallicGlossMap", "_OcclusionMap", "_DetailAlbedoMap", "_DetailNormalMap", "_ParallaxMap", "_SpecGlossMap" })
+                    if (m.HasProperty(p)) m.SetTexture(p, null);
+                foreach (var k in new[] { "_NORMALMAP", "_EMISSION", "_METALLICSPECGLOSSMAP", "_OCCLUSIONMAP", "_PARALLAXMAP", "_DETAIL_MULX2", "_SPECGLOSSMAP" }) m.DisableKeyword(k);
+                if (m.HasProperty("_BaseColor")) m.SetColor("_BaseColor", Color.white);
+                if (m.HasProperty("_EmissionColor")) m.SetColor("_EmissionColor", Color.black);
+                if (m.HasProperty("_Cutoff")) m.SetFloat("_Cutoff", 0.5f);
+                if (m.HasProperty("_Cull")) m.SetFloat("_Cull", 0f);
+                if (m.HasProperty("_Smoothness")) m.SetFloat("_Smoothness", 0.1f);
+                if (m.HasProperty("_Metallic")) m.SetFloat("_Metallic", 0f);
+                if (m.HasProperty("_BaseMap")) m.SetTextureScale("_BaseMap", Vector2.one);
+                if (m.HasProperty("_BaseMap")) m.SetTextureOffset("_BaseMap", Vector2.zero);
+                m.hideFlags |= HideFlags.DontUnloadUnusedAsset;
+                template = m; templateIsLit = true;
+                OldMacPlugin.Log($"Sprite material: cut-out copied from game material '{cut.name}' ({cut.shader.name})");
+                return;
+            }
+            var spr = Shader.Find("Sprites/Default") ?? Shader.Find("UI/Default");
+            var f = new Material(spr) { name = "OldMacTemplate" };
+            if (f.HasProperty("_Color")) f.SetColor("_Color", new Color(0.8f, 0.8f, 0.8f, 1f)); // unlit, so tone it down a touch
+            f.hideFlags |= HideFlags.DontUnloadUnusedAsset;
+            template = f; templateIsLit = false;
+            OldMacPlugin.Log($"Sprite material: no cut-out game material found, using '{(spr != null ? spr.name : "NONE")}' (unlit)");
         }
     }
 }

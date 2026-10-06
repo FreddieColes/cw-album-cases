@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 namespace FluidLove.OldMac
 {
     // Everyone in the lobby needs this (new networked monster).
-    [ContentWarningPlugin("FluidLove.OldMac", "0.1.0", vanillaCompatible: false)]
+    [ContentWarningPlugin("FluidLove.OldMac", "0.2.0", vanillaCompatible: false)]
     public class OldMacPlugin
     {
         // TEST MODE: Ol' Mac replaces every other monster in dives. Set false for release.
@@ -15,7 +15,7 @@ namespace FluidLove.OldMac
 
         static OldMacPlugin()
         {
-            Log("Loaded v0.1.0 (test mode " + (TestMode ? "ON" : "off") + "). Host: press F8 to spawn Ol' Mac.");
+            Log("Loaded v0.2.0 (test mode " + (TestMode ? "ON" : "off") + "). Host: press F8 to spawn Ol' Mac.");
             OldMacPool.Install();
             OldMacRunner.Ensure();
             SceneManager.sceneLoaded += (s, m) =>
