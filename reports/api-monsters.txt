@@ -1,0 +1,1136 @@
+
+# Focus types (signatures)
+
+## class Attack_Animation : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public UnityEvent attackEvent
+  field public Single secondsEventDelay
+  field public String animationName
+  field public Single attackLength
+  field public Single range
+  field public Single cooldown
+  field private Bot bot
+  field private Player player
+  field private PhotonView view
+  field private MonsterAnimationHandler anim
+  method private Void Start()
+  method private Void Update()
+  method private Void RPCA_AnimationAttack()
+  method private IEnumerator <RPCA_AnimationAttack>g__IAttackValue|12_0()
+  method private IEnumerator <RPCA_AnimationAttack>g__IDelayEvent|12_1()
+
+## class Attack_Melee : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private Bot bot
+  field private Player player
+  field private PhotonView view
+  field private MonsterAnimationHandler anim
+  field private MonsterAnimationValues values
+  field private Boolean punching
+  field public Single damage
+  field public Single knockback
+  field public Single fallTime
+  field public Single cooldown
+  field public Single range
+  field public AnimationCurve attackCurve
+  field public Single force
+  field public Single collisionThreshold
+  field public BodypartType attackPart
+  field public List<BodypartType> additionalAttackPart
+  field public Single additionalAttackForceMultiplier
+  field private List<Player> ignoredPlayers
+  field public SFX_Instance swingSFX
+  field public SFX_Instance punchSFX
+  method private Void Start()
+  method private Void Update()
+  method private Void Collide(Collision col, Bodypart part)
+  method public Void RPCA_Hit(Int32 viewID, Int32 bodyPartID, Vector3 addForce)
+  method private IEnumerator IIgnorePlayer(Player p)
+  method private Void RPCA_Attack()
+  method private IEnumerator <RPCA_Attack>g__IBite|25_0()
+
+## class Attack_Punch : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private Player player
+  field private Bot bot
+  field private MonsterAnimationHandler anim
+  field private PhotonView view
+  field public MonsterAnimationValues val
+  field private List<Player> ignoredPlayers
+  field private Boolean punch
+  field public SFX_Instance punchSFX
+  field private Single power
+  method private Void Start()
+  method private Void Update()
+  method private Void Collide(Collision col, Bodypart part)
+  method private IEnumerator IIgnorePlayer(Player p)
+  method public Void RPCA_Hit(Int32 viewID, Int32 bodyPartID, Vector3 force)
+  method private Void Attack()
+  method private Void RPCA_Punch()
+
+## class Attack_Shove : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private Player player
+  field private Bot bot
+  field private PhotonView view
+  field public MonsterAnimationValues val
+  field public SFX_Instance punchSFX
+  field private Boolean punch
+  method private Void Start()
+  method private Void Update()
+  method private Void Collide(Collision col, Bodypart part)
+  method public Void RPCA_Hit(Int32 viewID, Int32 bodyPartID, Vector3 force)
+  method private Void Attack()
+  method private Void RPCA_Punch()
+
+## class Attack_Stab : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Single forceM
+  field public Single range
+  field public BodypartType mainRig
+  field private Player player
+  field private Bot bot
+  field private PhotonView view
+  field private MonsterAnimationValues val
+  field private List<Player> ignoredPlayers
+  field public SFX_Instance punchSFX
+  field private Boolean punch
+  method private Void Start()
+  method private Void Update()
+  method private Void Collide(Collision col, Bodypart part)
+  method private IEnumerator IIgnorePlayer(Player p)
+  method public Void RPCA_Hit(Int32 viewID, Int32 bodyPartID, Vector3 force)
+  method private Void Attack()
+  method private Void RPCA_Punch()
+
+## class Bodypart : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public BodypartType bodypartType
+  field private Rigidbody rig
+  field public Single movementForceMultiplier
+  field public BodypartAnimationTarget animationTarget
+  field private Quaternion startLocal
+  field private Player player
+  field private ConfigurableJoint joint
+  method internal Void Config(BodypartType partType)
+  method internal Void InitPart()
+  method internal Void SetTarget(BodypartAnimationTarget bodypartAnimationTarget)
+  method internal Void FollowAnimJointDrive()
+  method internal Void FollowAnimSimple(Bodypart hip)
+  method internal Void FollowAnimJointDriveVelocity(Transform physicsRoot, Transform animationRoot, Single force, Boolean addOpposingForce, Single torque)
+  method internal Void FollowAnimJointVel(Transform physicsRoot, Transform animationRoot, Single force, Boolean addOpposingForce)
+  method private Void AddOpposingForce(Vector3 force)
+  method internal Void FollowAnimJointAngularVel(Transform physicsRoot, Transform animationRoot, Single torque)
+  method public Void OnCollisionEnter(Collision collision)
+  method private Void OnCollisionStay(Collision collision)
+  method private Void Collide(Collision collision)
+
+## class Bot : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Int32 jumpScareLevel
+  field public Boolean canJumpScareFromBehind
+  field public List<PatrolGroup> patrolGroups
+  field public Transform centerTransform
+  field public Transform groundTransform
+  field public Boolean flashLightRequireLineOfSight
+  field public Int32 lightLevelRequired
+  field public SyncData syncData
+  field public Int32 lastPlayerID
+  field public Player targetPlayer
+  field public Rigidbody targetBodypart
+  field public Single seeBodypartValue
+  field public Single sinceLookForTarget
+  field public Vector3 navTargetPos_Set
+  field public Vector3 navDestination_Read
+  field public Vector3 navDirection_Read
+  field public PatrolPoint lastPatrolPoint
+  field private PhotonView view
+  field public Int32 currentPlayerCheckID
+  field public Single suspicionValue
+  field public Single targetAngle
+  field public Single targetAngle_Nav
+  field public Int32 framesSincePatrol
+  field public PatrolPoint patrolPoint
+  field public Single remainingNavDistance
+  field public Boolean targetIsHiding
+  field public Single sinceAttack
+  field public Boolean attacking
+  field public Boolean aggro
+  field private UniversalBotSounds botSounds
+  field public List<Player> ignoredPlayers
+  field public Single distanceToTarget_Flat
+  field public Single distanceToTarget
+  field public Boolean slowDownWhenNavigating
+  field public Single moveSpeedMultiplier
+  field public Single navigationSpeedAdjustment
+  field public Single sinceFlashLit
+  field public Single sinceFlashLit_LevelLight
+  field public Single sinceFlashLit_PlayerLight
+  field private Action m_OnTargetChangeAction
+  field public Boolean targetUnReachable
+  field public Single targetOutOfRangeFor
+  field public Single sinceLastSawTarget
+  field public Vector3 lastNoisePos
+  field public Single sinceHeardNoise
+  field public Boolean hurt
+  field public Vector3 navOffset
+  field public Vector3 lastGodNavPos
+  field public Boolean busy
+  field private Single sinceSyncAttacking
+  field public Boolean hasSearchPoint
+  field public Vector3 searchPoint
+  field public Single hasBeenSearchingFor
+  field public Single sinceAlert
+  field public Int32 nrOfAlerts
+  field private Boolean alertable
+  field public Bot patrolLeader
+  field public Action<Vector3> teleportAction
+  field public Single turnVel
+  field public Single animMoveSpeedFactor
+  field public Int32 attackType
+  field public Boolean hasConditionalObject
+  field public GameObject conditionalObject
+  method private Void Start()
+  method private Void OnDestroy()
+  method private Void Update()
+  method private Void DoNavigationSlowing()
+  method public Single SpeedFactor()
+  method public Boolean Moving()
+  method public Boolean BusyOrAttacking()
+  method private Void SetTransform()
+  method private Void UpdateLocalVariables()
+  method private Void UpdateVariables()
+  method private Void GetTargetPlayer()
+  method internal Vector3 Center()
+  method private Void SearchPoint(Single rotationSpeed)
+  method public Void Alert(Vector3 alertPosition, Int32 alerts)
+  method public Boolean Patrol(Boolean look, Boolean walk, Single rotationSpeed, Boolean listenToNoise, Vector3 preferedDirection, Boolean alertable)
+  method internal Void KeepDistanceHover(Vector3 pos, Single distance, Single sideMove)
+  method internal Boolean CanSee(Vector3 from, Vector3 to, Single maxDistance, Single maxAngle)
+  method public Void StandStill()
+  method public Void Walk()
+  method public Void Run()
+  method internal Void WorldMoveTo(Vector3 position)
+  method public Void SetMovementWorld(Vector3 worldMove)
+  method internal Void Investigate()
+  method internal Void LoseTarget()
+  method public Void ChaseTarget(Vector3 headPosition, Single targetDistance, Single sidePrediction, Boolean lookForBetterTarget, Single rotationSpeed, Boolean loseInterestIfUnreachable, Boolean backUpIfTooClose, Boolean canRotateWhenStandingStill)
+  method private Void WalkAway(Vector3 walkAwayDir)
+  method public Void IgnoreTargetFor(Player target, Single ignoreFor)
+  method private Void Back()
+  method public Void LookAt(Vector3 position, Single rotationSpeed)
+  method public Single AngleToLookDirection(Vector3 direction)
+  method public Void Look(Vector3 direction, Single rotationSpeed)
+  method internal Boolean CanSeeTarget(Vector3 headPosition, Single angle)
+  method public Rigidbody SearchForTargetBodyPart(Vector3 headPosition, Single maxRange, Single maxAngle)
+  method private Void OnNoisePlayed(Vector3 noisePosition, Single noiseRange, Int32 alerts)
+  method public Boolean HasRecentNoise()
+  method public Boolean LookForTarget(Vector3 headPosition, Single maxRange, Single maxAngle, Single timeToSeeTarget)
+  method public Player TryToReturnTarget(Vector3 headPosition, Single maxRange, Single maxAngle)
+  method public Void LookForBetterTarget(Vector3 headPosition, Single maxRange, Single maxAngle)
+  method public Void RotateThenMove(Vector3 dir, Single rotationSpeed)
+  method public Void SetTargetPlayer(Player player)
+  method public Void AddOnTargetChangeAction(Action a)
+  method public Void RemoveTargetChangeAction(Action a)
+  method public Void Destroy()
+  method internal Void InvestigateCurrentTarget(Vector3 headPos, Single aggroSpeed, Single maxRange, Single rotationSpeed, Boolean lookAt, Boolean searchPoint)
+  method public Void ValidateChase(Vector3 headPosition, Single loseTargetTime)
+  method internal Void SetSyncAttacking(Boolean setAttacking)
+  method private Void RPCA_BotSetAttacking(Boolean setAttacking)
+  method internal Void DoNothing()
+  method public virtual List<PatrolGroup> GetGroup()
+  method public Void SetLeader(Bot leader)
+  method internal Void Teleport(Vector3 position)
+  method internal Vector3 GroundPos()
+  method internal Boolean AbleToAttack(Single range, Single minSinceAttack, Player playerReference)
+  method internal Player GetNearbyPlayerInSight(Single range, Single angle)
+  method internal Single TargetLookY()
+  method private IEnumerator <IgnoreTargetFor>g__IIgnoreTargetFor|90_0(Player target, Single ignoreFor)
+
+## class Bot_Chaser : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Boolean aggroState
+  field public Single exhastionTime
+  field public Single fleeForSeconds
+  field private Player player
+  field private Bot bot
+  field private PhotonView view
+  field public Single hidingExhastionMultiplier
+  field public Single timeToLoseTarget
+  field public Single targetDistance
+  field public Boolean backUpIfTooClose
+  field public Boolean useWorldMoveInChase
+  field public Boolean canRotateWhenStandingStill
+  field public Single chaseTurnRate
+  field public Single fleeTurnRate
+  field public Single investigateTurnRate
+  field public Single patrolTurnRate
+  field public Single maxRange
+  field public Single maxAngle
+  field public Single timeToSeeTarget
+  field private Single exhaustion
+  field private Single fleeFor
+  field private Single hasFledFor
+  field private Vector3 fleeFromPoint
+  field private Transform head
+  method private Void Start()
+  method private Void Update()
+  method private Void Combat()
+  method private Void TargetIsHidingBehaviour()
+  method private Void Investigate()
+  method private Void DefaultState()
+  method public Void RPCA_SetAggroState(Boolean aggro)
+
+## class Bot_Knifo : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public BodypartType mainRig
+  field private Player player
+  field private Bot bot
+  field private PhotonView view
+  field public Single targetDistance
+  field private Single exhaustion
+  field private Single fleeFor
+  field private Single hasFledFor
+  field private Vector3 fleeFromPoint
+  field private Transform head
+  field private Single jumpCounter
+  field public AnimationCurve jumpCurve
+  field public Single jumpForceForward
+  field public Single jumpForceUp
+  method private Void Start()
+  method private Void Update()
+  method private Void Combat()
+  method private Void RPCA_JumpAttack(Int32 targetID)
+  method private Void Investigate()
+  method private Void DefaultState()
+  method private IEnumerator <RPCA_JumpAttack>g__IJump|17_0(Player target)
+
+## class Bot_LookY : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private MonsterAnimationHandler anim
+  field private Bot bot
+  method private Void Start()
+  method private Void Update()
+
+## class Bot_Nav_Navmesh : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private NavMeshAgent agent
+  field private Bot bot
+  field private PlayerController m_PlayerController
+  field private Boolean recalculate
+  field private Single sinceCheckForProblems
+  field private Boolean isSeen
+  field private Boolean simpleRagdoll
+  field private Vector3 lastCheckPosition
+  field private Transform hipRig
+  field private Vector3 targetPos
+  field private Vector3 up100
+  method private Void Start()
+  method private Void Teleport(Vector3 vector)
+  method private Void Update()
+  method private Void CheckForProblems()
+  method private Void FlickerBackToNav()
+  method private Void MoveAndEnable()
+  method private Void NormalNav()
+  method private Void ApplyNav()
+  method private IEnumerator <Teleport>g__IResetNav|10_0()
+
+## class Bot_RagdollCharacter : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  ctor private ()
+  field private Player player
+  field private Bot bot
+  field private static Vector3 upDelta
+  field private Int32 id
+  field private Rigidbody hip
+  method private Void Start()
+  method private Void Teleport(Vector3 position)
+  method private Void Update()
+  method public Void DontCullForABit()
+  method private Void CullPhysics()
+  method private Void ApplyState()
+
+## class Bot_SimpleMovement : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Single movementSpeed
+  field private SphereCollider col
+  field private Bot bot
+  method private Void Start()
+  method private Void LateUpdate()
+  method private Void Collision()
+  method private Void Move()
+  method internal Void Teleport(Vector3 position)
+
+## class Bot_Zombie : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private Player player
+  field private Bot bot
+  field private PhotonView view
+  field private Vector3 randomDir
+  method private Void Start()
+  method private Void Update()
+  method private Void Combat()
+  method private Void Investigate()
+  method private Void DefaultState()
+
+## class Bot+SyncData : Object   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Int32 targetPlayerId
+  field public Vector3 lookDireciton
+  field public Vector2 movementInput
+  field public Boolean sprint
+
+## class BotHandler : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public static BotHandler instance
+  field public List<Bot> bots
+  method private Void Awake()
+  method public Void DestroyAll()
+  method internal Bot GetFurthestFromAnyPlayer()
+  method internal Bot GetNextMonster(ref Int32& botID)
+
+## class BudgetCost : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Int32 budgetCost
+  field public Single rarity
+  prop Int32 Cost
+  prop Single Rarity
+  method private virtual GameObject DefaultNamespace.IBudgetCost.get_gameObject()
+
+## class ContentEvent : Object   [Assembly-CSharp.dll]
+  ctor protected ()
+  method public virtual Single GetContentValue()
+  method public virtual UInt16 GetID()
+  method public virtual String GetName()
+  method public virtual String[] GetAllComments()
+  method public virtual Comment GenerateComment()
+  method public virtual Void Serialize(BinarySerializer serializer)
+  method public virtual Void Deserialize(BinaryDeserializer deserializer)
+  method public virtual Int32 GetUniqueID()
+
+## class ContentEventIDMapper : Object   [Assembly-CSharp.dll]
+  method private static ContentEvent GetContentEventGenerated(UInt16 id)
+  method public static ContentEvent GetContentEvent(UInt16 id)
+
+## class ContentProvider : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor protected ()
+  method public virtual Void GetContent(List<ContentEventFrame> contentEvents, Single seenAmount, Camera camera, Single time)
+
+## class DefaultNamespace.Artifacts.CurseOfMonsterSpawn : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field private Single rarity
+  field private Single budgetCost
+  field public Player cursedPlayer
+  field public ItemInstanceBehaviour itemSource
+  field private PhotonView view_g
+  field public Int32 nrOfMonstersToSpawn
+  field public GameObject zombiePrefab
+  prop Single Rarity
+  prop Single BudgetCost
+  method public virtual Void CastCurse(ItemInstanceBehaviour cursedItem, Player playerHoldingItem)
+  method private Void RPCS_SpawnMonsters(Vector3 position)
+  method public Void Awake()
+  method private Void RPCA_AttachToPlayer(Int32 playerid)
+
+## interface DefaultNamespace.IBudgetCost :    [Assembly-CSharp.dll]
+  prop Int32 Cost
+  prop Single Rarity
+  prop GameObject gameObject
+
+## class DeleteMonster : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Single seconds
+  field private ParticleSystem part
+  field private PhotonView view
+  field private Player player
+  field private Boolean deletedMonster
+  method private Void Start()
+  method private Void Update()
+
+## enum DummyMonsterContentProvider+Monster : Enum   [Assembly-CSharp.dll]
+  Zombe
+  Mouthe
+  Eye
+  Ear
+  Weeping
+  BigSlap
+
+## class HasSpaceTest+Bot : Object   [Assembly-CSharp.dll]
+  ctor public (Transform transform)
+  field private Transform tran
+  method public Void Look(Vector3 dir, Single f)
+  method public Vector3 Center()
+
+## class Level : SerializedMonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public RichPresenceState richPresenceState
+  field public Dictionary<PatrolGroup,List<PatrolPoint>> patrolGroups
+  field public List<Light> lights
+  field public static Level currentLevel
+  field public Boolean levelIsReady
+  field public Action OnLevelFinishedSetUp
+  field public Action<Boolean,Vector3,Single> toggleLights
+  field public List<LightToggler> lightTogglers
+  field private Int32 checkId
+  field private Boolean m_disableShadows
+  field private Boolean m_enableLights
+  method private Void Awake()
+  method private IEnumerator Start()
+  method private Void SetupFinished()
+  method public PatrolPoint GetClosestPoint(List<PatrolGroup> groups, Vector3 pos, PatrolPoint current, Single maxHeightDif, Boolean includeTemporary)
+  method public List<PatrolPoint> GetPointsInGroups(List<PatrolGroup> groups)
+  method internal Void ToggleLights(Boolean setLightsOn, Vector3 position, Single range)
+  method public Void ToggleLightsForSeconds(Boolean setLightsOn, Vector3 position, Single range, Single time)
+  method internal PatrolPoint GetFreePointWithDistance(List<PatrolGroup> pgs, Vector3 position, Int32 minDistance, Single maxHeightDif, Boolean includeTemporary)
+  method internal List<PatrolPoint> GetPointsOutsideMinDistanceSortedOnClosest(List<PatrolGroup> pgs, Vector3 position, Single minDistance, Single maxHeightDif, Boolean includeTemporary)
+  method internal PatrolPoint GetClosestHiddenPoint(Vector3 vector3, Boolean includeTemporary)
+  method internal Void AddPoint(PatrolPoint patrolPoint)
+  method internal Void RemovePoint(PatrolPoint patrolPoint)
+  method internal PatrolPoint GetRandomPoint(List<PatrolGroup> groups)
+  method private Void Update()
+  method private Void Check()
+
+## class Monster : Object   [Assembly-CSharp.dll]
+  ctor public ()
+  method public static Void KillAll()
+  method public static Void SpawnMonster(String monster)
+
+## class MonsterAnimationHandler : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  ctor private ()
+  field private Player player
+  field public Animator animator
+  field private Bot bot
+  field public Boolean strafeMovement
+  field private static Int32 MoveInputXProp
+  field private static Int32 MoveInputYProp
+  field private static Int32 MovementTypeProp
+  field private static Int32 SuspicionValueProp
+  field private static Int32 TargetAngleProp
+  field private static Int32 GrabProp
+  field private static Int32 AttackingProp
+  field private static Int32 TurnProp
+  field private static Int32 AggroProp
+  field private static Int32 AttackTypeProp
+  field private static Int32 DamageProp
+  field private Boolean HasMoveInputXProp
+  field private Boolean HasMoveInputYProp
+  field private Boolean HasMovementTypeProp
+  field private Boolean HasSuspicionValueProp
+  field private Boolean HasTargetAngleProp
+  field private Boolean HasGrabProp
+  field private Boolean HasAttackingProp
+  field private Boolean HasTurnProp
+  field private Boolean HasAggroProp
+  field private Boolean HasAttackTypeProp
+  field private Boolean HasDamageProp
+  field private Boolean grabbing
+  method private Void Start()
+  method private Void LateUpdate()
+  method private Boolean CheckProp(Int32 prop, String name)
+  method private Void SetAnimatorValues()
+  method public Void Grab()
+  method private Void HandleAnimationTarget()
+  method internal Void PlayAnimation(String animName)
+  method internal Void SetFloat(String floatName, Single floatValue)
+  method internal Void SetFloat(Int32 floatHash, Single floatValue)
+  method private IEnumerator <Grab>g__IGrab|31_0()
+
+## class MonsterAnimationValues : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Boolean rightPunch
+  field public Boolean leftPunch
+  field public Single movementMultiplier
+  field private Bot bot
+  method private Void Start()
+  method private Void LateUpdate()
+
+## class MonsterContentEvent : ContentEvent   [Assembly-CSharp.dll]
+  ctor protected ()
+  field public Int32 viewID
+  field public Vector3 worldPosition
+  method public virtual Int32 GetUniqueID()
+  method public virtual Void Serialize(BinarySerializer serializer)
+  method public virtual Void Deserialize(BinaryDeserializer deserializer)
+
+## class MonsterContentProvider : ContentProvider   [Assembly-CSharp.dll]
+  ctor protected ()
+  field private PhotonView photonView
+  field private Bot hiddenBot
+  method private Void Awake()
+  method public T GetContentEvent<T>()
+
+## class MonsterSpawner : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Single spawnChance
+  field public String monster
+  field public GameObject monsterPrefab
+  method public static Void SpawnMonster(String monster)
+  method public static GameObject SpawnMonster(String monster, Vector3 position)
+  method internal Void SpawnWithConditionalObject(GameObject conditionalObject)
+  method public Void TestSpawnChance()
+
+## class MonsterSyncer : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public Boolean applyData
+  field private Player player
+  field private Bot bot
+  field private Vector3 targetPos
+  field private Vector3 lastPos
+  field private Single sinceLastPackage
+  field private Vector2 targetLook
+  field private Single lookDistance
+  field private Boolean hasNotRecievedFirstPackage
+  field public Action<Int32> AttackAction
+  field private PhotonView view
+  field private Boolean m_Inited
+  method private Void Start()
+  method public Void RPCA_SyncMe(Vector3 position, Vector3 lookDir)
+  method public virtual Void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+  method private Void FixedUpdate()
+  method private Void SimpleSync(Single timeBetweenPackages)
+  method private Void PhysicsSync(Single timeBetweenPackages)
+  method internal Void CallAttack(Int32 viewID)
+  method public Void RPCA_Attack(Int32 viewID)
+
+## class MonsterWithWeight : Object   [Assembly-CSharp.dll]
+  ctor public ()
+  field public IBudgetCost monster
+  field public Single weight
+
+## class PlayerRagdoll : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  ctor private ()
+  field public Single force
+  field public Single torque
+  field public Single drag
+  field public Single angularDrag
+  field public Boolean addOpposingForce
+  field private Player player
+  field private List<Rigidbody> rigList
+  field private Dictionary<BodypartType,Bodypart> bodypartDict
+  field private List<Bodypart> bodypartList
+  field private List<BodyPartCollision> collisionsToHandle
+  field private Collider[] colliders
+  field private ProfilerMarker followAnimMarker
+  field private ProfilerMarker simplifiedFollowAnimMarker
+  field private ProfilerMarker dragMarker
+  field private ProfilerMarker groundRaycastMarker
+  field private ProfilerMarker handleCollisionsMarker
+  field private ProfilerMarker clearSavedCollisionsMarker
+  field private Action<Collision,Bodypart> collisionAction
+  field public SFX_Instance[] ragdollSound
+  field private Single ragdollSoundTime
+  field public static Single RagdollIfFellForLongerThan
+  field private Boolean isSplit
+  method private Void OnEnable()
+  method private Void OnDisable()
+  method internal Void DoInit()
+  method private Void StripRagdoll()
+  method private Void BodyChanged()
+  method internal Bodypart GetRandomBodypart()
+  method public Void ToggleSimplifiedRagdoll(Boolean setSimple)
+  method public Void FixedUpdateHandled()
+  method private Void ToggleGravity(Boolean setGrav)
+  method internal Bodypart GetBodypartFromID(Int32 bodyPartID)
+  method internal Int32 GetBodypartIDFromCollider(Collider col)
+  method internal Int32 GetBodyPartID(Bodypart part)
+  method internal Int32 GetBodyPartID(BodypartType part)
+  method private Void Drag()
+  method private Void FollowAnimSimplified()
+  method private Void FollowAnim()
+  method internal Bodypart GetBodypart(BodypartType bodypartType)
+  method public RaycastHit GroundRaycast(Boolean justChecking, Boolean justTryingToGetTheRaycastHit, Boolean ignoreAngle)
+  method internal Void RegisterGroundRaycast(RaycastHit hit, Bodypart bodypart)
+  method internal BodyPartCollision RaycastHitToBodyPartCollision(RaycastHit hit, Bodypart bodypart)
+  method internal Void BodyPartCollision(Collision collision, Bodypart bodypart)
+  method private Void RegCollision(BodyPartCollision col)
+  method private Void ClearSavedCollisions()
+  method private Void HandleCollisions()
+  method public Void HandleGroundCollision(BodyPartCollision bestGroundCollision)
+  method internal Void AddForce(Vector3 force, ForceMode forceMode)
+  method internal Void AddForce(Vector3 force, ForceMode forceMode, Vector3 position, Single radius)
+  method internal Void RemoveItem(ItemInstance item)
+  method internal Void AddItem(ItemInstance item)
+  method internal Void MoveAllRigsInDirection(Vector3 delta)
+  method internal Void MoveAllRigsTo(Vector3 targetPos)
+  method internal Void Fall(Single fallTime)
+  method internal Void ExtraDrag(Single extraDrag)
+  method internal Void TaseShock(Single shockSeconds)
+  method internal Void CallFall(Single seconds)
+  method internal Void RPCA_Fall(Single seconds)
+  method internal Bodypart GetBodypartFromCollider(Collider col)
+  method internal Void SetColliderLayer(Int32 setLayer)
+  method internal Object GetRandomBodypartID()
+  method private IEnumerator <TaseShock>g__IWobble|55_0(Single shockSeconds)
+
+## class RagdollHandler : Singleton<RagdollHandler>   [Assembly-CSharp.dll]
+  ctor public ()
+  field private List<PlayerRagdoll> ragdolls
+  method public static Void RegisterRagdoll(PlayerRagdoll playerRagdoll)
+  method public static Void UnregisterRagdoll(PlayerRagdoll playerRagdoll)
+  method private Void FixedUpdate()
+
+## class RigCreator : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public List<RigCreatorBodypart> bodyparts
+  field public GameObject source
+  field public GameObject sphereCol
+  field public GameObject capsuleCol
+  field public GameObject boxColldier
+  field public PhysicsMaterial slipperyMat
+  field public Int32 setDefaultLayer
+  field public Int32 smartFillLegs
+  field public Boolean useGravity
+  field public Single massMultiplier
+  field public Boolean useTargetRotation
+  field public Single targetRotationSpring
+  field public Single targetRotationDragFactor
+  field public UnityEvent createRigEvent
+  method private Void Start()
+  method public Void CreateRig()
+  method public Void ResetColliders()
+  method private Void SmartFillLegs()
+  method private Void CopyDataTo(RigCreatorBodypart from, RigCreatorBodypart to)
+  method private RigCreatorBodypart GetOrAddBodypart(BodypartType bodypartType)
+  method private RigCreatorBodypart GetBodypart(BodypartType targetBodypart)
+  method private Void AddScripts()
+  method private Void AddRigs()
+  method private Void AddJoints()
+  method private Void ConfigRotations()
+  method private Void RegisterParts()
+  method public Void MigrateColliders()
+  method private Void AddCollision()
+  method private Void AddColliders(RigCreatorBodypart bodypart)
+  method private Void ClearMesh(GameObject spawned)
+  method internal Void ClearColliderData()
+  method internal Void SaveBodypartCollider(String colliderObjectName, Transform colTrans)
+  method internal Void SaveJoint(RigCreatorBodypart targetPart, ConfigurableJoint configurableJoint)
+  method private Void OnDrawGizmosSelected()
+  method internal Transform GetBodypartTransform(BodypartType target)
+
+## class RoundSpawner : MonoBehaviour   [Assembly-CSharp.dll]
+  ctor public ()
+  field public GameObject[] possibleSpawns
+  field public Int32 testBudget
+  field public Int32 testBiggestPurchase
+  field public Vector2 testFirstWaveSize
+  field public Vector2 testMinMaxSecondWaveWaitTime
+  field private Boolean m_hasWeeping
+  field private IBudgetCost[] spawnBudgetCosts
+  method private IEnumerator Start()
+  method private Void SpawnSecondRun(Single waitTime, Int32 budgetForSpawn, Int32 biggestPurchase)
+  method private Void SpawnRound(Int32 budget, Int32 biggestPurchase, Boolean isFirstRound)
+  method private List<IBudgetCost> GetMonstersToSpawn(Int32 budget, Int32 biggestPurchase)
+  method private Void PrintMonstersPerDay(Int32 day, Int32 times)
+  method public Void PrintRounds(Int32 days)
+  method private Void SpawnMonsters(List<IBudgetCost> monsters)
+  method private IEnumerator SpawnMonstersOutOfSight(List<IBudgetCost> monsters, Single waitTime)
+  method private Single GetPointDistanceWeigth(Vector3 point, Vector3 spawn)
+  method private Void SpawnMonster(IBudgetCost monster, PatrolPoint p)
+  method public Void CheckIfAllHaveBudget()
+  method private IBudgetCost GetMonster(ref Int32& budget, Int32 biggestPurchase)
+  method private Boolean <SpawnMonstersOutOfSight>g__FindPoint|14_0(List<PatrolPoint> points, out PatrolPoint& p, Boolean checkSight, ref <>c__DisplayClass14_0& , ref <>c__DisplayClass14_1& )
+
+## class SurfaceNetworkHandler : MonoBehaviourPunCallbacks   [Assembly-CSharp.dll]
+  ctor public ()
+  field private static SurfaceNetworkHandler <Instance>k__BackingField
+  field private PickupSpawner m_VideoCameraSpawner
+  field public Boolean firstDay
+  field private static Boolean <ReturnedFromLostWorldWithCamera>k__BackingField
+  field private static Int32 DAYS_PER_QUOTA
+  field private SteamLobbyHandler m_SteamLobby
+  field private static Boolean m_Started
+  field private Boolean m_HeadingToUnderWorld
+  field private static RoomStatsHolder <RoomStats>k__BackingField
+  field private Action<RoomStatsHolder> m_OnStatsChangedAction
+  field private PhotonView m_View
+  field private VoiceConnection m_VoiceConnection
+  field private ShopHandler <ShopHandler>k__BackingField
+  field private static ICollection<Player> PlayersAliveFromUnderWorld
+  field public Action ReturnToSurfaceAction
+  field private Boolean m_RequestedSleep
+  field public Action StartGameAction
+  field private Boolean m_FailedQuota
+  prop SurfaceNetworkHandler Instance
+  prop Boolean HasStarted
+  prop Boolean ReturnedFromLostWorldWithCamera
+  prop RoomStatsHolder RoomStats
+  prop ShopHandler ShopHandler
+  prop Int32 NumberOfPlayersAliveFromUnderWorld
+  method private Void Awake()
+  method private Void Start()
+  method public Void OpenComputerRoomDoor()
+  method private Void InitSurface()
+  method private Void CheckForHospitalBill()
+  method private Void SendHospitalBill(List<ValueTuple<Int32,Int32>> hospitalBill)
+  method public Void RPCA_HospitalBill(Int32 actorNumber, Int32 moneyToRemove)
+  method private Void SpawnSurfacePickups()
+  method private Void CheckSave()
+  method private Void LoadSave()
+  method public static Void SetPlayersAliveFromUnderworld(ICollection<Player> playersInside)
+  method public static Void ReturnFromLostWorld()
+  method public static Void ResetReturningFromLostWorld()
+  method public static Void ResetSurface(Boolean init, Boolean resetTimeOfDay)
+  method public virtual Void OnJoinedRoom()
+  method public virtual Void OnLeftRoom()
+  method private Void Update()
+  method private Void CheckForSleep()
+  method private Void CheckForMasterClientCommands()
+  method private Void NextDay()
+  method private Void OnMoneyAdd(Int32 moneyAdded)
+  method private Void OnMoneySubtract(Int32 moneySubtracted)
+  method public Void RequestSleep()
+  method private Void RPCA_Sleep()
+  method private Void OnSlept()
+  method private Void RPCM_StartGame()
+  method private Void RPCA_OpenDoor()
+  method private Void StartActivity()
+  method private Void RPC_StartMatch()
+  method public Boolean PreCheckHeadToUnderWorld()
+  method private Boolean CheckIfCameraIsPresent(Boolean includeBrokencamera)
+  method public virtual Void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
+  method public Void FailedQuota()
+  method private Void RPCA_HelmetText(Int32 messageLocaleKey, Int32 daysLeft)
+  method public Void RPC_QuotaFailed()
+  method private IEnumerator FailCoroutine()
+  method public Void AddOnStatsUpdateCallBack(Action<RoomStatsHolder> onQuotaUpdate)
+  method private Void RPC_LoadScene(String level)
+  method public static Void SetCurrentRun(Int32 run)
+  method public static Void SetCurrentDay(Int32 day)
+  method public static Void AddQuota(Int32 quota)
+  method public Void RequestStartGame()
+  method public Void NewWeek(Int32 currentRun)
+  method public Void RPCA_OnNewWeek(Int32 currentRun)
+  method private Void <FailedQuota>b__66_0()
+
+## class UnityEngine.Rendering.PostProcessing.BloomRenderer+Level : ValueType   [Unity.Postprocessing.Runtime.dll]
+  field private Int32 down
+  field private Int32 up
+
+## class UnityEngine.Animations.Rigging.Rig : MonoBehaviour   [Unity.Animation.Rigging.dll]
+  ctor public ()
+  field private Single m_Weight
+  field private List<RigEffectorData> m_Effectors
+  prop Single weight
+
+## class Photon.Pun.PhotonNetwork : Object   [PhotonUnityNetworking.dll]
+  ctor private ()
+  field public static String PunVersion
+  field private static String gameVersion
+  field public static LoadBalancingClient NetworkingClient
+  field public static Int32 MAX_VIEW_IDS
+  field public static String ServerSettingsFileName
+  field private static ServerSettings photonServerSettings
+  field private static String PlayerPrefsKey
+  field public static ConnectMethod ConnectMethod
+  field public static PunLogLevel LogLevel
+  field public static Boolean EnableCloseConnection
+  field public static Single PrecisionForVectorSynchronization
+  field public static Single PrecisionForQuaternionSynchronization
+  field public static Single PrecisionForFloatSynchronization
+  field private static Boolean offlineMode
+  field private static Room offlineModeRoom
+  field private static Boolean automaticallySyncScene
+  field private static Int32 sendFrequency
+  field private static Int32 serializationFrequency
+  field private static Boolean isMessageQueueRunning
+  field private static Double frametime
+  field private static Int32 frame
+  field private static Stopwatch StartupStopwatch
+  field public static Single MinimalTimeScaleToDispatchInFixedUpdate
+  field private static Boolean <UseAlternativeUdpPorts>k__BackingField
+  field private static Int32 lastUsedViewSubId
+  field private static Int32 lastUsedViewSubIdStatic
+  field private static HashSet<String> PrefabsWithoutMagicCallback
+  field private static DisableIntercept m_DisableIntercept
+  field private static Hashtable SendInstantiateEvHashtable
+  field private static RaiseEventOptions SendInstantiateRaiseEventOptions
+  field private static HashSet<Byte> allowedReceivingGroups
+  field private static HashSet<Byte> blockedSendingGroups
+  field private static HashSet<PhotonView> reusablePVHashset
+  field private static NonAllocDictionary<Int32,PhotonView> photonViewList
+  field private static Action<PhotonView,Player> OnOwnershipRequestEv
+  field private static Action<PhotonView,Player> OnOwnershipTransferedEv
+  field private static Action<PhotonView,Player> OnOwnershipTransferFailedEv
+  field private static Byte currentLevelPrefix
+  field public static Boolean loadingLevelAndPausedNetwork
+  field private static String CurrentSceneProperty
+  field private static String CurrentScenePropertyLoadAsync
+  field private static IPunPrefabPool prefabPool
+  field public static Boolean UseRpcMonoBehaviourCache
+  field private static Dictionary<Type,List<MethodInfo>> monoRPCMethodsCache
+  field private static Dictionary<String,Int32> rpcShortcuts
+  field public static Boolean RunRpcCoroutines
+  field private static AsyncOperation _AsyncLevelLoadingOperation
+  field private static Single _levelLoadingProgress
+  field private static Type typePunRPC
+  field private static Type typePhotonMessageInfo
+  field private static Object keyByteZero
+  field private static Object keyByteOne
+  field private static Object keyByteTwo
+  field private static Object keyByteThree
+  field private static Object keyByteFour
+  field private static Object keyByteFive
+  field private static Object keyByteSix
+  field private static Object keyByteSeven
+  field private static Object keyByteEight
+  field private static Object[] emptyObjectArray
+  field private static Type[] emptyTypeArray
+  field private static List<PhotonView> foundPVs
+  field private static Hashtable removeFilter
+  field private static Hashtable ServerCleanDestroyEvent
+  field private static RaiseEventOptions ServerCleanOptions
+  field private static RaiseEventOptions SendToAllOptions
+  field private static RaiseEventOptions SendToOthersOptions
+  field private static RaiseEventOptions SendToSingleOptions
+  field private static Hashtable rpcFilterByViewId
+  field private static RaiseEventOptions OpCleanRpcBufferOptions
+  field private static Hashtable rpcEvent
+  field private static RaiseEventOptions RpcOptionsToAll
+  field public static Int32 ObjectsInOneUpdate
+  field private static PhotonStream serializeStreamOut
+  field private static PhotonStream serializeStreamIn
+  field private static RaiseEventOptions serializeRaiseEvOptions
+  field private static Dictionary<RaiseEventBatch,SerializeViewBatch> serializeViewBatches
+  field public static Int32 SyncViewId
+  field public static Int32 SyncCompressed
+  field public static Int32 SyncNullValues
+  field public static Int32 SyncFirstValue
+  field private static RegionHandler _cachedRegionHandler
+  prop String GameVersion
+  prop String AppVersion
+  prop ServerSettings PhotonServerSettings
+  prop String ServerAddress
+  prop String CloudRegion
+  prop String CurrentCluster
+  prop String BestRegionSummaryInPreferences
+  prop Boolean IsConnected
+  prop Boolean IsConnectedAndReady
+  prop ClientState NetworkClientState
+  prop ServerConnection Server
+  prop AuthenticationValues AuthValues
+  prop TypedLobby CurrentLobby
+  prop Room CurrentRoom
+  prop Player LocalPlayer
+  prop String NickName
+  prop Player[] PlayerList
+  prop Player[] PlayerListOthers
+  prop Boolean OfflineMode
+  prop Boolean AutomaticallySyncScene
+  prop Boolean EnableLobbyStatistics
+  prop Boolean InLobby
+  prop Int32 SendRate
+  prop Int32 SerializationRate
+  prop Boolean IsMessageQueueRunning
+  prop Double Time
+  prop Int32 ServerTimestamp
+  prop Single KeepAliveInBackground
+  prop Boolean IsMasterClient
+  prop Player MasterClient
+  prop Boolean InRoom
+  prop Int32 CountOfPlayersOnMaster
+  prop Int32 CountOfPlayersInRooms
+  prop Int32 CountOfPlayers
+  prop Int32 CountOfRooms
+  prop Boolean NetworkStatisticsEnabled
+  prop Int32 ResentReliableCommands
+  prop Boolean CrcCheckEnabled
+  prop Int32 PacketLossByCrcCheck
+  prop Int32 MaxResendsBeforeDisconnect
+  prop Int32 QuickResends
+  prop Boolean UseAlternativeUdpPorts
+  prop PhotonPortDefinition ServerPortOverrides
+  prop PhotonView[] PhotonViews
+  prop ValueIterator<Int32,PhotonView> PhotonViewCollection
+  prop Int32 ViewCount
+  prop IPunPrefabPool PrefabPool
+  prop Single LevelLoadingProgress
+  method private static Void StaticReset()
+  method public static Boolean ConnectUsingSettings()
+  method public static Boolean ConnectUsingSettings(AppSettings appSettings, Boolean startInOfflineMode)
+  method public static Boolean ConnectToMaster(String masterServerAddress, Int32 port, String appID)
+  method public static Boolean ConnectToBestCloudServer()
+  method public static Boolean ConnectToRegion(String region)
+  method public static Void Disconnect()
+  method public static Boolean Reconnect()
+  method public static Void NetworkStatisticsReset()
+  method public static String NetworkStatisticsToString()
+  method private static Boolean VerifyCanUseNetwork()
+  method public static Int32 GetPing()
+  method public static Void FetchServerTimestamp()
+  method public static Void SendAllOutgoingCommands()
+  method public static Boolean CloseConnection(Player kickPlayer)
+  method public static Boolean SetMasterClient(Player masterClientPlayer)
+  method public static Boolean JoinRandomRoom()
+  method public static Boolean JoinRandomRoom(Hashtable expectedCustomRoomProperties, Byte expectedMaxPlayers)
+  method public static Boolean JoinRandomRoom(Hashtable expectedCustomRoomProperties, Byte expectedMaxPlayers, MatchmakingMode matchingType, TypedLobby typedLobby, String sqlLobbyFilter, String[] expectedUsers)
+  method public static Boolean JoinRandomOrCreateRoom(Hashtable expectedCustomRoomProperties, Byte expectedMaxPlayers, MatchmakingMode matchingType, TypedLobby typedLobby, String sqlLobbyFilter, String roomName, RoomOptions roomOptions, String[] expectedUsers)
+  method public static Boolean CreateRoom(String roomName, RoomOptions roomOptions, TypedLobby typedLobby, String[] expectedUsers)
+  method public static Boolean JoinOrCreateRoom(String roomName, RoomOptions roomOptions, TypedLobby typedLobby, String[] expectedUsers)
+  method public static Boolean JoinRoom(String roomName, String[] expectedUsers)
+  method public static Boolean RejoinRoom(String roomName)
+  method public static Boolean ReconnectAndRejoin()
+  method public static Boolean LeaveRoom(Boolean becomeInactive)
+  method private static Void EnterOfflineRoom(String roomName, RoomOptions roomOptions, Boolean createdRoom)
+  method public static Boolean JoinLobby()
+  method public static Boolean JoinLobby(TypedLobby typedLobby)
+  method public static Boolean LeaveLobby()
+  method public static Boolean FindFriends(String[] friendsToFind)
+  method public static Boolean GetCustomRoomList(TypedLobby typedLobby, String sqlLobbyFilter)
+  method public static Boolean SetPlayerCustomProperties(Hashtable customProperties)
+  method public static Void RemovePlayerCustomProperties(String[] customPropertiesToDelete)
+  method public static Boolean RaiseEvent(Byte eventCode, Object eventContent, RaiseEventOptions raiseEventOptions, SendOptions sendOptions)
+  method private static Boolean RaiseEventInternal(Byte eventCode, Object eventContent, RaiseEventOptions raiseEventOptions, SendOptions sendOptions)
+  method public static Boolean AllocateViewID(PhotonView view)
+  method public static Boolean AllocateSceneViewID(PhotonView view)
+  method public static Boolean AllocateRoomViewID(PhotonView view)
+  method public static Int32 AllocateViewID(Boolean roomObject)
+  method public static Int32 AllocateViewID(Int32 ownerId)
+  method public static GameObject Instantiate(String prefabName, Vector3 position, Quaternion rotation, Byte group, Object[] data)
+  method public static GameObject InstantiateSceneObject(String prefabName, Vector3 position, Quaternion rotation, Byte group, Object[] data)
+  method public static GameObject InstantiateRoomObject(String prefabName, Vector3 position, Quaternion rotation, Byte group, Object[] data)
+  method private static GameObject NetworkInstantiate(Hashtable networkEvent, Player creator)
+  method private static GameObject NetworkInstantiate(InstantiateParameters parameters, Boolean roomObject, Boolean instantiateEvent)
+  method private static Boolean InterceptNetworkspawn(ref InstantiateParameters& parameters, Boolean roomObject, Boolean instantiateEvent)
+  method internal static Boolean SendInstantiate(InstantiateParameters parameters, Boolean roomObject)
+  method public static Void Destroy(PhotonView targetView)
+  method public static Void Destroy(GameObject targetGo)
+  method public static Void DestroyPlayerObjects(Player targetPlayer)
+  method public static Void DestroyPlayerObjects(Int32 targetPlayerId)
+  method public static Void DestroyAll()
+  method public static Void RemoveRPCs(Player targetPlayer)
+  method public static Void RemoveRPCs(PhotonView targetPhotonView)
+  method internal static Void RPC(PhotonView view, String methodName, RpcTarget target, Boolean encrypt, Object[] parameters)
+  method internal static Void RPC(PhotonView view, String methodName, Player targetPlayer, Boolean encrypt, Object[] parameters)
+  method public static HashSet<GameObject> FindGameObjectsWithComponent(Type type)
+  method public static Void SetInterestGroups(Byte group, Boolean enabled)
+  method public static Void LoadLevel(Int32 levelNumber)
+  method public static Void LoadLevel(String levelName)
+  method public static Boolean WebRpc(String name, Object parameters, Boolean sendAuthCookie)
+  method private static Void SetupLogging()
+  method public static Void LoadOrCreateSettings(Boolean reload)
+  method public static Void AddCallbackTarget(Object target)
+  method public static Void RemoveCallbackTarget(Object target)
+  method internal static String CallbacksToString()
+  method private static Void LeftRoomCleanup()
+  method internal static Void LocalCleanupAnythingInstantiated(Boolean destroyInstantiatedGameObjects)
+  method private static Void ResetPhotonViewsOnSerialize()
+  method internal static Void ExecuteRpc(Hashtable rpcData, Player sender)
+  method private static Boolean CheckTypeMatch(ParameterInfo[] methodParameters, Type[] callParameterTypes)
+  method public static Void DestroyPlayerObjects(Int32 playerId, Boolean localOnly)
+  method public static Void DestroyAll(Boolean localOnly)
+  method internal static Void RemoveInstantiatedGO(GameObject go, Boolean localOnly)
+  method private static Void ServerCleanInstantiateAndDestroy(PhotonView photonView)
+  method private static Void SendDestroyOfPlayer(Int32 actorNr)
+  method private static Void SendDestroyOfAll()
+  method private static Void OpRemoveFromServerInstantiationsOfPlayer(Int32 actorNr)
+  method internal static Void RequestOwnership(Int32 viewID, Int32 fromOwner)
+  method internal static Void TransferOwnership(Int32 viewID, Int32 playerID)
+  method internal static Void OwnershipUpdate(Int32[] viewOwnerPairs, Int32 targetActor)
+  method public static Boolean LocalCleanPhotonView(PhotonView view)
+  method public static PhotonView GetPhotonView(Int32 viewID)
+  method public static Void RegisterPhotonView(PhotonView netView)
+  method public static Void OpCleanActorRpcBuffer(Int32 actorNumber)
+  method public static Void OpRemoveCompleteCacheOfPlayer(Int32 actorNumber)
+  method public static Void OpRemoveCompleteCache()
+  method private static Void RemoveCacheOfLeftPlayers()
+  method public static Void CleanRpcBufferIfMine(PhotonView view)
+  method public static Void OpCleanRpcBuffer(PhotonView view)
+  method public static Void RemoveRPCsInGroup(Int32 group)
+  method public static Boolean RemoveBufferedRPCs(Int32 viewId, String methodName, Int32[] callersActorNumbers)
+  method public static Void SetLevelPrefix(Byte prefix)
+  method internal static Void RPC(PhotonView view, String methodName, RpcTarget target, Player player, Boolean encrypt, Object[] parameters)
+  method public static Void SetInterestGroups(Byte[] disableGroups, Byte[] enableGroups)
+  method public static Void SetSendingEnabled(Byte group, Boolean enabled)
+  method public static Void SetSendingEnabled(Byte[] disableGroups, Byte[] enableGroups)
+  method internal static Void NewSceneLoaded()
+  method internal static Void RunViewUpdate()
+  method private static Void SendSerializeViewBatch(SerializeViewBatch batch)
+  method private static List<Object> OnSerializeWrite(PhotonView view)
+  method private static Void OnSerializeRead(Object[] data, Player sender, Int32 networkTime, Int16 correctPrefix)
+  method private static List<Object> DeltaCompressionWrite(List<Object> previousContent, List<Object> currentContent)
+  method private static Object[] DeltaCompressionRead(Object[] lastOnSerializeDataReceived, Object[] incomingData)
+  method private static Boolean AlmostEquals(IList<Object> lastData, IList<Object> currentContent)
+  method private static Boolean AlmostEquals(Object one, Object two)
+  method internal static Boolean GetMethod(MonoBehaviour monob, String methodType, out MethodInfo& mi)
+  method internal static Void LoadLevelIfSynced()
+  method internal static Void SetLevelInPropsIfSynced(Object levelId)
+  method private static Void OnEvent(EventData photonEvent)
+  method private static Void OnOperation(OperationResponse opResponse)
+  method private static Void OnClientStateChanged(ClientState previousState, ClientState state)
+  method private static Void OnRegionsPinged(RegionHandler regionHandler)
+
+## class Photon.Pun.PhotonView : MonoBehaviour   [PhotonUnityNetworking.dll]
+  ctor public ()
+  field public Byte Group
+  field public Int32 prefixField
+  field private Object[] instantiationDataField
+  field private List<Object> lastOnSerializeDataSent
+  field private List<Object> syncValues
+  field private Object[] lastOnSerializeDataReceived
+  field public ViewSynchronization Synchronization
+  field private Boolean mixedModeIsReliable
+  field public OwnershipOption OwnershipTransfer
+  field public ObservableSearch observableSearch
+  field public List<Component> ObservedComponents
+  field private MonoBehaviour[] RpcMonoBehaviours
+  field private Boolean <IsMine>k__BackingField
+  field private Player <Controller>k__BackingField
+  field private Int32 <CreatorActorNr>k__BackingField
+  field private Boolean <AmOwner>k__BackingField
+  field private Player <Owner>k__BackingField
+  field private Int32 ownerActorNr
+  field private Int32 controllerActorNr
+  field public Int32 sceneViewId
+  field private Int32 viewIdField
+  field public Int32 InstantiationId
+  field public Boolean isRuntimeInstantiated
+  field private Boolean removedFromLocalViewList
+  field private Queue<CallbackTargetChange> CallbackChangeQueue
+  field private List<IOnPhotonViewPreNetDestroy> OnPreNetDestroyCallbacks
+  field private List<IOnPhotonViewOwnerChange> OnOwnerChangeCallbacks
+  field private List<IOnPhotonViewControllerChange> OnControllerChangeCallbacks
+  prop Int32 Prefix
+  prop Object[] InstantiationData
+  prop Boolean IsSceneView
+  prop Boolean IsRoomView
+  prop Boolean IsOwnerActive
+  prop Boolean IsMine
+  prop Boolean AmController
+  prop Player Controller
+  prop Int32 CreatorActorNr
+  prop Boolean AmOwner
+  prop Player Owner
+  prop Int32 OwnerActorNr
+  prop Int32 ControllerActorNr
+  prop Int32 ViewID
+  method private Void Awake()
+  method internal Void ResetPhotonView(Boolean resetOwner)
+  method internal Void RebuildControllerCache(Boolean ownerHasChanged)
+  method public Void OnPreNetDestroy(PhotonView rootView)
+  method private Void OnDestroy()
+  method public Void RequestOwnership()
+  method public Void TransferOwnership(Player newOwner)
+  method public Void TransferOwnership(Int32 newOwnerId)
+  method public Void FindObservables(Boolean force)
+  method public Void SerializeView(PhotonStream stream, PhotonMessageInfo info)
+  method public Void DeserializeView(PhotonStream stream, PhotonMessageInfo info)
+  method private Void DeserializeComponent(Component component, PhotonStream stream, PhotonMessageInfo info)
+  method private Void SerializeComponent(Component component, PhotonStream stream, PhotonMessageInfo info)
+  method public Void RefreshRpcMonoBehaviourCache()
+  method public Void RPC(String methodName, RpcTarget target, Object[] parameters)
+  method public Void RpcSecure(String methodName, RpcTarget target, Boolean encrypt, Object[] parameters)
+  method public Void RPC(String methodName, Player targetPlayer, Object[] parameters)
+  method public Void RpcSecure(String methodName, Player targetPlayer, Boolean encrypt, Object[] parameters)
+  method public static PhotonView Get(Component component)
+  method public static PhotonView Get(GameObject gameObj)
+  method public static PhotonView Find(Int32 viewID)
+  method public Void AddCallbackTarget(IPhotonViewCallback obj)
+  method public Void RemoveCallbackTarget(IPhotonViewCallback obj)
+  method public Void AddCallback<T>(IPhotonViewCallback obj)
+  method public Void RemoveCallback<T>(IPhotonViewCallback obj)
+  method private Void UpdateCallbackLists()
+  method private Void TryRegisterCallback<T>(IPhotonViewCallback obj, ref List`1& list, Boolean add)
+  method private Void RegisterCallback<T>(T obj, ref List`1& list, Boolean add)
+  method public virtual String ToString()
