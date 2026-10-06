@@ -98,6 +98,16 @@ namespace FluidLove.AlbumCases
             mr.sharedMaterial = Pin(MakeMat(baseMat, atlas));
             caseGo.AddComponent<CaseMarker>();
 
+            // Swap the flashlight's round collider for a flat box, so dropped cases lie flat instead of rolling
+            var oldCols = prefab.GetComponentsInChildren<Collider>(true).Where(c => !c.isTrigger).ToArray();
+            int colLayer = oldCols.Length > 0 ? oldCols[0].gameObject.layer : prefab.layer;
+            foreach (var c in oldCols) Object.DestroyImmediate(c);
+            var colGo = new GameObject("AlbumCaseCollider") { layer = colLayer };
+            colGo.transform.SetParent(prefab.transform, false);
+            colGo.transform.localPosition = caseGo.transform.localPosition;
+            colGo.transform.localRotation = caseGo.transform.localRotation;
+            colGo.AddComponent<BoxCollider>().size = new Vector3(size, size, Mathf.Max(size * 0.08f, 0.04f));
+
             // --- item
             var item = Pin(ScriptableObject.CreateInstance<Item>());
             item.name = album.Display;
@@ -128,7 +138,7 @@ namespace FluidLove.AlbumCases
             Shop.RegisterItem(item);
             AlbumCasesPlugin.Log($"{album.Display}: {album.Clips.Length} clips, atlas {atlas.width}x{atlas.height}, icon {iconTex.width}x{iconTex.height}, " +
                                  $"shader '{mr.sharedMaterial.shader.name}', layer '{LayerMask.LayerToName(layer)}', case {size:0.00}m at {caseGo.transform.localPosition}, " +
-                                 $"base renderers {near.Length} near / {body.Length} body / {all.Length} total");
+                                 $"replaced {oldCols.Length} colliders on layer '{LayerMask.LayerToName(colLayer)}', base renderers {near.Length} near / {body.Length} body / {all.Length} total");
         }
 
         static Material MakeMat(Material baseMat, Texture2D tex)
