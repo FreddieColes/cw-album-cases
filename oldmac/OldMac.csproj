@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>FluidLoveOldMac</AssemblyName>
+    <RootNamespace>FluidLove.OldMac</RootNamespace>
+    <CWDir Condition=" '$(CWDir)' == '' ">/workspaces/cw-game</CWDir>
+    <RestoreAdditionalProjectSources>https://nuget.bepinex.dev/v3/index.json</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="all" />
+    <Reference Include="$(CWDir)/Content Warning_Data/Managed/*.dll" Private="false" />
+    <Publicize Include="Assembly-CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Ol' Mac frames are baked into the DLL -->
+    <EmbeddedResource Include="assets/*.png" LogicalName="%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>
