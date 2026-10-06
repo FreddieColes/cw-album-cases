@@ -1,8 +1,8 @@
 == date
-Tue Oct  6 05:52:08 UTC 2026
+Tue Oct  6 07:03:49 UTC 2026
 == disk / memory
 /dev/loop4       32G   13G   18G  43% /workspaces
-Mem:            15Gi       2.6Gi       1.6Gi       183Mi        11Gi        12Gi
+Mem:            15Gi       5.3Gi       251Mi       253Mi        10Gi        10Gi
 == unity version / changeset
 6000.0.67f1
 78a1c2bbeb6a
@@ -248,4 +248,5 @@ Processing triggers for desktop-file-utils (0.26-1) ...
 
 === SETUP DONE. Next: ./get-game.sh ===
 
-== build log key lines
+== build log key lines (album cases)
+== build log key lines (Ol' Mac)
